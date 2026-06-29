@@ -580,6 +580,7 @@ section[id] { scroll-margin-top: 4.5rem; }
   transition: border-color 0.2s;
   content-visibility: auto;
   contain-intrinsic-size: auto 220px;
+  scroll-margin-top: 5rem;
 }
 .k-card:hover { border-color: rgba(168,85,247,0.4); }
 .k-card-meta { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.6rem; }
@@ -616,7 +617,10 @@ section[id] { scroll-margin-top: 4.5rem; }
 }
 
 /* Compact list rows */
-.k-row { background: var(--bg-card); border-bottom: 1px solid var(--border); content-visibility: auto; }
+.k-row {
+  background: var(--bg-card); border-bottom: 1px solid var(--border);
+  content-visibility: auto; scroll-margin-top: 5rem;
+}
 .k-row:last-child { border-bottom: none; }
 .k-row-head {
   display: grid;

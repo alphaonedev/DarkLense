@@ -61,6 +61,58 @@ function clearFilters({ keepView = true } = {}) {
 }
 window.clearCorpusFilters = clearFilters;
 
+function syncFilterUi() {
+  const search = document.getElementById('card-search');
+  if (search) search.value = searchQuery;
+
+  const cat = document.getElementById('category-filter');
+  if (cat) cat.value = activeCategory;
+
+  document.querySelectorAll('#pillar-filters .filter-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.pillar === activePillar);
+  });
+  document.querySelectorAll('#kind-filters .filter-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.kind === activeKind);
+  });
+  document.getElementById('nhi-top-filter')?.classList.toggle('active', activeNhiOnly);
+}
+
+/** Ensure a single card is visible in the corpus grid, then scroll + highlight */
+function focusCardInCorpus(cardId) {
+  const id = Number(cardId);
+  if (!id) return;
+
+  const attemptFocus = (tries = 0) => {
+    const grid = document.getElementById('cards-grid');
+    const el = grid?.querySelector(`[data-id="${id}"]`);
+    if (!el) {
+      if (tries < 8) setTimeout(() => attemptFocus(tries + 1), 40 * (tries + 1));
+      return;
+    }
+
+    if (el.classList.contains('k-row')) {
+      const body = el.querySelector('.k-row-body');
+      const btn = el.querySelector('[data-toggle-row]');
+      if (body?.hidden) {
+        body.hidden = false;
+        btn?.setAttribute('aria-expanded', 'true');
+        el.classList.add('k-row-open');
+      }
+    }
+
+    el.classList.add('k-card-highlight');
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    setTimeout(() => el.classList.remove('k-card-highlight'), 2500);
+
+    if (history.replaceState) {
+      history.replaceState(null, '', `#card-${id}`);
+    }
+  };
+
+  requestAnimationFrame(() => requestAnimationFrame(() => attemptFocus()));
+}
+window.focusCardInCorpus = focusCardInCorpus;
+
 /** Navigate corpus browser — used by defense stack and high-value links */
 function navigateToCards({
   categories = null,
@@ -73,12 +125,14 @@ function navigateToCards({
   highlightOnly = false,
 } = {}) {
   if (highlightOnly && cardId) {
+    // Open one card: clear every filter so it is always in the rendered grid
+    activePillar = 'all';
+    activeKind = 'all';
+    activeCategory = 'all';
     activeCategories = null;
     activeCardIds = null;
-    activeCategory = category !== 'all' ? category : 'all';
-    activePillar = pillar;
-    activeKind = kind;
-    searchQuery = query;
+    activeNhiOnly = false;
+    searchQuery = '';
   } else {
     activeCategories = categories?.length ? new Set(categories) : null;
     activeCardIds = cardIds?.length ? new Set(cardIds.map(String)) : null;
@@ -88,31 +142,12 @@ function navigateToCards({
     searchQuery = query;
   }
 
-  const search = document.getElementById('card-search');
-  if (search) search.value = query;
-
-  const cat = document.getElementById('category-filter');
-  if (cat) cat.value = activeCategory;
-
-  document.querySelectorAll('#pillar-filters .filter-btn').forEach(b => {
-    b.classList.toggle('active', b.dataset.pillar === activePillar);
-  });
-  document.querySelectorAll('#kind-filters .filter-btn').forEach(b => {
-    b.classList.toggle('active', b.dataset.kind === activeKind);
-  });
-
+  syncFilterUi();
   renderCardBrowser();
   document.getElementById('corpus')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
   if (cardId) {
-    requestAnimationFrame(() => {
-      const el = document.getElementById(`card-${cardId}`);
-      if (el) {
-        el.classList.add('k-card-highlight');
-        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        setTimeout(() => el.classList.remove('k-card-highlight'), 2500);
-      }
-    });
+    focusCardInCorpus(cardId);
   }
 }
 window.navigateToCards = navigateToCards;
@@ -443,6 +478,12 @@ function renderHighValue(nhi) {
   });
 }
 
+function handleDeepLinkCard() {
+  const hash = location.hash.match(/^#card-(\d+)$/);
+  if (!hash || !corpusData) return;
+  navigateToCards({ cardId: Number(hash[1]), highlightOnly: true });
+}
+
 async function init() {
   try {
     await loadData();
@@ -455,9 +496,11 @@ async function init() {
     renderHighValue(nhiData);
     setupFilters();
     renderCardBrowser();
+    handleDeepLinkCard();
   } catch (err) {
     document.body.innerHTML = `<div class="container" style="padding:4rem"><h1>Failed to load corpus</h1><p>${err.message}</p></div>`;
   }
 }
 
 document.addEventListener('DOMContentLoaded', init);
+window.addEventListener('hashchange', handleDeepLinkCard);
