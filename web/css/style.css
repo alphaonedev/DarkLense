@@ -203,6 +203,107 @@ section[id] { scroll-margin-top: 4.5rem; }
 .lens-path-title { font-weight: 600; font-size: var(--text-sm); }
 .lens-path-why { grid-column: 2; font-size: var(--text-xs); color: var(--text-muted); }
 
+/* Onboarding wizard */
+.lens-onboarding {
+  padding: 1.25rem; border-radius: 14px;
+  background: var(--bg-card); border: 1px solid var(--border);
+  margin-bottom: 1.5rem;
+}
+.lens-progress {
+  height: 4px; background: var(--border); border-radius: 2px;
+  margin: 0.75rem 0 0.35rem; overflow: hidden;
+}
+.lens-progress-bar {
+  height: 100%; background: var(--accent); border-radius: 2px;
+  transition: width 0.25s ease;
+}
+.lens-step-label {
+  font-size: var(--text-xs); font-family: var(--mono); color: var(--text-muted);
+}
+.lens-question, .lens-followup-field {
+  border: none; margin: 1rem 0; padding: 0;
+}
+.lens-question legend, .lens-followup-field legend {
+  font-size: var(--text-base); font-weight: 600; color: var(--text);
+  margin-bottom: 0.75rem; padding: 0;
+}
+.lens-option {
+  display: flex; align-items: flex-start; gap: 0.65rem;
+  padding: 0.65rem 0.85rem; margin-bottom: 0.5rem;
+  border-radius: 10px; border: 1px solid var(--border);
+  cursor: pointer; transition: border-color 0.15s, background 0.15s;
+  color: var(--text); font-size: var(--text-sm);
+}
+.lens-option:hover { background: var(--bg-elevated); }
+.lens-option:has(input:checked) {
+  border-color: var(--accent); background: rgba(168,85,247,0.1);
+}
+.lens-option input { margin-top: 0.2rem; accent-color: var(--accent); }
+.lens-option-compact { padding: 0.45rem 0.65rem; margin-bottom: 0.35rem; }
+.lens-onboarding-nav, .lens-picker-actions, .lens-digest-header-actions {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem;
+  margin-top: 1rem;
+}
+.lens-nav-btn {
+  padding: 0.5rem 1rem; border-radius: 8px;
+  border: 1px solid var(--border); background: transparent;
+  color: var(--text-muted); font-size: var(--text-sm); cursor: pointer;
+  font-family: var(--font);
+}
+.lens-nav-btn:hover { border-color: var(--accent); color: var(--accent); }
+.lens-suggested-banner {
+  padding: 0.65rem 1rem; margin-bottom: 1rem; border-radius: 10px;
+  background: rgba(168,85,247,0.1); border: 1px solid rgba(168,85,247,0.3);
+  font-size: var(--text-sm); color: var(--text);
+}
+.lens-concern-btn.suggested { position: relative; }
+.lens-suggested-tag {
+  display: inline-block; font-size: var(--text-xs); font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--accent); margin-bottom: 0.35rem;
+}
+.lens-followup-panel {
+  margin: 1.5rem 0; padding: 1.25rem; border-radius: 14px;
+  background: var(--bg-card); border: 1px solid var(--border);
+}
+.lens-followup-title { font-size: 1.1rem; margin-bottom: 0.25rem; }
+.lens-followup-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem; margin-top: 1rem;
+}
+.lens-followup-field {
+  padding: 1rem; border-radius: 10px; border: 1px solid var(--border);
+  background: var(--bg-elevated);
+}
+.lens-followup-q { font-size: var(--text-sm); color: var(--text-muted); margin-bottom: 0.5rem; }
+.lens-followup-concern { font-weight: 700; font-size: var(--text-sm); }
+
+/* Daily 3 cards */
+.lens-daily-panel {
+  margin: 1.5rem 0; padding: 1.25rem; border-radius: 14px;
+  background: linear-gradient(135deg, rgba(16,185,129,0.08), rgba(168,85,247,0.06));
+  border: 1px solid rgba(16,185,129,0.3);
+}
+.lens-daily-header {
+  display: flex; flex-wrap: wrap; justify-content: space-between;
+  align-items: flex-start; gap: 1rem; margin-bottom: 1rem;
+}
+.lens-daily-header h3 { font-size: 1.15rem; color: var(--success); }
+.lens-daily-cards { display: flex; flex-direction: column; gap: 0.65rem; }
+.lens-daily-card {
+  display: flex; gap: 0.85rem; padding: 0.85rem 1rem;
+  background: var(--bg-card); border-radius: 10px; border: 1px solid var(--border);
+}
+.lens-daily-card.lens-read { opacity: 0.7; border-style: dashed; }
+.lens-daily-num {
+  flex-shrink: 0; width: 1.75rem; height: 1.75rem; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-weight: 800; font-size: var(--text-xs);
+  background: rgba(16,185,129,0.2); color: var(--success);
+}
+.lens-daily-card h4 { font-size: var(--text-sm); margin-bottom: 0.3rem; color: var(--text); }
+.lens-daily-card p { font-size: var(--text-sm); color: var(--text-muted); line-height: 1.5; }
+
 /* Sections */
 .section-header { margin-bottom: 2rem; }
 .section-header h2 { font-size: 1.875rem; font-weight: 700; margin-bottom: 0.5rem; }

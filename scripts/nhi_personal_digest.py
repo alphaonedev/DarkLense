@@ -111,8 +111,124 @@ CONCERNS = [
         "categories": [],
         "themeIds": [],
         "useTierBaseline": True,
+        "followUp": {
+            "question": "Are you new to influence defense and want a balanced starting point?",
+            "options": [
+                {"id": "yes", "label": "Yes — start broad", "cardBoostIds": [19, 398, 521, 5, 505]},
+                {"id": "no", "label": "No — I have specific concerns", "cardBoostIds": []},
+            ],
+        },
     },
 ]
+
+ONBOARDING_QUESTIONS = [
+    {
+        "id": "feeds",
+        "question": "How much do social media or news feeds shape your mood, outrage, or beliefs?",
+        "options": [
+            {"id": "daily", "label": "Daily — feeds noticeably steer me", "concernBoosts": {"media_feed": 12, "civic_info": 4}},
+            {"id": "sometimes", "label": "Sometimes — I catch it after the fact", "concernBoosts": {"media_feed": 6}},
+            {"id": "minimal", "label": "Minimal — I limit screen exposure", "concernBoosts": {"general_defense": 4}},
+        ],
+    },
+    {
+        "id": "relationships_trust",
+        "question": "Are you navigating manipulation, gaslighting, or trust erosion in close relationships?",
+        "options": [
+            {"id": "active", "label": "Yes — actively dealing with this", "concernBoosts": {"relationships": 12, "emotional_safety": 6}},
+            {"id": "watchful", "label": "Watchful — want to recognize early signs", "concernBoosts": {"relationships": 6, "emotional_safety": 3}},
+            {"id": "stable", "label": "Stable — low concern right now", "concernBoosts": {}},
+        ],
+    },
+    {
+        "id": "work_power",
+        "question": "Do authority, status, or persuasion dynamics at work affect your decisions or stress?",
+        "options": [
+            {"id": "high", "label": "High — boss, team, or politics dominate", "concernBoosts": {"workplace": 12}},
+            {"id": "moderate", "label": "Moderate — occasional power games", "concernBoosts": {"workplace": 6}},
+            {"id": "low", "label": "Low — not a primary stressor", "concernBoosts": {}},
+        ],
+    },
+    {
+        "id": "identity_pressure",
+        "question": "Do groups, beliefs, or social pressure threaten your sense of who you are?",
+        "options": [
+            {"id": "yes", "label": "Yes — identity feels under pressure", "concernBoosts": {"identity": 12, "civic_info": 3}},
+            {"id": "somewhat", "label": "Somewhat — exploring values and autonomy", "concernBoosts": {"identity": 6}},
+            {"id": "no", "label": "No — secure in self-authorship", "concernBoosts": {}},
+        ],
+    },
+    {
+        "id": "emotional_triggers",
+        "question": "When stressed, do shame, fear, or insults make you comply when you otherwise wouldn't?",
+        "options": [
+            {"id": "often", "label": "Often — triggers override judgment", "concernBoosts": {"emotional_safety": 12, "relationships": 4}},
+            {"id": "sometimes", "label": "Sometimes — working on boundaries", "concernBoosts": {"emotional_safety": 6}},
+            {"id": "rarely", "label": "Rarely — emotions don't control me", "concernBoosts": {}},
+        ],
+    },
+    {
+        "id": "civic_environment",
+        "question": "How much do propaganda, division, or manufactured consensus appear in your information diet?",
+        "options": [
+            {"id": "constant", "label": "Constant — hard to trust any narrative", "concernBoosts": {"civic_info": 12, "media_feed": 6}},
+            {"id": "occasional", "label": "Occasional — I notice psyop patterns", "concernBoosts": {"civic_info": 6}},
+            {"id": "rare", "label": "Rare — not a focus", "concernBoosts": {}},
+        ],
+    },
+]
+
+# Per-concern follow-up (refines card ranking within digest)
+_CONCERN_FOLLOW_UPS = {
+    "media_feed": {
+        "question": "What hits you hardest online?",
+        "options": [
+            {"id": "outrage", "label": "Outrage & division content", "cardBoostIds": [41, 588, 48, 42]},
+            {"id": "identity", "label": "Identity curation & algorithms", "cardBoostIds": [622, 588, 421]},
+            {"id": "consensus", "label": "Manufactured consensus", "cardBoostIds": [42, 41, 521]},
+        ],
+    },
+    "relationships": {
+        "question": "What's the primary relationship risk?",
+        "options": [
+            {"id": "gaslight", "label": "Gaslighting or covert control", "cardBoostIds": [19, 27, 505, 142]},
+            {"id": "boundaries", "label": "Weak boundaries / can't say no", "cardBoostIds": [110, 9, 386]},
+            {"id": "trust", "label": "Trust erosion / exploitation", "cardBoostIds": [5, 142, 173]},
+        ],
+    },
+    "workplace": {
+        "question": "What workplace dynamic concerns you most?",
+        "options": [
+            {"id": "authority", "label": "False authority & status games", "cardBoostIds": [71, 78, 501]},
+            {"id": "compliance", "label": "Pressure to comply or perform", "cardBoostIds": [142, 54, 505]},
+            {"id": "persuasion", "label": "Being persuaded against my interests", "cardBoostIds": [73, 505, 143]},
+        ],
+    },
+    "identity": {
+        "question": "Where is identity pressure coming from?",
+        "options": [
+            {"id": "cult", "label": "Group / cult-like belonging", "cardBoostIds": [19, 27, 3, 85]},
+            {"id": "algorithm", "label": "Online identity curation", "cardBoostIds": [622, 588, 5]},
+            {"id": "conformity", "label": "Social conformity & dissonance", "cardBoostIds": [5, 505, 7]},
+        ],
+    },
+    "emotional_safety": {
+        "question": "Which emotional lever hits you hardest?",
+        "options": [
+            {"id": "shame", "label": "Shame & concealment", "cardBoostIds": [110, 113, 173]},
+            {"id": "fear", "label": "Fear & anxiety loops", "cardBoostIds": [327, 386, 173]},
+            {"id": "insults", "label": "Insults & devaluation", "cardBoostIds": [110, 9, 104]},
+        ],
+    },
+    "civic_info": {
+        "question": "What civic information threat worries you?",
+        "options": [
+            {"id": "psyops", "label": "Psyops & propaganda patterns", "cardBoostIds": [398, 521, 48]},
+            {"id": "division", "label": "Division & artificial extremes", "cardBoostIds": [41, 48, 42]},
+            {"id": "narrative", "label": "Narrative warfare & consensus", "cardBoostIds": [421, 42, 327]},
+        ],
+    },
+}
 
 LEARNING_PATH_SPECS = [
     {
@@ -287,14 +403,18 @@ def build_personal_digest(cards: list[dict], nhi: dict) -> dict:
     for concern in CONCERNS:
         top_ids = rank_cards_for_concern(cards, concern, tier_map)
         concern_ranks[concern["id"]] = top_ids
-        concerns_out.append({
+        entry = {
             "id": concern["id"],
             "label": concern["label"],
             "description": concern["description"],
             "color": concern["color"],
             "topCardIds": top_ids[:20],
             "cardCount": len(top_ids),
-        })
+        }
+        follow = concern.get("followUp") or _CONCERN_FOLLOW_UPS.get(concern["id"])
+        if follow:
+            entry["followUp"] = follow
+        concerns_out.append(entry)
 
     paths_out = []
     for spec in LEARNING_PATH_SPECS:
@@ -358,10 +478,15 @@ def build_personal_digest(cards: list[dict], nhi: dict) -> dict:
                 "Hiding 525+ cards behind arbitrary display caps",
             ],
         },
+        "onboarding": {
+            "title": "NHI Concern Onboarding",
+            "description": "Six questions route you to the right concerns — not all 645 cards.",
+            "questions": ONBOARDING_QUESTIONS,
+        },
         "concerns": concerns_out,
         "learningPaths": paths_out,
         "defaultConcernId": "general_defense",
-        "digestSize": {"min": 12, "max": 25, "baselineTierSCards": 3},
+        "digestSize": {"min": 12, "max": 25, "baselineTierSCards": 3, "dailyCount": 3},
     }
 
 
