@@ -1,0 +1,43 @@
+DarkLense — Psychology · Psychological Warfare · Information Operations
+Copyright 2026 AlphaOne LLC
+
+This product includes research synthesis, data exports, visualizations, and
+web materials developed by AlphaOne LLC and contributors.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not
+use this work except in compliance with the License. A copy of the License
+is included in this distribution at LICENSE, and is also available at:
+http://www.apache.org/licenses/LICENSE-2.0
+
+------------------------------------------------------------------------
+Knowledge corpus — copyright & fair use posture
+------------------------------------------------------------------------
+
+Knowledge cards in data/corpus.json are LLM-paraphrased standalone
+distillations exported from the Knowledge Atlas pipeline. They are:
+
+  - Transformative (rewritten into clean modern English)
+  - Non-substitutive (always attributed to source YouTube videos)
+  - Educational (defensive literacy and research)
+  - Not raw transcripts (transcripts are never distributed)
+
+Original video content remains the property of respective YouTube creators.
+Short anchor quotes (≤30 words) function as citation anchors, not substitutes
+for the original works.
+
+Users must comply with YouTube Terms of Service when accessing source videos.
+
+------------------------------------------------------------------------
+Third-party trademarks
+------------------------------------------------------------------------
+
+YouTube is a trademark of Google LLC. References to indexed creators,
+channels, and experts do not imply endorsement, affiliation, or sponsorship.
+
+------------------------------------------------------------------------
+Disclaimer
+------------------------------------------------------------------------
+
+This project is provided "AS IS" without warranty. See web/index.html#disclaimer.
+Not legal, medical, intelligence, or professional instruction. Ethical
+defensive use only — not coercion, fraud, or harassment.

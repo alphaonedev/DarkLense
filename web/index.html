@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DarkLense — Psychology, psychological warfare, and information operations knowledge corpus. Paraphrased, attributed, defensive literacy.">
+  <title>DarkLense — Psychology · Psy War · Info Ops</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+  <script src="js/viz.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="#" class="logo">DarkLense</a>
+      <ul class="nav-links">
+        <li><a href="#pillars">Pillars</a></li>
+        <li><a href="#defense">Defense Stack</a></li>
+        <li><a href="#corpus">Corpus</a></li>
+        <li><a href="#frameworks">Frameworks</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#disclaimer">Legal</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="hero container">
+    <h1>DarkLense</h1>
+    <p class="hero-sub">A searchable knowledge lens on <strong>psychology</strong>, <strong>psychological warfare</strong>, and <strong>information operations</strong> — 635 paraphrased cards from 85 indexed videos. Defensive literacy, not a manipulation playbook.</p>
+    <div class="hero-stats" id="hero-stats"></div>
+  </section>
+
+  <section id="overview" class="container">
+    <div class="nhi-voice">
+      <div class="nhi-voice-label">AI NHI — Corpus assessment</div>
+      <div id="nhi-executive"></div>
+    </div>
+    <div id="source-meta" class="section-intro" style="margin-top:1rem"></div>
+  </section>
+
+  <section id="pillars" class="container">
+    <div class="section-header">
+      <h2>Three Pillars</h2>
+      <p class="section-intro">Every knowledge card is classified into psychology, psychological warfare, or information operations — the lens through which influence is seen and resisted.</p>
+    </div>
+    <div class="diagram-row">
+      <div class="diagram-box"><div id="dl-lens-diagram"></div></div>
+    </div>
+    <div class="pillar-grid" id="pillar-grid"></div>
+    <div class="chart-row">
+      <div class="chart-box"><div class="chart-title">Cards by pillar</div><div class="chart-canvas"><canvas id="pillarChart"></canvas></div></div>
+      <div class="chart-box"><div class="chart-title">Card kinds</div><div class="chart-canvas"><canvas id="kindChart"></canvas></div></div>
+    </div>
+  </section>
+
+  <section id="defense" class="container">
+    <div class="section-header">
+      <h2>Defensive Literacy Stack</h2>
+      <p class="section-intro">NHI-assessed priority: detect manipulation before decoding frames, before deploying counter-techniques.</p>
+    </div>
+    <div class="diagram-row">
+      <div class="diagram-box"><div id="dl-defense-diagram"></div></div>
+      <div class="diagram-box"><div id="dl-psyop-diagram"></div></div>
+    </div>
+    <div id="defense-stack-list"></div>
+    <div id="ethical-use" class="nhi-voice" style="margin-top:2rem;border-left-color:var(--success)"></div>
+  </section>
+
+  <section id="analytics" class="container">
+    <div class="section-header">
+      <h2>Topic Density</h2>
+      <p class="section-intro">Highest-value clusters for influence defense and media literacy.</p>
+    </div>
+    <div class="chart-box"><div class="chart-title">Top 15 categories</div><div class="chart-canvas" style="height:400px"><canvas id="categoryChart"></canvas></div></div>
+    <div id="high-value-list" style="margin-top:2rem"></div>
+  </section>
+
+  <section id="warnings" class="container">
+    <div class="section-header">
+      <h2>Critical Warnings</h2>
+      <p class="section-intro">High-signal warning cards — manipulation patterns to recognize and avoid.</p>
+    </div>
+    <div class="cards-grid" id="warnings-grid"></div>
+  </section>
+
+  <section id="corpus" class="container">
+    <div class="section-header">
+      <h2>Knowledge Corpus</h2>
+      <p class="section-intro">Search and filter 635 paraphrased knowledge cards. Each links to source video for full context.</p>
+    </div>
+    <input type="search" id="card-search" class="search-bar" placeholder="Search titles, content, categories…" aria-label="Search corpus">
+    <div class="filter-row" id="pillar-filters">
+      <button class="filter-btn active" data-pillar="all">All pillars</button>
+      <button class="filter-btn" data-pillar="psychology">Psychology</button>
+      <button class="filter-btn" data-pillar="psychological_warfare">Psy War</button>
+      <button class="filter-btn" data-pillar="information_operations">Info Ops</button>
+    </div>
+    <div class="filter-row" id="kind-filters"></div>
+    <p class="results-count" id="results-count"></p>
+    <div class="cards-grid" id="cards-grid"></div>
+  </section>
+
+  <section id="frameworks" class="container">
+    <div class="section-header">
+      <h2>Top Frameworks</h2>
+      <p class="section-intro">Multi-step frameworks ranked by step count and NHI value density.</p>
+    </div>
+    <div id="frameworks-table"></div>
+  </section>
+
+  <section id="videos" class="container">
+    <div class="section-header">
+      <h2>Source Videos</h2>
+      <p class="section-intro">85 indexed videos with card counts. Watch originals for full context — cards are distillations only.</p>
+    </div>
+    <div id="videos-table" style="overflow-x:auto"></div>
+  </section>
+
+  <footer class="disclaimer" id="disclaimer">
+    <div class="container">
+      <div class="disclaimer-banner" role="alert">
+        <strong>COPYRIGHT &amp; ETHICAL USE</strong> — Paraphrased educational synthesis only. Not raw transcripts. Not professional advice. Defensive literacy — not a coercion toolkit.
+      </div>
+      <h3>Legal Disclaimer &amp; Copyright Notice</h3>
+      <p><strong>BY USING DARKLENSE YOU AGREE TO THESE TERMS.</strong></p>
+      <ul>
+        <li><strong>Transformative synthesis.</strong> Knowledge cards are LLM-paraphrased standalone distillations produced by the Knowledge Atlas pipeline. They are transformative, non-substitutive (always link to source videos), and distributed for educational research. <strong>No raw YouTube transcripts</strong> are included in this repository.</li>
+        <li><strong>Source attribution.</strong> Video titles, URLs, and short anchor quotes (≤30 words where present) attribute original creators. Original video content remains © respective YouTube creators. DarkLense does not claim ownership of third-party speech.</li>
+        <li><strong>Apache License 2.0.</strong> The DarkLense site, export scripts, NHI analysis, and corpus packaging are © 2026 AlphaOne LLC, licensed under Apache 2.0. See <a href="https://github.com/alphaonedev/DarkLense/blob/main/LICENSE">LICENSE</a> and <a href="https://github.com/alphaonedev/DarkLense/blob/main/NOTICE">NOTICE</a>.</li>
+        <li><strong>Not professional advice.</strong> Nothing herein is legal, medical, mental health, intelligence, law enforcement, or military instruction. Consult qualified professionals before any operational or legal decisions.</li>
+        <li><strong>Ethical use only.</strong> This corpus is for education, self-defense against manipulation, media literacy, and research with attribution. <strong>Prohibited uses</strong> include coercive control, fraud, harassment, unauthorized surveillance, and election interference.</li>
+        <li><strong>No warranty.</strong> Provided "AS IS" without warranty. No guarantee of accuracy, completeness, or fitness for any purpose.</li>
+        <li><strong>Limitation of liability.</strong> AlphaOne LLC and contributors are not liable for damages arising from use of this material to the maximum extent permitted by law.</li>
+        <li><strong>AI synthesis.</strong> NHI assessments are machine-generated analysis of the corpus — not human expert testimony or classified intelligence.</li>
+      </ul>
+      <div class="copyright">
+        <p>© 2026 AlphaOne LLC · DarkLense · Apache-2.0</p>
+        <p>Exported from <a href="https://github.com/alphaonedev/knowledge-atlas">Knowledge Atlas</a> · <a href="https://github.com/alphaonedev/DarkLense">github.com/alphaonedev/DarkLense</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

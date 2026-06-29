@@ -1,0 +1,570 @@
+{
+  "title": "DarkLense AI NHI Corpus Assessment",
+  "date": "2026-06-29",
+  "executiveSummary": "DarkLense indexes 635 LLM-paraphrased knowledge cards from 85 videos by Chase Hughes on psychology, psychological warfare, and information operations. Cards are standalone, transformative synthesis — not raw transcripts. Highest-density clusters: influence (38c), frame-control (13c), psyop-detection (9c), and persuasion (15c). Use for defense: recognition, de-escalation, media literacy, and ethical influence — not coercion.",
+  "pillars": [
+    {
+      "id": "psychology",
+      "name": "Psychology",
+      "description": "Identity, emotion, behavior, neuroscience, persuasion mechanics, frames, and interpersonal influence at the individual level.",
+      "cardCount": 568,
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "psychological_warfare",
+      "name": "Psychological Warfare",
+      "description": "Psyops, propaganda, division strategies, cognitive virology, fear control, and population-level behavioral manipulation.",
+      "cardCount": 27,
+      "color": "#ef4444"
+    },
+    {
+      "id": "information_operations",
+      "name": "Information Operations",
+      "description": "Media manipulation, algorithmic influence, narrative warfare, manufactured consensus, and information-environment defense.",
+      "cardCount": 40,
+      "color": "#3b82f6"
+    }
+  ],
+  "kindDistribution": {
+    "warning": 84,
+    "principle": 191,
+    "framework": 87,
+    "mental_model": 128,
+    "tactic": 131,
+    "phrase": 7,
+    "quote": 7
+  },
+  "topCategories": [
+    {
+      "category": "influence",
+      "count": 38,
+      "pillar": "psychology"
+    },
+    {
+      "category": "persuasion",
+      "count": 15,
+      "pillar": "psychology"
+    },
+    {
+      "category": "frame-control",
+      "count": 13,
+      "pillar": "psychology"
+    },
+    {
+      "category": "psyop-detection",
+      "count": 9,
+      "pillar": "psychological_warfare"
+    },
+    {
+      "category": "emotional-triggers",
+      "count": 8,
+      "pillar": "psychology"
+    },
+    {
+      "category": "influence-formula",
+      "count": 8,
+      "pillar": "psychology"
+    },
+    {
+      "category": "self-confidence",
+      "count": 8,
+      "pillar": "psychology"
+    },
+    {
+      "category": "body-language",
+      "count": 7,
+      "pillar": "psychology"
+    },
+    {
+      "category": "confidence-building",
+      "count": 7,
+      "pillar": "psychology"
+    },
+    {
+      "category": "self-awareness",
+      "count": 7,
+      "pillar": "psychology"
+    },
+    {
+      "category": "goal-setting",
+      "count": 6,
+      "pillar": "psychology"
+    },
+    {
+      "category": "limiting-beliefs",
+      "count": 6,
+      "pillar": "psychology"
+    },
+    {
+      "category": "confidence",
+      "count": 5,
+      "pillar": "psychology"
+    },
+    {
+      "category": "frames",
+      "count": 5,
+      "pillar": "psychology"
+    },
+    {
+      "category": "brain-health",
+      "count": 5,
+      "pillar": "psychology"
+    },
+    {
+      "category": "dealing-with-bullies",
+      "count": 5,
+      "pillar": "psychology"
+    },
+    {
+      "category": "emotional-debt",
+      "count": 5,
+      "pillar": "psychology"
+    },
+    {
+      "category": "identity",
+      "count": 4,
+      "pillar": "psychology"
+    },
+    {
+      "category": "dealing-with-narcissists",
+      "count": 4,
+      "pillar": "psychology"
+    },
+    {
+      "category": "cult-recruitment",
+      "count": 4,
+      "pillar": "psychology"
+    },
+    {
+      "category": "self-persuasion",
+      "count": 4,
+      "pillar": "psychology"
+    },
+    {
+      "category": "psychological-warfare",
+      "count": 4,
+      "pillar": "psychological_warfare"
+    },
+    {
+      "category": "habit-formation",
+      "count": 4,
+      "pillar": "psychology"
+    },
+    {
+      "category": "authority",
+      "count": 4,
+      "pillar": "psychology"
+    },
+    {
+      "category": "leadership",
+      "count": 4,
+      "pillar": "psychology"
+    },
+    {
+      "category": "linguistic-weapons",
+      "count": 4,
+      "pillar": "psychology"
+    },
+    {
+      "category": "boundaries",
+      "count": 4,
+      "pillar": "psychology"
+    },
+    {
+      "category": "self-improvement",
+      "count": 4,
+      "pillar": "psychology"
+    },
+    {
+      "category": "self-discipline",
+      "count": 4,
+      "pillar": "psychology"
+    },
+    {
+      "category": "obedience-ritual",
+      "count": 4,
+      "pillar": "psychology"
+    }
+  ],
+  "defenseStack": [
+    {
+      "priority": 1,
+      "layer": "Detect",
+      "focus": "Psyop-detection, pattern recognition, media-literacy cards",
+      "cards": 10
+    },
+    {
+      "priority": 2,
+      "layer": "Decode",
+      "focus": "Frame-control, influence-formula, emotional-triggers",
+      "cards": 29
+    },
+    {
+      "priority": 3,
+      "layer": "Defend",
+      "focus": "Boundaries, de-escalation, psychological-defense, ethical-persuasion",
+      "cards": 9
+    },
+    {
+      "priority": 4,
+      "layer": "Discipline",
+      "focus": "Outcome-based tech use, self-authorship, identity repair",
+      "cards": 3
+    }
+  ],
+  "topFrameworks": [
+    {
+      "title": "Loevinger's Stages of Ego Development",
+      "category": "ego-development",
+      "pillar": "psychology",
+      "steps": 10
+    },
+    {
+      "title": "8-Step Framework to Detect Psyops",
+      "category": "spotting-psyops",
+      "pillar": "psychology",
+      "steps": 8
+    },
+    {
+      "title": "Six Steps of Awakening",
+      "category": "spiritual-awakening",
+      "pillar": "psychology",
+      "steps": 6
+    },
+    {
+      "title": "Eat for Peak Performance",
+      "category": "nutrition",
+      "pillar": "psychology",
+      "steps": 6
+    },
+    {
+      "title": "Six Behavioral Systems",
+      "category": "influence",
+      "pillar": "psychology",
+      "steps": 6
+    },
+    {
+      "title": "Tactical Pre-Framing",
+      "category": "frame-control",
+      "pillar": "psychology",
+      "steps": 6
+    },
+    {
+      "title": "Narrative Warfare Mechanism",
+      "category": "narrative-warfare",
+      "pillar": "psychological_warfare",
+      "steps": 6
+    },
+    {
+      "title": "Modified Rabies Virus Brain Mapping",
+      "category": "neuroscience-methods",
+      "pillar": "psychology",
+      "steps": 6
+    },
+    {
+      "title": "6-Step Cognitive Dissonance Formula",
+      "category": "influence-formula",
+      "pillar": "psychology",
+      "steps": 6
+    },
+    {
+      "title": "Six-Axis Human Response Model",
+      "category": "human-influence",
+      "pillar": "psychology",
+      "steps": 6
+    },
+    {
+      "title": "Six Axis Model of Influence",
+      "category": "six-axis-model",
+      "pillar": "psychology",
+      "steps": 6
+    },
+    {
+      "title": "Six Steps to Reclaim Your Self",
+      "category": "memory-recovery",
+      "pillar": "psychology",
+      "steps": 6
+    },
+    {
+      "title": "Identity Timeline Reorganization",
+      "category": "identity-shift",
+      "pillar": "psychology",
+      "steps": 5
+    },
+    {
+      "title": "Deviance Escalation Ladder",
+      "category": "deviance-escalation",
+      "pillar": "psychology",
+      "steps": 5
+    },
+    {
+      "title": "The Five-Step Obedience Ritual",
+      "category": "obedience-ritual",
+      "pillar": "psychology",
+      "steps": 5
+    }
+  ],
+  "criticalWarnings": [
+    {
+      "title": "Dementia Erases Your Identity",
+      "content": "Dementia removes random pieces of your life—memories, names, faces, and sense of home—until familiar people become strangers and you watch yourself disappear while the world barely notices. This gradu",
+      "category": "identity-loss"
+    },
+    {
+      "title": "The Immunity Illusion",
+      "content": "Believing you are too smart or aware to join a cult lowers your guard and makes you more vulnerable to recruitment than someone who stays alert.",
+      "category": "cult-recruitment"
+    },
+    {
+      "title": "Preemptive Invalidation",
+      "content": "Prepare recruits for outsiders' concerns by framing family and friends as afraid, stuck in the old system, or unable to understand. When criticism arrives it feels predictable and dismissible.",
+      "category": "cult-recruitment"
+    },
+    {
+      "title": "Why Lives Stop Changing After 25",
+      "content": "Around age 25 the brain decides it has seen enough and locks your identity in place. It then rejects new inputs that don't align, causing most people's lives to plateau despite remaining potential.",
+      "category": "personal-growth"
+    },
+    {
+      "title": "Manufactured Artificial Consensus",
+      "content": "Bots and coordinated accounts simulate mass disapproval or support, making artificial opinions appear as organic public sentiment. This bottom-up approach disguises top-down control as everyday consen",
+      "category": "manipulation"
+    },
+    {
+      "title": "Unrestricted Warfare Division Strategy",
+      "content": "Adversaries splinter societies by fragmenting ideologies into opposing factions and flooding them with tribal language. The goal is to make groups fight each other rather than recognize shared interes",
+      "category": "psychological-warfare"
+    },
+    {
+      "title": "Reactions Leak Power",
+      "content": "Every reaction leaks power, every explanation invites judgment, and every justification causes you to shrink. Replace these habits with emotional discipline to preserve composure and authority.",
+      "category": "power-management"
+    },
+    {
+      "title": "Lingering Internal Conflict",
+      "content": "Even under heavy hypnotic fog and compliance, a small internal part may still register disagreement and attempt to surface physically as nausea or unease.",
+      "category": "hypnotic-control"
+    },
+    {
+      "title": "Scarcity Triggers Impulsive Decisions",
+      "content": "Talking or thinking about scarcity—running out of money, resources, or time—activates the primitive brain and forces irrational, impulsive choices. Counter it immediately by visualizing concrete oppor",
+      "category": "scarcity-mindset"
+    },
+    {
+      "title": "Rank Is Not Leadership",
+      "content": "Formal position or rank does not equal leadership. People follow the strongest, clearest, most consistent behavioral signals in any environment, not the person with the brass plaque or highest title. ",
+      "category": "leadership"
+    },
+    {
+      "title": "Ego Is the Only Enemy",
+      "content": "The ego is a protective story built from trauma, fear, and conditioning that demands separation, comparison, and validation to survive. It blocks truth because it cannot exist in the presence of onene",
+      "category": "ego-dissolution"
+    },
+    {
+      "title": "The Cost of Performance",
+      "content": "Spending life curating a perfect image for others is pointless. They remember only your failures because those help them feel better about themselves. Show up honestly instead of performing.",
+      "category": "validation-seeking"
+    }
+  ],
+  "highValueCards": [
+    {
+      "id": 395,
+      "title": "Frame Evaluation",
+      "kind": "framework",
+      "category": "psyop-detection",
+      "pillar": "psychological_warfare"
+    },
+    {
+      "id": 411,
+      "title": "Narrative Warfare Mechanism",
+      "kind": "framework",
+      "category": "narrative-warfare",
+      "pillar": "psychological_warfare"
+    },
+    {
+      "id": 48,
+      "title": "Unrestricted Warfare Division Strategy",
+      "kind": "warning",
+      "category": "psychological-warfare",
+      "pillar": "psychological_warfare"
+    },
+    {
+      "id": 320,
+      "title": "Viral Beliefs Build Self-Protecting Clusters",
+      "kind": "warning",
+      "category": "psychological-defense",
+      "pillar": "psychological_warfare"
+    },
+    {
+      "id": 367,
+      "title": "Worldview Is the Real Bottleneck",
+      "kind": "mental_model",
+      "category": "influence",
+      "pillar": "information_operations"
+    },
+    {
+      "id": 382,
+      "title": "Left vs Right Is a Distraction",
+      "kind": "mental_model",
+      "category": "media-manipulation",
+      "pillar": "information_operations"
+    },
+    {
+      "id": 390,
+      "title": "Centralized Echo Chambers",
+      "kind": "warning",
+      "category": "psyop-detection",
+      "pillar": "psychological_warfare"
+    },
+    {
+      "id": 454,
+      "title": "People vs. The System",
+      "kind": "mental_model",
+      "category": "psychological-warfare",
+      "pillar": "psychological_warfare"
+    },
+    {
+      "id": 459,
+      "title": "Psyops Hijack Existing Movements",
+      "kind": "mental_model",
+      "category": "psychological-warfare",
+      "pillar": "psychological_warfare"
+    },
+    {
+      "id": 591,
+      "title": "Track Pressure, Not Events",
+      "kind": "mental_model",
+      "category": "psychological-operations",
+      "pillar": "psychological_warfare"
+    },
+    {
+      "id": 7,
+      "title": "IDEA Framework to Leverage Identity",
+      "kind": "framework",
+      "category": "influence",
+      "pillar": "psychology"
+    },
+    {
+      "id": 71,
+      "title": "Four Elements of Perceived Authority",
+      "kind": "framework",
+      "category": "authority",
+      "pillar": "psychology"
+    },
+    {
+      "id": 143,
+      "title": "The Energy Test",
+      "kind": "framework",
+      "category": "influence",
+      "pillar": "psychology"
+    },
+    {
+      "id": 240,
+      "title": "Six Behavioral Systems",
+      "kind": "framework",
+      "category": "influence",
+      "pillar": "psychology"
+    },
+    {
+      "id": 248,
+      "title": "Four Pillars of Frame Control",
+      "kind": "framework",
+      "category": "frame-control",
+      "pillar": "psychology"
+    },
+    {
+      "id": 362,
+      "title": "Tactical Pre-Framing",
+      "kind": "framework",
+      "category": "frame-control",
+      "pillar": "psychology"
+    },
+    {
+      "id": 376,
+      "title": "Three Layers of a Trigger",
+      "kind": "framework",
+      "category": "emotional-triggers",
+      "pillar": "psychology"
+    },
+    {
+      "id": 388,
+      "title": "The FATE Model",
+      "kind": "framework",
+      "category": "psyop-detection",
+      "pillar": "psychology"
+    },
+    {
+      "id": 491,
+      "title": "Five Components of Authority",
+      "kind": "framework",
+      "category": "authority",
+      "pillar": "psychology"
+    },
+    {
+      "id": 495,
+      "title": "6-Step Cognitive Dissonance Formula",
+      "kind": "framework",
+      "category": "influence-formula",
+      "pillar": "psychology"
+    },
+    {
+      "id": 561,
+      "title": "Profile Using Three Layers",
+      "kind": "framework",
+      "category": "behavioral-profiling",
+      "pillar": "psychology"
+    },
+    {
+      "id": 5,
+      "title": "Identity Creates Cognitive Dissonance",
+      "kind": "mental_model",
+      "category": "influence",
+      "pillar": "psychology"
+    },
+    {
+      "id": 19,
+      "title": "The Immunity Illusion",
+      "kind": "warning",
+      "category": "cult-recruitment",
+      "pillar": "psychology"
+    },
+    {
+      "id": 22,
+      "title": "Seen and Unjudged",
+      "kind": "mental_model",
+      "category": "influence",
+      "pillar": "psychology"
+    },
+    {
+      "id": 27,
+      "title": "Preemptive Invalidation",
+      "kind": "warning",
+      "category": "cult-recruitment",
+      "pillar": "psychology"
+    }
+  ],
+  "stats": {
+    "videos": 85,
+    "cards": 635,
+    "categories": 359,
+    "tactics": 131,
+    "frameworks": 87,
+    "warnings": 84
+  },
+  "ethicalUse": {
+    "permitted": [
+      "Education",
+      "Self-defense against manipulation",
+      "Media literacy training",
+      "Research with attribution"
+    ],
+    "prohibited": [
+      "Coercive control",
+      "Fraud",
+      "Unauthorized surveillance",
+      "Election interference",
+      "Harassment"
+    ],
+    "note": "DarkLense is defensive literacy — understanding influence to resist it, not to weaponize it."
+  }
+}
