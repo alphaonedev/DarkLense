@@ -18,9 +18,9 @@
     <div class="nav-inner">
       <a href="#" class="logo">DarkLense</a>
       <ul class="nav-links">
+        <li><a href="#corpus">All Cards</a></li>
         <li><a href="#pillars">Pillars</a></li>
         <li><a href="#defense">Defense Stack</a></li>
-        <li><a href="#corpus">Corpus</a></li>
         <li><a href="#frameworks">Frameworks</a></li>
         <li><a href="#videos">Videos</a></li>
         <li><a href="#disclaimer">Legal</a></li>
@@ -40,6 +40,42 @@
       <div id="nhi-executive"></div>
     </div>
     <div id="source-meta" class="section-intro" style="margin-top:1rem"></div>
+  </section>
+
+  <section id="corpus" class="container corpus-primary">
+    <div class="section-header">
+      <h2>Knowledge Corpus — All Cards</h2>
+      <p class="section-intro" id="corpus-intro">Browse all paraphrased knowledge cards. Search, filter, and switch views to scan the full corpus.</p>
+    </div>
+    <div class="corpus-toolbar">
+      <input type="search" id="card-search" class="search-bar" placeholder="Search titles, content, categories…" aria-label="Search corpus">
+      <div class="corpus-toolbar-row">
+        <label class="toolbar-label" for="category-filter">Category</label>
+        <select id="category-filter" class="toolbar-select" aria-label="Filter by category"></select>
+        <label class="toolbar-label" for="sort-filter">Sort</label>
+        <select id="sort-filter" class="toolbar-select" aria-label="Sort cards">
+          <option value="id">Card #</option>
+          <option value="title">Title</option>
+          <option value="category">Category</option>
+          <option value="kind">Kind</option>
+          <option value="pillar">Pillar</option>
+        </select>
+        <div class="view-toggle" role="group" aria-label="View mode">
+          <button type="button" class="view-toggle-btn active" data-view="cards">Cards</button>
+          <button type="button" class="view-toggle-btn" data-view="compact">Compact list</button>
+        </div>
+      </div>
+    </div>
+    <div class="filter-row" id="pillar-filters">
+      <button class="filter-btn active" data-pillar="all">All pillars</button>
+      <button class="filter-btn" data-pillar="psychology">Psychology</button>
+      <button class="filter-btn" data-pillar="psychological_warfare">Psy War</button>
+      <button class="filter-btn" data-pillar="information_operations">Info Ops</button>
+    </div>
+    <div class="filter-row" id="kind-filters"></div>
+    <div id="active-filters" class="active-filters" hidden></div>
+    <p class="results-count" id="results-count"></p>
+    <div class="cards-grid" id="cards-grid"></div>
   </section>
 
   <section id="pillars" class="container">
@@ -87,23 +123,6 @@
     <div class="cards-grid" id="warnings-grid"></div>
   </section>
 
-  <section id="corpus" class="container">
-    <div class="section-header">
-      <h2>Knowledge Corpus</h2>
-      <p class="section-intro" id="corpus-intro">Search and filter paraphrased knowledge cards. Each links to source video for full context.</p>
-    </div>
-    <input type="search" id="card-search" class="search-bar" placeholder="Search titles, content, categories…" aria-label="Search corpus">
-    <div class="filter-row" id="pillar-filters">
-      <button class="filter-btn active" data-pillar="all">All pillars</button>
-      <button class="filter-btn" data-pillar="psychology">Psychology</button>
-      <button class="filter-btn" data-pillar="psychological_warfare">Psy War</button>
-      <button class="filter-btn" data-pillar="information_operations">Info Ops</button>
-    </div>
-    <div class="filter-row" id="kind-filters"></div>
-    <p class="results-count" id="results-count"></p>
-    <div class="cards-grid" id="cards-grid"></div>
-  </section>
-
   <section id="frameworks" class="container">
     <div class="section-header">
       <h2>Top Frameworks</h2>
@@ -112,12 +131,16 @@
     <div id="frameworks-table"></div>
   </section>
 
-  <section id="videos" class="container">
-    <div class="section-header">
-      <h2>Source Videos</h2>
-      <p class="section-intro" id="videos-intro">Indexed source videos with card counts. Watch originals for full context — cards are distillations only.</p>
-    </div>
-    <div id="videos-table" style="overflow-x:auto"></div>
+  <section id="videos" class="container videos-secondary">
+    <details class="videos-collapse">
+      <summary>
+        <span class="section-header">
+          <h2>Source Videos <span class="section-badge">Reference</span></h2>
+          <p class="section-intro" id="videos-intro">Secondary index — cards above are the primary content.</p>
+        </span>
+      </summary>
+      <div id="videos-table" style="overflow-x:auto;margin-top:1rem"></div>
+    </details>
   </section>
 
   <footer class="disclaimer" id="disclaimer">

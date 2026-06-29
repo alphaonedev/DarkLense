@@ -103,7 +103,7 @@ function renderDefenseStack(nhi) {
           </a>
         </div>
         ${preview.length ? `<div class="stack-linked-cards">${preview.map(c =>
-          `<a href="#corpus" class="stack-card-chip" data-card-id="${c.id}" title="${c.category}">${c.title}</a>`
+          `<a href="#corpus" class="stack-card-chip" data-card-id="${c.id}" data-category="${c.category}" title="${c.category}">${c.title}</a>`
         ).join('')}${more > 0 ? `<a href="#corpus" class="stack-card-more" data-stack-priority="${s.priority}">+${more} more</a>` : ''}</div>` : ''}
       </div>
     </li>`;
@@ -125,7 +125,11 @@ function renderDefenseStack(nhi) {
     a.addEventListener('click', e => {
       e.preventDefault();
       if (window.navigateToCards) {
-        window.navigateToCards({ cardId: Number(a.dataset.cardId), cardIds: [Number(a.dataset.cardId)] });
+        window.navigateToCards({
+          cardId: Number(a.dataset.cardId),
+          category: a.dataset.category || 'all',
+          highlightOnly: true,
+        });
       }
     });
   });
