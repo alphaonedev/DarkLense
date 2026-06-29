@@ -2650,5 +2650,924 @@
       "tierB": 25,
       "themes": 8
     }
+  },
+  "personalDigest": {
+    "title": "AI NHI — Personal Digest Methodology",
+    "date": "2026-06-29",
+    "principle": "645 cards is a reference library, not a reading list. NHI routes each person through concern-based filtering → a 12–25 card personal digest → optional learning paths → full corpus on demand.",
+    "layers": [
+      {
+        "order": 1,
+        "name": "Concern routing",
+        "description": "Individual selects what matters now — feeds, relationships, work, identity, civic literacy."
+      },
+      {
+        "order": 2,
+        "name": "Personal digest",
+        "description": "NHI merges concern-ranked cards with Tier S baseline — typically 12–25 cards, not 645."
+      },
+      {
+        "order": 3,
+        "name": "Learning paths",
+        "description": "Curated 5–20 minute sequences with ordered steps and one-line rationale per card."
+      },
+      {
+        "order": 4,
+        "name": "Full corpus",
+        "description": "Search, filter, compact list — entire library when you need depth or research."
+      }
+    ],
+    "methodologyDistill": {
+      "lead": "Smarter corpus access: relevance first, volume never.",
+      "rulesTitle": "NHI presentation rules",
+      "rules": [
+        "Never default to 645 — default to personalized digest",
+        "Tier S baseline always included — immunity warnings are universal",
+        "Max 3 concerns merged — prevents dilution",
+        "Learning paths are ordered sequences, not tag soup",
+        "Full corpus remains one click away for researchers"
+      ],
+      "antiPatternsTitle": "What we stopped doing",
+      "antiPatterns": [
+        "Flat grid of 645 cards as the primary experience",
+        "Video-first navigation — cards are the knowledge",
+        "One-size Tier list without individual concern routing",
+        "Hiding 525+ cards behind arbitrary display caps"
+      ]
+    },
+    "concerns": [
+      {
+        "id": "media_feed",
+        "label": "Social media & news feeds",
+        "description": "Algorithms, outrage loops, manufactured consensus, identity curation online.",
+        "color": "#3b82f6",
+        "topCardIds": [
+          41,
+          588,
+          398,
+          622,
+          71,
+          421,
+          521,
+          153,
+          5,
+          19,
+          48,
+          78,
+          85,
+          110,
+          142,
+          505,
+          9,
+          148,
+          173,
+          419
+        ],
+        "cardCount": 25
+      },
+      {
+        "id": "relationships",
+        "label": "Relationships & trust",
+        "description": "Covert manipulation, gaslighting patterns, boundaries, and emotional exploitation.",
+        "color": "#ec4899",
+        "topCardIds": [
+          398,
+          19,
+          71,
+          78,
+          85,
+          27,
+          5,
+          41,
+          48,
+          110,
+          142,
+          421,
+          505,
+          521,
+          588,
+          622,
+          213,
+          352,
+          386,
+          469
+        ],
+        "cardCount": 25
+      },
+      {
+        "id": "workplace",
+        "label": "Work & leadership dynamics",
+        "description": "Authority, status games, persuasion in professional settings, power leaks.",
+        "color": "#10b981",
+        "topCardIds": [
+          71,
+          78,
+          5,
+          142,
+          7,
+          54,
+          73,
+          143,
+          213,
+          240,
+          352,
+          398,
+          505,
+          521,
+          644,
+          501,
+          520,
+          19,
+          41,
+          48
+        ],
+        "cardCount": 25
+      },
+      {
+        "id": "identity",
+        "label": "Identity & autonomy",
+        "description": "Who you think you are — cult pressure, conformity, self-authorship under attack.",
+        "color": "#8b5cf6",
+        "topCardIds": [
+          19,
+          3,
+          1,
+          5,
+          85,
+          110,
+          505,
+          27,
+          71,
+          622,
+          4,
+          35,
+          229,
+          327,
+          41,
+          48,
+          78,
+          142,
+          398,
+          421
+        ],
+        "cardCount": 25
+      },
+      {
+        "id": "emotional_safety",
+        "label": "Emotional triggers & stress",
+        "description": "Shame, fear, trauma responses — what makes you compliant when pressured.",
+        "color": "#f59e0b",
+        "topCardIds": [
+          110,
+          122,
+          386,
+          398,
+          521,
+          9,
+          19,
+          85,
+          173,
+          327,
+          383,
+          603,
+          5,
+          41,
+          48,
+          71,
+          78,
+          142,
+          421,
+          505
+        ],
+        "cardCount": 25
+      },
+      {
+        "id": "civic_info",
+        "label": "Civic & information environment",
+        "description": "Psyops, propaganda, division strategies, narrative warfare at population scale.",
+        "color": "#ef4444",
+        "topCardIds": [
+          421,
+          521,
+          41,
+          48,
+          469,
+          398,
+          588,
+          5,
+          19,
+          71,
+          78,
+          85,
+          110,
+          142,
+          505,
+          622,
+          261,
+          400,
+          401,
+          402
+        ],
+        "cardCount": 25
+      },
+      {
+        "id": "general_defense",
+        "label": "General defensive literacy",
+        "description": "Balanced entry — highest universal-value cards across all themes.",
+        "color": "#a855f7",
+        "topCardIds": [
+          5,
+          19,
+          41,
+          48,
+          71,
+          78,
+          85,
+          110,
+          142,
+          398,
+          421,
+          505,
+          521,
+          588,
+          622,
+          1,
+          3,
+          7,
+          9,
+          27
+        ],
+        "cardCount": 25
+      }
+    ],
+    "learningPaths": [
+      {
+        "id": "immunity-baseline",
+        "title": "5-Minute Immunity Baseline",
+        "description": "Start here if overwhelmed. Five Tier-S warnings every civilian should internalize before anything else.",
+        "minutes": 5,
+        "concernIds": [
+          "general_defense"
+        ],
+        "stepCount": 12,
+        "cardIds": [
+          19,
+          588,
+          622,
+          41,
+          142,
+          5,
+          48,
+          71,
+          78,
+          85,
+          110,
+          398
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "cardId": 19,
+            "title": "The Immunity Illusion",
+            "kind": "warning",
+            "why": "Baseline immunity — assume you are already a target."
+          },
+          {
+            "order": 2,
+            "cardId": 588,
+            "title": "Avoid the NPC Conversion Trap",
+            "kind": "warning",
+            "why": "Baseline immunity — assume you are already a target."
+          },
+          {
+            "order": 3,
+            "cardId": 622,
+            "title": "Algorithms Curate Your Identity",
+            "kind": "warning",
+            "why": "Baseline immunity — assume you are already a target."
+          },
+          {
+            "order": 4,
+            "cardId": 41,
+            "title": "Selective Extremes on Social Media",
+            "kind": "mental_model",
+            "why": "Baseline immunity — assume you are already a target."
+          },
+          {
+            "order": 5,
+            "cardId": 142,
+            "title": "Compliance Teaches People to Hide",
+            "kind": "warning",
+            "why": "Baseline immunity — assume you are already a target."
+          },
+          {
+            "order": 6,
+            "cardId": 5,
+            "title": "Identity Creates Cognitive Dissonance",
+            "kind": "mental_model",
+            "why": "Baseline immunity — assume you are already a target."
+          },
+          {
+            "order": 7,
+            "cardId": 48,
+            "title": "Unrestricted Warfare Division Strategy",
+            "kind": "warning",
+            "why": "Baseline immunity — assume you are already a target."
+          },
+          {
+            "order": 8,
+            "cardId": 71,
+            "title": "Four Elements of Perceived Authority",
+            "kind": "framework",
+            "why": "Baseline immunity — assume you are already a target."
+          },
+          {
+            "order": 9,
+            "cardId": 78,
+            "title": "Rank Is Not Leadership",
+            "kind": "warning",
+            "why": "Baseline immunity — assume you are already a target."
+          },
+          {
+            "order": 10,
+            "cardId": 85,
+            "title": "Six Steps of Awakening",
+            "kind": "framework",
+            "why": "Baseline immunity — assume you are already a target."
+          },
+          {
+            "order": 11,
+            "cardId": 110,
+            "title": "Four-Step Insult Decoder",
+            "kind": "framework",
+            "why": "Baseline immunity — assume you are already a target."
+          },
+          {
+            "order": 12,
+            "cardId": 398,
+            "title": "The FATE Model",
+            "kind": "framework",
+            "why": "Baseline immunity — assume you are already a target."
+          }
+        ]
+      },
+      {
+        "id": "social-media-defense",
+        "title": "Social Media Defense Path",
+        "description": "Algorithms, NPC traps, selective extremes — defend your attention and identity online.",
+        "minutes": 15,
+        "concernIds": [
+          "media_feed"
+        ],
+        "stepCount": 12,
+        "cardIds": [
+          622,
+          588,
+          41,
+          421,
+          42,
+          48,
+          398,
+          71,
+          521,
+          153,
+          5,
+          19
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "cardId": 622,
+            "title": "Algorithms Curate Your Identity",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 2,
+            "cardId": 588,
+            "title": "Avoid the NPC Conversion Trap",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 3,
+            "cardId": 41,
+            "title": "Selective Extremes on Social Media",
+            "kind": "mental_model",
+            "why": "Reframes what you notice before you react."
+          },
+          {
+            "order": 4,
+            "cardId": 421,
+            "title": "Narrative Warfare Mechanism",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 5,
+            "cardId": 42,
+            "title": "Manufactured Artificial Consensus",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 6,
+            "cardId": 48,
+            "title": "Unrestricted Warfare Division Strategy",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 7,
+            "cardId": 398,
+            "title": "The FATE Model",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 8,
+            "cardId": 71,
+            "title": "Four Elements of Perceived Authority",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 9,
+            "cardId": 521,
+            "title": "8-Step Framework to Detect Psyops",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 10,
+            "cardId": 153,
+            "title": "Feed Sorted by Arousal",
+            "kind": "mental_model",
+            "why": "Reframes what you notice before you react."
+          },
+          {
+            "order": 11,
+            "cardId": 5,
+            "title": "Identity Creates Cognitive Dissonance",
+            "kind": "mental_model",
+            "why": "Reframes what you notice before you react."
+          },
+          {
+            "order": 12,
+            "cardId": 19,
+            "title": "The Immunity Illusion",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          }
+        ]
+      },
+      {
+        "id": "relationship-manipulation",
+        "title": "Relationship Manipulation Kit",
+        "description": "Boundaries, insult decoding, compliance patterns — recognize exploitation in close relationships.",
+        "minutes": 20,
+        "concernIds": [
+          "relationships",
+          "emotional_safety"
+        ],
+        "stepCount": 12,
+        "cardIds": [
+          110,
+          9,
+          142,
+          505,
+          5,
+          19,
+          27,
+          386,
+          398,
+          71,
+          78,
+          85
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "cardId": 110,
+            "title": "Four-Step Insult Decoder",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 2,
+            "cardId": 9,
+            "title": "FOG and CAVA Detection Framework",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 3,
+            "cardId": 142,
+            "title": "Compliance Teaches People to Hide",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 4,
+            "cardId": 505,
+            "title": "6-Step Cognitive Dissonance Formula",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 5,
+            "cardId": 5,
+            "title": "Identity Creates Cognitive Dissonance",
+            "kind": "mental_model",
+            "why": "Reframes what you notice before you react."
+          },
+          {
+            "order": 6,
+            "cardId": 19,
+            "title": "The Immunity Illusion",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 7,
+            "cardId": 27,
+            "title": "Preemptive Invalidation",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 8,
+            "cardId": 386,
+            "title": "Three Layers of a Trigger",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 9,
+            "cardId": 398,
+            "title": "The FATE Model",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 10,
+            "cardId": 71,
+            "title": "Four Elements of Perceived Authority",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 11,
+            "cardId": 78,
+            "title": "Rank Is Not Leadership",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 12,
+            "cardId": 85,
+            "title": "Six Steps of Awakening",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          }
+        ]
+      },
+      {
+        "id": "workplace-influence",
+        "title": "Workplace Influence Defense",
+        "description": "Authority, status, perceived power — navigate professional influence without leaking leverage.",
+        "minutes": 15,
+        "concernIds": [
+          "workplace"
+        ],
+        "stepCount": 12,
+        "cardIds": [
+          71,
+          78,
+          501,
+          73,
+          54,
+          505,
+          143,
+          5,
+          142,
+          7,
+          213,
+          240
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "cardId": 71,
+            "title": "Four Elements of Perceived Authority",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 2,
+            "cardId": 78,
+            "title": "Rank Is Not Leadership",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 3,
+            "cardId": 501,
+            "title": "Five Components of Authority",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 4,
+            "cardId": 73,
+            "title": "Influence Works Through Permission",
+            "kind": "principle",
+            "why": "Core defensive literacy for this path."
+          },
+          {
+            "order": 5,
+            "cardId": 54,
+            "title": "Reactions Leak Power",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 6,
+            "cardId": 505,
+            "title": "6-Step Cognitive Dissonance Formula",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 7,
+            "cardId": 143,
+            "title": "The Energy Test",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 8,
+            "cardId": 5,
+            "title": "Identity Creates Cognitive Dissonance",
+            "kind": "mental_model",
+            "why": "Reframes what you notice before you react."
+          },
+          {
+            "order": 9,
+            "cardId": 142,
+            "title": "Compliance Teaches People to Hide",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 10,
+            "cardId": 7,
+            "title": "IDEA Framework to Leverage Identity",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 11,
+            "cardId": 213,
+            "title": "Limbic Permission Slip",
+            "kind": "mental_model",
+            "why": "Reframes what you notice before you react."
+          },
+          {
+            "order": 12,
+            "cardId": 240,
+            "title": "Six Behavioral Systems",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          }
+        ]
+      },
+      {
+        "id": "psyop-pattern-map",
+        "title": "Psyop Pattern Map",
+        "description": "Detect information operations — FATE model, 8-step psyop framework, division strategies.",
+        "minutes": 20,
+        "concernIds": [
+          "civic_info"
+        ],
+        "stepCount": 12,
+        "cardIds": [
+          398,
+          521,
+          48,
+          41,
+          42,
+          421,
+          327,
+          469,
+          588,
+          5,
+          19,
+          71
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "cardId": 398,
+            "title": "The FATE Model",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 2,
+            "cardId": 521,
+            "title": "8-Step Framework to Detect Psyops",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 3,
+            "cardId": 48,
+            "title": "Unrestricted Warfare Division Strategy",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 4,
+            "cardId": 41,
+            "title": "Selective Extremes on Social Media",
+            "kind": "mental_model",
+            "why": "Reframes what you notice before you react."
+          },
+          {
+            "order": 5,
+            "cardId": 42,
+            "title": "Manufactured Artificial Consensus",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 6,
+            "cardId": 421,
+            "title": "Narrative Warfare Mechanism",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 7,
+            "cardId": 327,
+            "title": "The Five-Step Cognitive Virus Cycle",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 8,
+            "cardId": 469,
+            "title": "Psyops Hijack Existing Movements",
+            "kind": "mental_model",
+            "why": "Reframes what you notice before you react."
+          },
+          {
+            "order": 9,
+            "cardId": 588,
+            "title": "Avoid the NPC Conversion Trap",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 10,
+            "cardId": 5,
+            "title": "Identity Creates Cognitive Dissonance",
+            "kind": "mental_model",
+            "why": "Reframes what you notice before you react."
+          },
+          {
+            "order": 11,
+            "cardId": 19,
+            "title": "The Immunity Illusion",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 12,
+            "cardId": 71,
+            "title": "Four Elements of Perceived Authority",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          }
+        ]
+      },
+      {
+        "id": "identity-under-attack",
+        "title": "Identity Under Attack",
+        "description": "Cult recruitment, cognitive dissonance, awakening steps — reclaim self-authorship.",
+        "minutes": 20,
+        "concernIds": [
+          "identity"
+        ],
+        "stepCount": 12,
+        "cardIds": [
+          5,
+          19,
+          27,
+          85,
+          3,
+          622,
+          563,
+          7,
+          1,
+          110,
+          505,
+          71
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "cardId": 5,
+            "title": "Identity Creates Cognitive Dissonance",
+            "kind": "mental_model",
+            "why": "Reframes what you notice before you react."
+          },
+          {
+            "order": 2,
+            "cardId": 19,
+            "title": "The Immunity Illusion",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 3,
+            "cardId": 27,
+            "title": "Preemptive Invalidation",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 4,
+            "cardId": 85,
+            "title": "Six Steps of Awakening",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 5,
+            "cardId": 3,
+            "title": "Social Identity Theory",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 6,
+            "cardId": 622,
+            "title": "Algorithms Curate Your Identity",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 7,
+            "cardId": 563,
+            "title": "How Ego Sabotages Confidence",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 8,
+            "cardId": 7,
+            "title": "IDEA Framework to Leverage Identity",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 9,
+            "cardId": 1,
+            "title": "Dementia Erases Your Identity",
+            "kind": "warning",
+            "why": "Warning signal — high salience before deeper frameworks."
+          },
+          {
+            "order": 10,
+            "cardId": 110,
+            "title": "Four-Step Insult Decoder",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 11,
+            "cardId": 505,
+            "title": "6-Step Cognitive Dissonance Formula",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          },
+          {
+            "order": 12,
+            "cardId": 71,
+            "title": "Four Elements of Perceived Authority",
+            "kind": "framework",
+            "why": "Apply as recognition checklist, not coercion playbook."
+          }
+        ]
+      }
+    ],
+    "defaultConcernId": "general_defense",
+    "digestSize": {
+      "min": 12,
+      "max": 25,
+      "baselineTierSCards": 3
+    }
   }
 }

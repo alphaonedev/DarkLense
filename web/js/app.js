@@ -127,6 +127,8 @@ async function loadData() {
       ]);
       corpusData = c;
       nhiData = n;
+      window._corpusData = c;
+      window._nhiData = n;
       return;
     } catch (_) { /* try next base */ }
   }
@@ -146,7 +148,7 @@ function renderHeroStats() {
 
   const heroSub = document.getElementById('hero-sub');
   if (heroSub) {
-    heroSub.innerHTML = `A searchable corpus of <strong>${t.cards}</strong> paraphrased knowledge cards across <strong>psychology</strong>, <strong>psychological warfare</strong>, and <strong>information operations</strong>. Cards are the primary content — source videos are attribution only.`;
+    heroSub.innerHTML = `<strong>${t.cards}</strong> knowledge cards — but you don't read them all. <a href="#personal-lens">Build your personal digest</a> and NHI routes you to what's relevant. Full corpus always available.`;
   }
   const corpusIntro = document.getElementById('corpus-intro');
   if (corpusIntro) {
@@ -449,6 +451,7 @@ async function init() {
     renderHeroStats();
     renderSourceMeta();
     if (typeof renderAllVisualizations === 'function') renderAllVisualizations(corpusData, nhiData);
+    if (typeof renderPersonalLens === 'function') renderPersonalLens(corpusData, nhiData);
     renderHighValue(nhiData);
     setupFilters();
     renderCardBrowser();

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
   <script src="js/nhi-human-value.js" defer></script>
+  <script src="js/personal-lens.js" defer></script>
   <script src="js/viz.js" defer></script>
   <script src="js/app.js" defer></script>
 </head>
@@ -19,6 +20,7 @@
     <div class="nav-inner">
       <a href="#" class="logo">DarkLense</a>
       <ul class="nav-links">
+        <li><a href="#personal-lens">My Digest</a></li>
         <li><a href="#corpus">All Cards</a></li>
         <li><a href="#human-value">NHI Top Picks</a></li>
         <li><a href="#pillars">Pillars</a></li>
@@ -34,6 +36,29 @@
     <h1>DarkLense</h1>
     <p class="hero-sub" id="hero-sub">A searchable knowledge lens on <strong>psychology</strong>, <strong>psychological warfare</strong>, and <strong>information operations</strong>. Defensive literacy, not a manipulation playbook.</p>
     <div class="hero-stats" id="hero-stats"></div>
+    <p style="margin-top:1.5rem"><a href="#personal-lens" class="hero-cta">Build your personal digest →</a></p>
+  </section>
+
+  <section id="personal-lens" class="container lens-section">
+    <div class="section-header">
+      <h2>Personal Lens — Your Relevant Digest</h2>
+      <p class="section-intro">645 cards is a library, not a reading list. Tell NHI what matters to you — get a 12–25 card digest and a guided learning path. Full corpus stays one click away.</p>
+    </div>
+
+    <div class="nhi-voice" style="border-left-color:#a855f7">
+      <div class="nhi-voice-label">AI NHI — Smarter methodology</div>
+      <div id="lens-methodology"></div>
+    </div>
+
+    <div id="lens-concern-picker"></div>
+
+    <div id="lens-digest-wrap" hidden>
+      <div id="lens-digest-result"></div>
+    </div>
+
+    <div id="lens-path-wrap" hidden class="lens-path-panel">
+      <div id="lens-learning-path"></div>
+    </div>
   </section>
 
   <section id="overview" class="container">

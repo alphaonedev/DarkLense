@@ -377,6 +377,13 @@ def main() -> None:
     nhi = json.loads(NHI_PATH.read_text(encoding="utf-8"))
     nhi = merge_into_nhi(nhi, assessment)
 
+    try:
+        from nhi_personal_digest import build_personal_digest, merge_digest
+
+        nhi = merge_digest(nhi, build_personal_digest(cards, nhi))
+    except ImportError:
+        pass
+
     for path in (NHI_PATH, WEB_NHI_PATH):
         path.write_text(json.dumps(nhi, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 

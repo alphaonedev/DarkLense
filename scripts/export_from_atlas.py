@@ -373,12 +373,15 @@ def main():
     # Full-corpus AI NHI universal human-value assessment
     try:
         from nhi_human_value_assess import assess_corpus, merge_into_nhi
+        from nhi_personal_digest import build_personal_digest, merge_digest
 
         nhi = merge_into_nhi(nhi, assess_corpus(cards))
+        nhi = merge_digest(nhi, build_personal_digest(cards, nhi))
     except ImportError:
-        assess_script = Path(__file__).resolve().parent / "nhi_human_value_assess.py"
-        if assess_script.exists():
-            subprocess.run([sys.executable, str(assess_script)], check=False)
+        for script in ("nhi_human_value_assess.py", "nhi_personal_digest.py"):
+            assess_script = Path(__file__).resolve().parent / script
+            if assess_script.exists():
+                subprocess.run([sys.executable, str(assess_script)], check=False)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     WEB_DIR.mkdir(parents=True, exist_ok=True)
