@@ -2,7 +2,7 @@
   "meta": {
     "name": "DarkLense",
     "version": "1.0.0",
-    "exported_at": "2026-06-29T19:21:27.893023Z",
+    "exported_at": "2026-06-29T19:37:05.690351Z",
     "source": "Knowledge Atlas (paraphrased cards only)",
     "copyright": "Copyright 2026 AlphaOne LLC. Corpus synthesis licensed Apache-2.0.",
     "attribution": "Knowledge cards are LLM-paraphrased standalone distillations. Original video content © respective creators. Source: Chase Hughes — https://www.youtube.com/@chasehughesofficial/videos",
@@ -10012,6 +10012,7 @@
       "video_title": "The LIE about who YOU are - A WARNING…",
       "video_url": "https://www.youtube.com/watch?v=-D0vMwQfm40",
       "one_line": "Identity loss in dementia is the death we fear most; hack any identity in 90 seconds using the IDEA framework.",
+      "best_for": "Watch this if you want to profile identities quickly or influence decisions by aligning them with someone's core self-image.",
       "categories": [
         "identity",
         "influence",
@@ -10019,52 +10020,56 @@
         "profiling",
         "cognitive-dissonance"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "1Ro0WLw5V7o",
       "video_title": "Behavior Expert Reveals Exactly What To Say To A Narcissist",
       "video_url": "https://www.youtube.com/watch?v=1Ro0WLw5V7o",
       "one_line": "Disarm manipulators by identifying FOG and CAVA then mirroring intentions with calm, strategic responses.",
+      "best_for": "Watch this if you deal with narcissists, guilt-trippers, or emotional manipulators at work or in relationships.",
       "categories": [
         "dealing-with-narcissists",
         "manipulation-tactics",
         "communication-strategies",
         "emotional-boundaries"
       ],
-      "card_count": 0
+      "card_count": 10
     },
     {
       "video_id": "1Uam5ulqn4g",
       "video_title": "How Cults Recruit and Program People",
       "video_url": "https://www.youtube.com/watch?v=1Uam5ulqn4g",
       "one_line": "Cults recruit intelligent people by exploiting hidden emptiness through safety, identity, and escalating self-commitment.",
+      "best_for": "Watch this if you want to recognize subtle manipulation tactics in groups, relationships, or high-control environments.",
       "categories": [
         "cult-recruitment",
         "manipulation-tactics",
         "psychological-influence",
         "persuasion"
       ],
-      "card_count": 0
+      "card_count": 10
     },
     {
       "video_id": "2xcbxRbDGrs",
       "video_title": "THE BEHAVIOR PRACTITIONER COURSE WITH CHASE HUGHES",
       "video_url": "https://www.youtube.com/watch?v=2xcbxRbDGrs",
       "one_line": "Chase Hughes teaches how to expand the limits of human influence using the authority principle and high-stakes expertise.",
+      "best_for": "Watch this if you want an introduction to Chase Hughes' behavior practitioner course on advanced influence.",
       "categories": [
         "influence",
         "persuasion",
         "authority-principle",
         "behavior-change"
       ],
-      "card_count": 0
+      "card_count": 5
     },
     {
       "video_id": "4bdwDYd7rdE",
       "video_title": "You're Living Inside a Prediction",
       "video_url": "https://www.youtube.com/watch?v=4bdwDYd7rdE",
       "one_line": "Your brain treats identity as a fixed prediction that filters reality, until vivid visualization updates it and opens new futures.",
+      "best_for": "Watch this if you feel stuck in repetitive patterns after 25 and want to rewire your brain's future forecast.",
       "categories": [
         "neuroscience",
         "identity-shift",
@@ -10072,13 +10077,14 @@
         "visualization",
         "personal-growth"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "5_XVcu2HPhc",
       "video_title": "You Were Manipulated. Here's the Proof. | Official Preview",
       "video_url": "https://www.youtube.com/watch?v=5_XVcu2HPhc",
       "one_line": "Psyops divide society through selective media exposure and manufactured consensus, but awareness enables correction.",
+      "best_for": "Watch this if you want to recognize emotional manipulation tactics in news and social media.",
       "categories": [
         "psyops",
         "media-manipulation",
@@ -10086,39 +10092,42 @@
         "media-literacy",
         "psychological-operations"
       ],
-      "card_count": 0
+      "card_count": 9
     },
     {
       "video_id": "5biDIP-I3jg",
       "video_title": "Become the DEFAULT Leader – Automatically | NCI Lecture Vault",
       "video_url": "https://www.youtube.com/watch?v=5biDIP-I3jg",
       "one_line": "True power emerges from non-reactivity, strategic silence, and earned access.",
+      "best_for": "Watch this if you want to stop leaking power through over-explaining and start commanding natural respect.",
       "categories": [
         "self-mastery",
         "emotional-discipline",
         "influence",
         "leadership"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "7yiIOlOmDfM",
       "video_title": "Phrase Seven | A Novel by Chase Hughes | Prologue",
       "video_url": "https://www.youtube.com/watch?v=7yiIOlOmDfM",
       "one_line": "A prologue shows a woman reduced to total obedience by a hypnotic trigger phrase that erases resistance and guilt.",
+      "best_for": "Watch this if you want a fictional illustration of real hypnotic control and trigger phrases.",
       "categories": [
         "hypnosis",
         "trigger-phrases",
         "mind-control",
         "psychological-thriller"
       ],
-      "card_count": 0
+      "card_count": 5
     },
     {
       "video_id": "9C9iwsQ9Wv4",
       "video_title": "Behavior Science in Crisis, with Chase Hughes: Unusual COVID19 Survival Tips",
       "video_url": "https://www.youtube.com/watch?v=9C9iwsQ9Wv4",
       "one_line": "Behavioral techniques like planning and future-self focus reduce fear and depression in crises.",
+      "best_for": "Watch this if you're battling anxiety, uncertainty, or lost productivity during a lockdown or crisis.",
       "categories": [
         "behavioral-science",
         "crisis-management",
@@ -10126,13 +10135,14 @@
         "discipline",
         "mindset"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "9_aULuSungE",
       "video_title": "Chase Hughes and Mark Bowden talking shop for an hour.",
       "video_url": "https://www.youtube.com/watch?v=9_aULuSungE",
       "one_line": "Two experts discuss evolutionary authority triggers, nonverbal models, and primitive-brain persuasion techniques.",
+      "best_for": "Watch this if you want to master authority signals and primitive-brain influence methods from leading experts.",
       "categories": [
         "persuasion",
         "body-language",
@@ -10140,13 +10150,14 @@
         "evolutionary-psychology",
         "influence-techniques"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "ADYdypHZb2A",
       "video_title": "The Ancients Decoded Reality",
       "video_url": "https://www.youtube.com/watch?v=ADYdypHZb2A",
       "one_line": "Diverse ancient traditions encode the same five universal truths about reality and consciousness.",
+      "best_for": "Watch this if you seek a unified spiritual framework that transcends religions and aligns with science.",
       "categories": [
         "ancient-wisdom",
         "nonduality",
@@ -10154,13 +10165,14 @@
         "ego-dissolution",
         "spiritual-awakening"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "Am5_0hoJs8U",
       "video_title": "The Hidden Exit | How to TRULY LET GO",
       "video_url": "https://www.youtube.com/watch?v=Am5_0hoJs8U",
       "one_line": "True confidence is accepting no one will understand you and choosing to be authentic instead of performing.",
+      "best_for": "Watch this if you seek constant validation from others and feel trapped by the need to be seen.",
       "categories": [
         "self-confidence",
         "letting-go",
@@ -10168,13 +10180,14 @@
         "mental-models",
         "personal-growth"
       ],
-      "card_count": 0
+      "card_count": 9
     },
     {
       "video_id": "B8LpmXimAOk",
       "video_title": "90-Second Brain Capture",
       "video_url": "https://www.youtube.com/watch?v=B8LpmXimAOk",
       "one_line": "Influence begins in the first 90 seconds by matching the brain's instinctive processing sequence.",
+      "best_for": "Watch this if you want to create instant authority, attention, and subconscious buy-in in sales, leadership, or high-stakes conversations.",
       "categories": [
         "influence",
         "persuasion",
@@ -10182,13 +10195,14 @@
         "communication",
         "sales-tactics"
       ],
-      "card_count": 0
+      "card_count": 10
     },
     {
       "video_id": "CzDj4-nkSEc",
       "video_title": "The Breakthrough Behavior Course Trailer",
       "video_url": "https://www.youtube.com/watch?v=CzDj4-nkSEc",
       "one_line": "This trailer promotes a course teaching behavior reading, influence, and persuasion to gain x-ray insight into people.",
+      "best_for": "Watch this if you're evaluating a course on reading people and mastering human influence.",
       "categories": [
         "persuasion",
         "influence",
@@ -10202,6 +10216,7 @@
       "video_title": "See Their Core Shame Instantly",
       "video_url": "https://www.youtube.com/watch?v=DsjvNZJvjJU",
       "one_line": "Personalities and insults are survival strategies concealing core shame from ancestral rejection fears.",
+      "best_for": "Watch this if you want to decode human behavior, understand insults, and respond with empathy instead of judgment.",
       "categories": [
         "psychology",
         "empathy",
@@ -10210,13 +10225,14 @@
         "personality-archetypes",
         "insults"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "ET0o9zL3BDs",
       "video_title": "The FBI and Socrates -- the Same 17 Sentences",
       "video_url": "https://www.youtube.com/watch?v=ET0o9zL3BDs",
       "one_line": "Seventeen sentence architectures let others persuade themselves by activating their own neurology.",
+      "best_for": "Watch this if you want to master influence in negotiations, therapy, sales, or difficult conversations without arguing.",
       "categories": [
         "persuasion",
         "influence-techniques",
@@ -10224,26 +10240,28 @@
         "communication",
         "emotional-intelligence"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "Fnn7n2ZbYpE",
       "video_title": "The Ghosts Running Your Life | Ancient Fears",
       "video_url": "https://www.youtube.com/watch?v=Fnn7n2ZbYpE",
       "one_line": "Inherited trauma and ancestral scripts run your reactions via the amygdala; reclaim authorship through awareness and the FATE model.",
+      "best_for": "Watch this if unexplained emotional triggers sabotage your success and you want to break free from childhood and generational patterns.",
       "categories": [
         "inherited-trauma",
         "emotional-regulation",
         "self-authorship",
         "personal-growth"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "Fpu6K464Jlg",
       "video_title": "Why You Become Someone ELSE in Some Places",
       "video_url": "https://www.youtube.com/watch?v=Fpu6K464Jlg",
       "one_line": "People lack stable personalities and instead show stable responses to familiar contexts that can be disrupted in real time.",
+      "best_for": "Watch this if you revert to old behaviors around family, coworkers, or in specific environments and want to stay in control.",
       "categories": [
         "self-awareness",
         "personal-development",
@@ -10251,13 +10269,14 @@
         "psychology",
         "contextual-behavior"
       ],
-      "card_count": 0
+      "card_count": 10
     },
     {
       "video_id": "Gz0PTPDASZE",
       "video_title": "Why 'Yes' is NOT Commitment",
       "video_url": "https://www.youtube.com/watch?v=Gz0PTPDASZE",
       "one_line": "Compliance produces temporary obedience while alignment creates lasting voluntary commitment and influence.",
+      "best_for": "Watch this if you want to build genuine influence in sales, leadership, or relationships instead of superficial agreement.",
       "categories": [
         "influence",
         "persuasion",
@@ -10265,39 +10284,42 @@
         "compliance",
         "sales-psychology"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "Hrzc6na62Bo",
       "video_title": "You Can't Dream About Your Phone - WHY?",
       "video_url": "https://www.youtube.com/watch?v=Hrzc6na62Bo",
       "one_line": "Phones consume years of life through engineered addiction yet never appear in dreams, revealing their shallow impact.",
+      "best_for": "Watch this if you want to understand how smartphones hijack attention and why reducing use restores mental clarity.",
       "categories": [
         "digital-addiction",
         "attention-economy",
         "psychology-of-social-media",
         "dopamine-hacking"
       ],
-      "card_count": 0
+      "card_count": 9
     },
     {
       "video_id": "Hypf4NEHng0",
       "video_title": "Don’t Set Goals For 2026. Use This Brainwashing Technique Instead.",
       "video_url": "https://www.youtube.com/watch?v=Hypf4NEHng0",
       "one_line": "Reprogram your mammalian brain with vivid contrasts, FEAR formula, and dopamine maps instead of broken traditional goals.",
+      "best_for": "Watch this if traditional goal setting fails you and you need a neuroscience-based system to rewire habits and beliefs.",
       "categories": [
         "goal-setting",
         "habit-formation",
         "brain-reprogramming",
         "self-improvement"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "JuO1pyNFPgM",
       "video_title": "I’ll Prove It - THE SIMULATION IS REAL",
       "video_url": "https://www.youtube.com/watch?v=JuO1pyNFPgM",
       "one_line": "Society now inhabits hyperreality where simulations and signs have replaced any original reality.",
+      "best_for": "Watch this if you feel overwhelmed by media, brands, and social platforms that seem more real than life itself.",
       "categories": [
         "hyperreality",
         "simulacra",
@@ -10305,13 +10327,14 @@
         "philosophy",
         "cultural-critique"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "LZZgxc1tnGM",
       "video_title": "Set Goals with BRAINWASHING!",
       "video_url": "https://www.youtube.com/watch?v=LZZgxc1tnGM",
       "one_line": "Apply the FEAR formula to brainwash yourself into achieving goals by speaking directly to your mammalian brain.",
+      "best_for": "Watch this if you want a neuroscience-based system for setting sticky goals and building unbreakable discipline.",
       "categories": [
         "goal-setting",
         "self-discipline",
@@ -10319,13 +10342,14 @@
         "habits",
         "personal-development"
       ],
-      "card_count": 0
+      "card_count": 9
     },
     {
       "video_id": "LdX19_rW4Pk",
       "video_title": "Break the Programming in 5min, 42sec",
       "video_url": "https://www.youtube.com/watch?v=LdX19_rW4Pk",
       "one_line": "Obedience is an unconscious 5-step nervous system ritual that trades authenticity for survival, which can be interrupted with honest micro-defiance.",
+      "best_for": "Watch this if you people-please, silence your truth to keep peace, or want to rewire automatic compliance into authentic power.",
       "categories": [
         "self-development",
         "breaking-conditioning",
@@ -10333,13 +10357,14 @@
         "authenticity",
         "obedience-ritual"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "LnfQiXZc8EI",
       "video_title": "Part Two: The Scary LOOPHOLE in our Brains (Part Two)",
       "video_url": "https://www.youtube.com/watch?v=LnfQiXZc8EI",
       "one_line": "Our ancient tribal brain scripts for survival and conformity still override modern behavior and drive influence.",
+      "best_for": "Watch this if you want to understand primal brain mechanisms that make persuasion effective or fail.",
       "categories": [
         "persuasion",
         "brain-science",
@@ -10347,38 +10372,41 @@
         "tribal-psychology",
         "human-behavior"
       ],
-      "card_count": 0
+      "card_count": 9
     },
     {
       "video_id": "MlLozKukNKk",
       "video_title": "Fix these FIVE things DESTROYING your AUTHORITY 🎓",
       "video_url": "https://www.youtube.com/watch?v=MlLozKukNKk",
       "one_line": "Master confidence, discipline, leadership, gratitude and enjoyment to build personal authority.",
+      "best_for": "Watch this if you want to increase your influence, confidence and magnetic presence with others.",
       "categories": [
         "personal-development",
         "building-authority",
         "self-improvement"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "N1QKZS6f2Oo",
       "video_title": "The Trigger Hack — Your Brain’s Backdoor",
       "video_url": "https://www.youtube.com/watch?v=N1QKZS6f2Oo",
       "one_line": "Hack emotional triggers to bypass logic and create instant subconscious connections.",
+      "best_for": "Watch this if you want to master subconscious influence and build instant rapport.",
       "categories": [
         "persuasion",
         "emotional-triggers",
         "neuro-cognitive-intelligence",
         "influence-tactics"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "OuY9zgy6og0",
       "video_title": "Three things that you can do RIGHT NOW to change your life in 2023- MASTER New Year’s resolutions",
       "video_url": "https://www.youtube.com/watch?v=OuY9zgy6og0",
       "one_line": "Prioritize your future self, control mental focus, and fuel your body to enable all other success habits.",
+      "best_for": "Watch this if you struggle to follow through on goals, diets, or New Year's resolutions despite consuming self-help content.",
       "categories": [
         "self-improvement",
         "discipline",
@@ -10386,13 +10414,14 @@
         "nutrition",
         "future-self"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "PYf1-5Ce9H0",
       "video_title": "Instant Control - FULL Formula",
       "video_url": "https://www.youtube.com/watch?v=PYf1-5Ce9H0",
       "one_line": "Control outcomes by naming frames, categories, and metaphors before anyone argues content.",
+      "best_for": "Watch this if you need to influence high-stakes conversations, negotiations, or conflicts without debate.",
       "categories": [
         "influence",
         "frames",
@@ -10400,13 +10429,14 @@
         "identity-metaphors",
         "negotiation-tactics"
       ],
-      "card_count": 0
+      "card_count": 10
     },
     {
       "video_id": "PbEJ_y7tscY",
       "video_title": "You can ONLY Influence these THREE Things - How everything from Fraud to Influence happens - Exposed",
       "video_url": "https://www.youtube.com/watch?v=PbEJ_y7tscY",
       "one_line": "Influence operates only through electricity, chemicals, and genetics rooted in ancestral survival.",
+      "best_for": "Watch this if you want to master the evolutionary biology behind persuasion and compliance.",
       "categories": [
         "persuasion",
         "influence",
@@ -10414,13 +10444,14 @@
         "FATE-model",
         "genetic-triggers"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "Pt7r9q73Ovk",
       "video_title": "Official Trailer: Phrase Seven - based on the novel by Chase Hughes",
       "video_url": "https://www.youtube.com/watch?v=Pt7r9q73Ovk",
       "one_line": "Phrase Seven is a thriller about a secret influence group deploying hypnosis, memory erasure, and behavioral control on a global scale.",
+      "best_for": "Watch this if you enjoy high-concept psychological thrillers centered on mind control and covert operations.",
       "categories": [
         "psychological-thriller",
         "mind-control",
@@ -10434,45 +10465,49 @@
       "video_title": "Wait… You Can Do That? The Blueprint of Desire, Control, and…Healing.",
       "video_url": "https://www.youtube.com/watch?v=RNYYnAi9owA",
       "one_line": "People act from fear-driven protective masks, not free choice; influence succeeds by activating six behavioral systems.",
+      "best_for": "Watch this if you want to master precise influence, read hidden fears, and help others exit lifelong protective patterns.",
       "categories": [
         "influence",
         "persuasion",
         "behavioral-systems",
         "fear-processing"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "RbQfgBa9eNM",
       "video_title": "OWN Any Room (Before you speak) - The Social “XBA” Formula",
       "video_url": "https://www.youtube.com/watch?v=RbQfgBa9eNM",
       "one_line": "Control any room by holding the strongest frame through belief and minimal reaction.",
+      "best_for": "Watch this if you want to command respect and influence through presence before saying a word.",
       "categories": [
         "frame-control",
         "social-dynamics",
         "influence-tactics",
         "personal-presence"
       ],
-      "card_count": 0
+      "card_count": 9
     },
     {
       "video_id": "SJ0gTmR1RPk",
       "video_title": "Human Violence Prediction Roll Call with Chase Hughes",
       "video_url": "https://www.youtube.com/watch?v=SJ0gTmR1RPk",
       "one_line": "Behavioral skills and nonverbal awareness outperform tactics alone, enabling violence prediction and voluntary compliance in high-stakes encounters.",
+      "best_for": "Watch this if you work in law enforcement, intelligence, or security and want to reduce assault risk through pre-violence indicators.",
       "categories": [
         "nonverbal-communication",
         "violence-prediction",
         "behavioral-profiling",
         "law-enforcement-training"
       ],
-      "card_count": 0
+      "card_count": 6
     },
     {
       "video_id": "SRb1sbuCNWA",
       "video_title": "How They Broke us All - ⚠️ WARNING: GRAPHIC",
       "video_url": "https://www.youtube.com/watch?v=SRb1sbuCNWA",
       "one_line": "Society has been psychologically engineered for control through trauma, propaganda, and algorithmic conditioning.",
+      "best_for": "Watch this if you feel constant anxiety, outrage, or suspect your thoughts aren't truly your own.",
       "categories": [
         "mass-manipulation",
         "psychological-warfare",
@@ -10480,13 +10515,14 @@
         "algorithmic-control",
         "mind-control"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "TiF9Xp1Id5k",
       "video_title": "The EXACT Recipe for Authority: Operative Training Revealed",
       "video_url": "https://www.youtube.com/watch?v=TiF9Xp1Id5k",
       "one_line": "Trigger authority perception through five subconscious tripwires: movement, appearance, confidence, connection, and intent.",
+      "best_for": "Watch this if you want to project natural authority and influence groups or individuals with composure and presence.",
       "categories": [
         "authority-building",
         "body-language",
@@ -10494,26 +10530,28 @@
         "leadership",
         "influence-tactics"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "TovxJfkRHNo",
       "video_title": "Meet Chase Hughes",
       "video_url": "https://www.youtube.com/watch?v=TovxJfkRHNo",
       "one_line": "Chase Hughes teaches that true success comes from helping others and mastering behavioral skills that create an unfair advantage.",
+      "best_for": "Watch this if you want an introduction to Chase Hughes' philosophy on influence, success, and elite human behavior training.",
       "categories": [
         "behavioral-influence",
         "success-mindset",
         "competitive-advantage",
         "personal-development"
       ],
-      "card_count": 0
+      "card_count": 5
     },
     {
       "video_id": "UQWiWQ54qp0",
       "video_title": "The Scary LOOPHOLE in our Brains (Part One)",
       "video_url": "https://www.youtube.com/watch?v=UQWiWQ54qp0",
       "one_line": "Effective persuasion targets the brain's deep ancestral hierarchy rather than surface thoughts.",
+      "best_for": "Watch this if you want to understand how scripts, focus, and impulses drive rapid influence.",
       "categories": [
         "persuasion",
         "brain-hierarchy",
@@ -10521,39 +10559,42 @@
         "human-behavior",
         "sales-psychology"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "VD1RI50NXzk",
       "video_title": "The 5 Sentences That Turn The Tables",
       "video_url": "https://www.youtube.com/watch?v=VD1RI50NXzk",
       "one_line": "Statements set psychological frames while questions lock others inside them.",
+      "best_for": "Watch this if you want to control high-stakes conversations, negotiations, or authority dynamics.",
       "categories": [
         "frame-control",
         "negotiation-tactics",
         "influence",
         "conversation-framework"
       ],
-      "card_count": 0
+      "card_count": 9
     },
     {
       "video_id": "W4tXqcXeHHM",
       "video_title": "Update On My Brain Disease",
       "video_url": "https://www.youtube.com/watch?v=W4tXqcXeHHM",
       "one_line": "Mitochondrial therapies reversed severe seizures and memory loss after conventional medicine failed.",
+      "best_for": "Watch this if you or someone you know faces seizures, memory decline, or neurodegenerative issues and seeks alternative approaches.",
       "categories": [
         "brain-health",
         "mitochondrial-function",
         "natural-healing",
         "neurology"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "WsjRzwlGxR0",
       "video_title": "Your Brain’s Quiet Emergency | What Dr. Boz Showed Me",
       "video_url": "https://www.youtube.com/watch?v=WsjRzwlGxR0",
       "one_line": "Persistent ketosis plus mitochondrial hacks like methylene blue and red light therapy enables brain repair and metabolic restoration.",
+      "best_for": "Watch this if you have brain injury, metabolic dysfunction, or want to optimize mitochondrial health for longevity.",
       "categories": [
         "ketogenic-diet",
         "mitochondrial-health",
@@ -10561,13 +10602,14 @@
         "methylene-blue",
         "red-light-therapy"
       ],
-      "card_count": 0
+      "card_count": 10
     },
     {
       "video_id": "X30ozakFzkU",
       "video_title": "Cognitive Virology: Mass Infection",
       "video_url": "https://www.youtube.com/watch?v=X30ozakFzkU",
       "one_line": "Ideas spread like viruses through a five-step cycle that hijacks emotion, identity, and replication.",
+      "best_for": "Watch this if you want to detect manipulative beliefs in media, politics, relationships, or your own thinking.",
       "categories": [
         "cognitive-virology",
         "meme-theory",
@@ -10575,26 +10617,28 @@
         "psychological-defense",
         "idea-spread"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "X4BC3QZGQbc",
       "video_title": "My Brain Disease",
       "video_url": "https://www.youtube.com/watch?v=X4BC3QZGQbc",
       "one_line": "Chase Hughes reveals his temporal lobe epilepsy and its profound distortion of reality.",
+      "best_for": "Watch this if you or a loved one experiences seizures, amnesia, or reality distortions.",
       "categories": [
         "temporal-lobe-epilepsy",
         "neurological-disorders",
         "symptom-awareness",
         "brain-health"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "XSN4uuL3jMg",
       "video_title": "2026 Is Already Decided — What Will Happen",
       "video_url": "https://www.youtube.com/watch?v=XSN4uuL3jMg",
       "one_line": "Systems under pressure produce predictable societal friction, isolation, AI integration, and synthetic confusion.",
+      "best_for": "Watch this if you want a mental model for recognizing patterns in emerging geopolitical, technological, and cultural shifts.",
       "categories": [
         "future-trends",
         "system-pressure",
@@ -10602,13 +10646,14 @@
         "psychological-operations",
         "social-isolation"
       ],
-      "card_count": 0
+      "card_count": 10
     },
     {
       "video_id": "YXh1g3Y0Sto",
       "video_title": "This Will Make You Dangerous with Influence",
       "video_url": "https://www.youtube.com/watch?v=YXh1g3Y0Sto",
       "one_line": "True influence targets the limbic system to liberate the authentic self behind masks.",
+      "best_for": "Watch this if you want to move beyond logical scripts and create deep emotional impact.",
       "categories": [
         "influence",
         "persuasion",
@@ -10616,39 +10661,42 @@
         "nervous-system",
         "leadership"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "YsBUbQg7My0",
       "video_title": "What it Feels like to SEE INTO People",
       "video_url": "https://www.youtube.com/watch?v=YsBUbQg7My0",
       "one_line": "All behavior is encrypted grief from childhood needs for being liked, safe, and chosen.",
+      "best_for": "Watch this if you want to decode disproportionate reactions in yourself and others without judgment.",
       "categories": [
         "emotional-intelligence",
         "psychology",
         "self-awareness",
         "personal-development"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "YvyUdcVk_gA",
       "video_title": "The Cheat Code for Controlling Conflict",
       "video_url": "https://www.youtube.com/watch?v=YvyUdcVk_gA",
       "one_line": "Master the ego triangle and frame control to instantly de-escalate any conflict.",
+      "best_for": "Watch this if you deal with narcissists, emotional blowups, or endless arguments with difficult people.",
       "categories": [
         "conflict-resolution",
         "ego-triangle",
         "frame-control",
         "de-escalation-tactics"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "ZiR68FD5h_o",
       "video_title": "How the 1% Control Reality — They See It DIFFERENTLY",
       "video_url": "https://www.youtube.com/watch?v=ZiR68FD5h_o",
       "one_line": "True influence arises from mastering your worldview and self, not from scripts or techniques.",
+      "best_for": "Watch this if you rely on sales scripts that fail and want to build authentic influence.",
       "categories": [
         "influence",
         "self-mastery",
@@ -10656,13 +10704,14 @@
         "worldview",
         "confidence"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "ab7yeWYXx-g",
       "video_title": "Event: The \"CHEAT CODE\"  with Chase Hughes",
       "video_url": "https://www.youtube.com/watch?v=ab7yeWYXx-g",
       "one_line": "Attendees share glowing testimonials about the transformative experience and practical skills from Chase Hughes' event.",
+      "best_for": "Watch this if you want to hear participant feedback on a Chase Hughes personal development workshop.",
       "categories": [
         "testimonials",
         "personal-development",
@@ -10675,19 +10724,21 @@
       "video_title": "Every Argument is With a GHOST",
       "video_url": "https://www.youtube.com/watch?v=abhmtkqnW7s",
       "one_line": "Every argument replays an old childhood wound with ghosts from the past, not the present event.",
+      "best_for": "Watch this if you want to understand your disproportionate reactions in relationships and break free from old emotional patterns.",
       "categories": [
         "emotional-triggers",
         "relationships",
         "childhood-wounds",
         "self-awareness"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "azE7nqqQMmo",
       "video_title": "Charlie Kirk’s Death Exposed the Biggest Scam in History",
       "video_url": "https://www.youtube.com/watch?v=azE7nqqQMmo",
       "one_line": "Celebrations of political murder expose how elites manufacture left-right division to maintain control.",
+      "best_for": "Watch this if you feel manipulated by media outrage and want to break the cycle of tribal hatred.",
       "categories": [
         "political-division",
         "media-manipulation",
@@ -10695,26 +10746,28 @@
         "elite-control",
         "social-unity"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "b3AN2wY4qAM",
       "video_title": "Every PSYOP Will Become Obvious",
       "video_url": "https://www.youtube.com/watch?v=b3AN2wY4qAM",
       "one_line": "Master the FATE model and red flags to detect and score psychological operations with precision.",
+      "best_for": "Watch this if you want to build immunity against media manipulation, propaganda, and engineered crises.",
       "categories": [
         "psyop-detection",
         "critical-thinking",
         "media-literacy",
         "manipulation-tactics"
       ],
-      "card_count": 0
+      "card_count": 9
     },
     {
       "video_id": "b9aitHk6hvs",
       "video_title": "Rapid Behavior Profiling - AudioBook Preview - Chapter 1",
       "video_url": "https://www.youtube.com/watch?v=b9aitHk6hvs",
       "one_line": "Mastering observation, communication, and behavior via the 6MX system enables rapid behavioral profiling in under six minutes.",
+      "best_for": "Watch this if you want to build practical skills in reading people, spotting objections instantly, and influencing decisions effectively.",
       "categories": [
         "behavioral-profiling",
         "nonverbal-communication",
@@ -10722,52 +10775,56 @@
         "body-language",
         "mastery-levels"
       ],
-      "card_count": 0
+      "card_count": 9
     },
     {
       "video_id": "e6g40CYvcb0",
       "video_title": "We Are Livestock. It Was All a Lie.",
       "video_url": "https://www.youtube.com/watch?v=e6g40CYvcb0",
       "one_line": "Reality has been replaced by a six-layer simulation of symbols, conditioning, fear, narratives, and political theater.",
+      "best_for": "Watch this if you feel the world is increasingly theatrical, hollow, and emotionally manipulative.",
       "categories": [
         "media-manipulation",
         "social-conditioning",
         "narrative-warfare",
         "cultural-critique"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "eqmUBrgnEHg",
       "video_title": "The REAL Secret of Confidence and Limiting Beliefs: with Chase Hughes",
       "video_url": "https://www.youtube.com/watch?v=eqmUBrgnEHg",
       "one_line": "Overcome limiting beliefs by naming and reframing them as a child's voice to build confidence as safety plus positive expectations.",
+      "best_for": "Watch this if you want practical tools to dismantle self-doubt and develop authentic confidence in sales or leadership.",
       "categories": [
         "confidence-building",
         "limiting-beliefs",
         "mental-reprogramming",
         "self-improvement"
       ],
-      "card_count": 0
+      "card_count": 9
     },
     {
       "video_id": "fE6k8gsvMIg",
       "video_title": "How Confidence Gives People an Unfair Advantage",
       "video_url": "https://www.youtube.com/watch?v=fE6k8gsvMIg",
       "one_line": "Confidence creates unfair advantages in promotions, raises, relationships, and daily life by signaling leadership.",
+      "best_for": "Watch this if you want to understand the mechanics of confidence and how to generate it yourself.",
       "categories": [
         "confidence-building",
         "social-influence",
         "persuasion",
         "evolutionary-psychology"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "fam7w9iG0hQ",
       "video_title": "The Rise of MASS PSYCHOSIS",
       "video_url": "https://www.youtube.com/watch?v=fam7w9iG0hQ",
       "one_line": "Separation from nature and manufactured uncertainty drive psychopathy, biopathy, and societal collapse.",
+      "best_for": "Watch this if you want to understand how urban life and confusion tactics fuel mass mental and social decay.",
       "categories": [
         "mass-psychosis",
         "psychopathy",
@@ -10775,39 +10832,42 @@
         "societal-collapse",
         "social-manipulation"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "i97jIqaAhw8",
       "video_title": "Inside Chase Hughes’ NCI University Training",
       "video_url": "https://www.youtube.com/watch?v=i97jIqaAhw8",
       "one_line": "True behavioral expertise requires turning observations into real-time actions after first mastering your own brain.",
+      "best_for": "Watch this if you want to understand what separates superficial psychology knowledge from executable influence skills.",
       "categories": [
         "behavior-profiling",
         "self-awareness",
         "practical-psychology",
         "influence-training"
       ],
-      "card_count": 0
+      "card_count": 4
     },
     {
       "video_id": "iksaUTFRhT4",
       "video_title": "Newsmax: Grant Stinchfield asks Chase about Biden's Specific Behaviors",
       "video_url": "https://www.youtube.com/watch?v=iksaUTFRhT4",
       "one_line": "Body language expert reveals Biden's cues for honest versus scripted speech.",
+      "best_for": "Watch this if you want to decode nonverbal signals in political debates.",
       "categories": [
         "body-language",
         "nonverbal-communication",
         "deception-detection",
         "political-analysis"
       ],
-      "card_count": 0
+      "card_count": 5
     },
     {
       "video_id": "jFxDeLH1CXU",
       "video_title": "Deal with Bullies the RIGHT way.",
       "video_url": "https://www.youtube.com/watch?v=jFxDeLH1CXU",
       "one_line": "Bullies act from fear and insecurity; respond with empathy and de-escalation instead of retaliation.",
+      "best_for": "Watch this if you or your kids encounter bullies at school or work and want empathetic response strategies.",
       "categories": [
         "dealing-with-bullies",
         "de-escalation",
@@ -10815,39 +10875,42 @@
         "social-dynamics",
         "parenting-advice"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "l7kwBnOudfU",
       "video_title": "BREAKING: The REALITY The Media Isn't Telling You About Iran",
       "video_url": "https://www.youtube.com/watch?v=l7kwBnOudfU",
       "one_line": "Iran was psychologically hijacked by fear and narrative control, not cultural evolution, serving as a preview for any modern society.",
+      "best_for": "Watch this if you want to understand how authoritarian takeovers happen in educated societies and what comes next.",
       "categories": [
         "psychological-warfare",
         "authoritarianism",
         "geopolitics",
         "regime-change"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "lDNUdRUMIII",
       "video_title": "The Phrase Seven EXPERIENCE",
       "video_url": "https://www.youtube.com/watch?v=lDNUdRUMIII",
       "one_line": "Intro to a hypnotic fiction audiobook where all power begins and ends in the mind.",
+      "best_for": "Listen if you enjoy fictional stories blending suspense, persuasion, and hypnotic elements.",
       "categories": [
         "hypnosis",
         "audiobook",
         "fiction",
         "mental-influence"
       ],
-      "card_count": 0
+      "card_count": 2
     },
     {
       "video_id": "lZ3_GUilpnk",
       "video_title": "Neuroscience JUST Did the IMPOSSIBLE",
       "video_url": "https://www.youtube.com/watch?v=lZ3_GUilpnk",
       "one_line": "Scientists mapped exactly how psilocybin rewires the brain using a modified rabies virus tracer.",
+      "best_for": "Watch this if you want to understand the precise, programmable mechanisms behind psychedelic brain rewiring and identity change.",
       "categories": [
         "neuroscience",
         "psilocybin",
@@ -10855,25 +10918,27 @@
         "psychedelics",
         "brain-rewiring"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "m_JRyCq6jOk",
       "video_title": "What if you had your own butler?",
       "video_url": "https://www.youtube.com/watch?v=m_JRyCq6jOk",
       "one_line": "Become your own butler by proactively preparing for and serving your future self.",
+      "best_for": "Watch this if you want a motivating mindset shift toward better daily habits and self-care.",
       "categories": [
         "self-improvement",
         "productivity",
         "habits"
       ],
-      "card_count": 0
+      "card_count": 6
     },
     {
       "video_id": "mo1jemUQ6FM",
       "video_title": "Can you be Programmed to Kill on Command? Fraud and Lies about what happened to RFK?",
       "video_url": "https://www.youtube.com/watch?v=mo1jemUQ6FM",
       "one_line": "Hypnosis can create programmable assassins with induced amnesia, as explored through MKUltra and the RFK case.",
+      "best_for": "Watch this if you want to understand hypnosis limits, suggestibility, and historical mind control research.",
       "categories": [
         "hypnosis",
         "mind-control",
@@ -10881,26 +10946,28 @@
         "suggestibility",
         "manchurian-candidate"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "n5poKK4lR5c",
       "video_title": "How the Brain is HIJACKED into Compliance - Chase Hughes ⭕️",
       "video_url": "https://www.youtube.com/watch?v=n5poKK4lR5c",
       "one_line": "Novelty hijacks focus to create behavioral loopholes enabling extreme compliance.",
+      "best_for": "Watch this if you want to understand hidden triggers behind obedience and protect against manipulation.",
       "categories": [
         "psychological-influence",
         "obedience-experiments",
         "behavioral-loopholes",
         "persuasion"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "n5qW_mqa4mQ",
       "video_title": "Use This 'Mind Weapon' to Influence Anyone",
       "video_url": "https://www.youtube.com/watch?v=n5qW_mqa4mQ",
       "one_line": "A 6-step formula weaponizes cognitive dissonance to guide people into adopting new identities and behaviors.",
+      "best_for": "Watch this if you want practical persuasion techniques for sales, leadership, parenting, or trial consulting.",
       "categories": [
         "persuasion",
         "cognitive-dissonance",
@@ -10908,52 +10975,56 @@
         "sales-techniques",
         "leadership"
       ],
-      "card_count": 0
+      "card_count": 10
     },
     {
       "video_id": "nBnWjoBG3PM",
       "video_title": "Why Influence Experts Call This Diagram “A Cheat Code”",
       "video_url": "https://www.youtube.com/watch?v=nBnWjoBG3PM",
       "one_line": "A Venn diagram of survivorship, confirmation, and overconfidence biases diagnoses blind spots in persuasion and sales expertise.",
+      "best_for": "Watch this if you want to identify cognitive biases in yourself, your team, or persuasion coaches.",
       "categories": [
         "cognitive-biases",
         "persuasion",
         "sales-training",
         "self-awareness"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "nTpQq1a9zhI",
       "video_title": "Planned Event? The Truth About NJ’s Drone ‘UFOs",
       "video_url": "https://www.youtube.com/watch?v=nTpQq1a9zhI",
       "one_line": "NJ drone sightings may be a psyop using fear to expand government control.",
+      "best_for": "Watch this if you want tools to detect media manipulation and government fear campaigns.",
       "categories": [
         "psychological-operations",
         "ufo-narratives",
         "critical-thinking",
         "media-manipulation"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "nV2ClnExpWw",
       "video_title": "Confidence Fixed in Exactly 05:43",
       "video_url": "https://www.youtube.com/watch?v=nV2ClnExpWw",
       "one_line": "True confidence is a programmable skill built on self-forgiveness and internal permission, not external validation.",
+      "best_for": "Watch this if you seek unshakeable confidence that influences others without needing approval or readiness.",
       "categories": [
         "self-confidence",
         "personal-development",
         "mindset-shifts",
         "self-forgiveness"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "n_RQDvlwFX8",
       "video_title": "Influence and Persuasion Training with Chase Hughes of The Behavior Panel",
       "video_url": "https://www.youtube.com/watch?v=n_RQDvlwFX8",
       "one_line": "This video contains only attendee testimonials praising Chase Hughes' persuasion training.",
+      "best_for": "Watch this if you want to hear why participants recommend Chase Hughes' influence seminars.",
       "categories": [
         "influence-training",
         "persuasion",
@@ -10967,6 +11038,7 @@
       "video_title": "Language Has a VERY DARK Secret (I’ll Prove it)",
       "video_url": "https://www.youtube.com/watch?v=o9mIyxcYc6U",
       "one_line": "Language functions as a mental parasite that names experiences first and constructs identity.",
+      "best_for": "Watch this if you want to understand how language limits perception and shapes who you think you are.",
       "categories": [
         "language",
         "perception",
@@ -10974,65 +11046,70 @@
         "mindfulness",
         "linguistic-relativity"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "pjCP8yqgC98",
       "video_title": "WORLD-LEADING HYPNOTISTS React to Netflix’ “HYPNOTIC.” Chase Hughes ft. SpideyHypnosis",
       "video_url": "https://www.youtube.com/watch?v=pjCP8yqgC98",
       "one_line": "Experts separate real hypnosis techniques from Hollywood fiction in Netflix's Hypnotic.",
+      "best_for": "Watch this if you want to understand practical hypnosis limits, myths, and therapeutic value.",
       "categories": [
         "hypnosis",
         "persuasion",
         "behavior-profiling",
         "movie-analysis"
       ],
-      "card_count": 0
+      "card_count": 9
     },
     {
       "video_id": "qB3lpAS9Usw",
       "video_title": "Your Brain Won’t Let You Change — Until This Happens",
       "video_url": "https://www.youtube.com/watch?v=qB3lpAS9Usw",
       "one_line": "Fix brain chemistry and destroy your old identity before any goal-setting or mindset work can succeed.",
+      "best_for": "Watch this if you repeatedly fail at habits and goals despite knowing exactly what to do.",
       "categories": [
         "brain-chemistry",
         "identity-change",
         "neurotransmitters",
         "self-discipline"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "qC1X_xebS0U",
       "video_title": "Your EGO is NOT What They Told You",
       "video_url": "https://www.youtube.com/watch?v=qC1X_xebS0U",
       "one_line": "Ego is the psyche's executive, not an enemy; it develops through stages toward unity and peace.",
+      "best_for": "Watch this if you're trapped in self-criticism, comparison, anxiety, or seeking higher self-awareness.",
       "categories": [
         "ego-development",
         "self-awareness",
         "psychology",
         "personal-growth"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "qEhOh26BfzM",
       "video_title": "You’re Talking to Scar Tissue (Not People)",
       "video_url": "https://www.youtube.com/watch?v=qEhOh26BfzM",
       "one_line": "Beliefs are post-hoc stories masking nervous system safety programs rooted in past trauma.",
+      "best_for": "Watch this if you want to influence people by addressing their hidden needs instead of surface beliefs.",
       "categories": [
         "human-psychology",
         "influence",
         "behavioral-profiling",
         "nervous-system"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "qwhL44I4vtI",
       "video_title": "This will BREAK YOU (out)",
       "video_url": "https://www.youtube.com/watch?v=qwhL44I4vtI",
       "one_line": "Shame and guilt are cowardice that fracture you; radical self-forgiveness creates wholeness and power.",
+      "best_for": "Watch this if you carry secret shame that blocks your confidence, leadership, or ability to be fully present.",
       "categories": [
         "self-forgiveness",
         "overcoming-shame",
@@ -11040,26 +11117,28 @@
         "leadership",
         "mental-models"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "qyaqzA8FRZ0",
       "video_title": "How to WIN the Game of Earth",
       "video_url": "https://www.youtube.com/watch?v=qyaqzA8FRZ0",
       "one_line": "Master Earth's hidden mechanics through self-discovery, custom quests, and scoring high on love, connection, adaptability, authenticity, and contribution.",
+      "best_for": "Watch this if you feel stuck in reactive survival mode and want a game-like framework for purposeful self-mastery.",
       "categories": [
         "self-mastery",
         "life-philosophy",
         "personal-development",
         "mindset"
       ],
-      "card_count": 0
+      "card_count": 8
     },
     {
       "video_id": "r9uYu8_cISw",
       "video_title": "Why You Can’t Relax - Emotional DEBT",
       "video_url": "https://www.youtube.com/watch?v=r9uYu8_cISw",
       "one_line": "Unprocessed emotions accumulate as emotional debt that compounds into personality, reactivity, and health problems.",
+      "best_for": "Watch this if you can't relax, feel chronically anxious, or mistake avoidance patterns for your personality.",
       "categories": [
         "emotional-debt",
         "nervous-system",
@@ -11067,26 +11146,28 @@
         "perspective-shifts",
         "self-awareness"
       ],
-      "card_count": 0
+      "card_count": 10
     },
     {
       "video_id": "t1duqsFXOpQ",
       "video_title": "Someone Designed This Experience - Here's How",
       "video_url": "https://www.youtube.com/watch?v=t1duqsFXOpQ",
       "one_line": "Use SORUM-PRISM-NARS-TRAPIN-FATE frameworks to detect and predict engineered psychological operations.",
+      "best_for": "Watch this if you want to read coordinated media campaigns and manufactured crises before they fully land.",
       "categories": [
         "psychological-operations",
         "media-literacy",
         "influence-detection",
         "crisis-frameworks"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "telaiUB2Rro",
       "video_title": "The Two Biggest Lies in HISTORY",
       "video_url": "https://www.youtube.com/watch?v=telaiUB2Rro",
       "one_line": "Cause blindness and confusing pleasure with happiness sabotage psychology, goals, and behavior change.",
+      "best_for": "Watch this if you're stuck in failed goal-setting, habit loops, or chasing empty dopamine hits.",
       "categories": [
         "self-improvement",
         "psychology",
@@ -11094,26 +11175,28 @@
         "mental-models",
         "neuroscience"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "uWqg1uIf4nk",
       "video_title": "An ACTUAL Map of Human Influence and persuasion",
       "video_url": "https://www.youtube.com/watch?v=uWqg1uIf4nk",
       "one_line": "The six-axis model maps the core factors that drive all human influence and persuasion.",
+      "best_for": "Watch this if you want a practical diagnostic and planning tool for sales, therapy, leadership, or negotiation.",
       "categories": [
         "persuasion",
         "influence-model",
         "six-axis-model",
         "human-psychology"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "wsF3REbr-44",
       "video_title": "Why things Feel “OFF” Lately — The GLITCH.",
       "video_url": "https://www.youtube.com/watch?v=wsF3REbr-44",
       "one_line": "Algorithms and digital overstimulation erode memory and identity through constant distraction.",
+      "best_for": "Watch this if you feel foggy, apathetic, or disconnected from your former passionate self.",
       "categories": [
         "digital-overload",
         "memory-recovery",
@@ -11121,33 +11204,35 @@
         "self-reclamation",
         "algorithmic-influence"
       ],
-      "card_count": 0
+      "card_count": 7
     },
     {
       "video_id": "ySqH_7VVdos",
       "video_title": "Behavioral Magnetics | Why We Ruin Good Things",
       "video_url": "https://www.youtube.com/watch?v=ySqH_7VVdos",
       "one_line": "Your nervous system craves familiar pain over healthy peace, recycling childhood patterns.",
+      "best_for": "Watch this if you repeatedly sabotage healthy relationships or feel pulled toward toxic situations.",
       "categories": [
         "psychology",
         "self-help",
         "relationships",
         "trauma-healing"
       ],
-      "card_count": 0
+      "card_count": 9
     },
     {
       "video_id": "zCOcCMDxE2I",
       "video_title": "Free Will has a BACK DOOR",
       "video_url": "https://www.youtube.com/watch?v=zCOcCMDxE2I",
       "one_line": "Persuasion is identity hacking: create safe dissonance then grant permission to change.",
+      "best_for": "Watch this if you want to influence behavior by targeting identity instead of using logic or force.",
       "categories": [
         "persuasion",
         "cognitive-dissonance",
         "identity-hacking",
         "influence-techniques"
       ],
-      "card_count": 0
+      "card_count": 8
     }
   ]
 }

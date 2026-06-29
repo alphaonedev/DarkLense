@@ -267,6 +267,7 @@ def main():
         atlas_root=args.atlas_root,
     )
     cards = flatten_cards(export)
+    cards_per_video = Counter(c["video_id"] for c in cards)
     videos = [v for v in export.get("videos", []) if v.get("source_id") != "example-expert"]
     source = next(
         (s for s in export.get("sources", []) if s.get("id") == "chasehughesofficial"),
@@ -304,8 +305,9 @@ def main():
                 "video_title": v["video_title"],
                 "video_url": v["video_url"],
                 "one_line": v.get("one_line", ""),
+                "best_for": v.get("best_for", ""),
                 "categories": v.get("categories", []),
-                "card_count": v.get("card_count", 0),
+                "card_count": cards_per_video.get(v["video_id"], 0),
             }
             for v in videos
         ],

@@ -184,10 +184,17 @@ function renderWarnings(nhi) {
 function renderVideosTable(corpus) {
   const el = document.getElementById('videos-table');
   if (!el || !corpus?.videos) return;
+  const countByVideo = {};
+  (corpus.cards || []).forEach(c => {
+    countByVideo[c.video_id] = (countByVideo[c.video_id] || 0) + 1;
+  });
   el.innerHTML = `<table class="data-table"><thead><tr><th>Video</th><th>Cards</th><th>Link</th></tr></thead><tbody>
-    ${corpus.videos.map(v => `<tr>
-      <td>${v.video_title}</td><td>${v.card_count}</td>
-      <td><a href="${v.video_url}" target="_blank" rel="noopener noreferrer">YouTube</a></td></tr>`).join('')}
+    ${corpus.videos.map(v => {
+      const n = v.card_count || countByVideo[v.video_id] || 0;
+      return `<tr>
+      <td>${v.video_title}</td><td>${n}</td>
+      <td><a href="${v.video_url}" target="_blank" rel="noopener noreferrer">YouTube</a></td></tr>`;
+    }).join('')}
   </tbody></table>`;
 }
 
