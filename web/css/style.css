@@ -216,16 +216,25 @@ section[id] { scroll-margin-top: 4.5rem; }
   border: 1px solid var(--border); background: var(--bg-card);
   cursor: pointer; transition: border-color 0.2s, transform 0.15s;
   border-top: 3px solid var(--theme-color, var(--accent));
+  color: var(--text);
+  font-family: var(--font);
+  font-size: var(--text-base);
+  appearance: none;
+  -webkit-appearance: none;
 }
 .hva-theme-card:hover {
   border-color: var(--theme-color, var(--accent));
   transform: translateY(-2px);
+  background: var(--bg-elevated);
 }
 .hva-theme-count {
   font-family: var(--mono); font-size: 1.5rem; font-weight: 800;
   color: var(--theme-color, var(--accent));
 }
-.hva-theme-card h4 { font-size: var(--text-base); margin: 0.35rem 0; }
+.hva-theme-card h4 {
+  font-size: var(--text-base); margin: 0.35rem 0;
+  color: var(--text); font-weight: 600;
+}
 .hva-theme-card p { font-size: var(--text-sm); color: var(--text-muted); line-height: 1.5; }
 .hva-theme-cta {
   display: inline-block; margin-top: 0.65rem; font-size: var(--text-xs);
