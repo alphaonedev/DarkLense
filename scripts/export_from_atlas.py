@@ -1,15 +1,29 @@
 #!/usr/bin/env python3
-"""Export Knowledge Atlas paraphrased cards into DarkLense corpus (no raw transcripts)."""
+"""Export Knowledge Atlas paraphrased cards into DarkLense corpus (no raw transcripts).
 
+Uses the official Atlas export CLI — not raw transcript files:
+  python3 atlas.py export --source <id> -o /tmp/atlas.json
+  python3 atlas.py export --rebuild -o /tmp/atlas.json   # rebuild first
+
+HTTP equivalents (when Atlas is running on :5179):
+  GET /api/export?source_id=<id>
+  GET /api/export/full   # full ZIP (includes DB, transcripts — do NOT republish raw)
+"""
+
+import argparse
 import json
-import re
-from collections import Counter, defaultdict
+import subprocess
+import sys
+import tempfile
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
-ATLAS_EXPORT = Path(__file__).resolve().parents[2] / "knowledge-atlas" / "data" / "export" / "knowledge_atlas.json"
+ATLAS_ROOT = Path(__file__).resolve().parents[2] / "knowledge-atlas"
+ATLAS_CLI = ATLAS_ROOT / "atlas.py"
 OUT_DIR = Path(__file__).resolve().parents[1] / "data"
 WEB_DIR = Path(__file__).resolve().parents[1] / "web" / "data"
+DEFAULT_SOURCE = "chasehughesofficial"
 
 PILLAR_RULES = {
     "psychological_warfare": [
@@ -194,11 +208,64 @@ def build_nhi_analysis(cards: list, videos: list, source: dict) -> dict:
     }
 
 
-def main():
-    if not ATLAS_EXPORT.exists():
-        raise SystemExit(f"Atlas export not found: {ATLAS_EXPORT}")
+def fetch_atlas_export(*, source: str | None, rebuild: bool, atlas_root: Path) -> dict:
+    """Pull JSON via official `atlas.py export` (preferred over reading files directly)."""
+    cli = atlas_root / "atlas.py"
+    if not cli.exists():
+        fallback = atlas_root / "data" / "export" / "knowledge_atlas.json"
+        if not fallback.exists():
+            raise SystemExit(
+                f"Atlas not found at {atlas_root}. "
+                "Clone knowledge-atlas or pass --atlas-root."
+            )
+        print(f"WARN: atlas.py missing — reading {fallback}", file=sys.stderr)
+        raw = fallback.read_text(encoding="utf-8")
+        return json.loads(raw)
 
-    export = json.loads(ATLAS_EXPORT.read_text())
+    with tempfile.NamedTemporaryFile(suffix=".json", delete=False) as tmp:
+        tmp_path = Path(tmp.name)
+
+    cmd = [sys.executable, str(cli), "export", "-o", str(tmp_path)]
+    if source:
+        cmd.extend(["--source", source])
+    if rebuild:
+        cmd.append("--rebuild")
+
+    print(f"Running: {' '.join(cmd)}", file=sys.stderr)
+    result = subprocess.run(cmd, cwd=str(atlas_root), capture_output=True, text=True)
+    if result.returncode != 0:
+        tmp_path.unlink(missing_ok=True)
+        print(result.stderr or result.stdout, file=sys.stderr)
+        raise SystemExit(f"atlas.py export failed (exit {result.returncode})")
+
+    try:
+        export = json.loads(tmp_path.read_text(encoding="utf-8"))
+    finally:
+        tmp_path.unlink(missing_ok=True)
+
+    if result.stderr:
+        print(result.stderr, file=sys.stderr)
+    return export
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Export Atlas → DarkLense corpus (cards only)")
+    ap.add_argument("--atlas-root", type=Path, default=ATLAS_ROOT,
+                    help="Path to knowledge-atlas checkout")
+    ap.add_argument("--source", default=DEFAULT_SOURCE,
+                    help="Atlas source_id filter (default: chasehughesofficial)")
+    ap.add_argument("--rebuild", action="store_true",
+                    help="Pass --rebuild to atlas.py export (runs build_knowledge.py first)")
+    ap.add_argument("--all-sources", action="store_true",
+                    help="Export full atlas (no --source filter)")
+    args = ap.parse_args()
+
+    source_filter = None if args.all_sources else args.source
+    export = fetch_atlas_export(
+        source=source_filter,
+        rebuild=args.rebuild,
+        atlas_root=args.atlas_root,
+    )
     cards = flatten_cards(export)
     videos = [v for v in export.get("videos", []) if v.get("source_id") != "example-expert"]
     source = next(
