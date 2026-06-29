@@ -8,27 +8,27 @@ const DL_SVG = {
         <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.05"/>
       </radialGradient>
     </defs>
-    <text x="200" y="22" text-anchor="middle" fill="#a855f7" font-size="11" font-weight="700">DARKLENSE — THREE PILLARS</text>
+    <text x="200" y="22" text-anchor="middle" fill="#a855f7" font-size="12" font-weight="700">DARKLENSE — THREE PILLARS</text>
     <ellipse cx="200" cy="150" rx="140" ry="90" fill="url(#lensGrad)" stroke="#a855f7" stroke-width="1.5" opacity="0.8"/>
     <circle cx="200" cy="150" r="35" fill="#12151c" stroke="#a855f7" stroke-width="2"/>
-    <text x="200" y="147" text-anchor="middle" fill="#e8edf5" font-size="8" font-weight="700">YOU</text>
-    <text x="200" y="158" text-anchor="middle" fill="#8b9cb8" font-size="6">awareness</text>
-    <text x="75" y="100" fill="#8b5cf6" font-size="9" font-weight="700">PSYCHOLOGY</text>
-    <text x="60" y="115" fill="#8b9cb8" font-size="7">identity · emotion</text>
-    <text x="60" y="126" fill="#8b9cb8" font-size="7">persuasion · frames</text>
-    <text x="310" y="95" fill="#ef4444" font-size="9" font-weight="700">PSY WAR</text>
-    <text x="295" y="110" fill="#8b9cb8" font-size="7">psyops · propaganda</text>
-    <text x="295" y="121" fill="#8b9cb8" font-size="7">division · fear</text>
-    <text x="155" y="235" fill="#3b82f6" font-size="9" font-weight="700">INFO OPS</text>
-    <text x="140" y="250" fill="#8b9cb8" font-size="7">media · algorithms · narrative</text>
+    <text x="200" y="147" text-anchor="middle" fill="#e8edf5" font-size="9" font-weight="700">YOU</text>
+    <text x="200" y="158" text-anchor="middle" fill="#8b9cb8" font-size="7">awareness</text>
+    <text x="75" y="100" fill="#8b5cf6" font-size="10" font-weight="700">PSYCHOLOGY</text>
+    <text x="60" y="115" fill="#8b9cb8" font-size="8">identity · emotion</text>
+    <text x="60" y="126" fill="#8b9cb8" font-size="8">persuasion · frames</text>
+    <text x="310" y="95" fill="#ef4444" font-size="10" font-weight="700">PSY WAR</text>
+    <text x="295" y="110" fill="#8b9cb8" font-size="8">psyops · propaganda</text>
+    <text x="295" y="121" fill="#8b9cb8" font-size="8">division · fear</text>
+    <text x="155" y="235" fill="#3b82f6" font-size="10" font-weight="700">INFO OPS</text>
+    <text x="140" y="250" fill="#8b9cb8" font-size="8">media · algorithms · narrative</text>
     <line x1="170" y1="130" x2="100" y2="105" stroke="#8b5cf6" stroke-width="1.5" opacity="0.6"/>
     <line x1="230" y1="125" x2="300" y2="100" stroke="#ef4444" stroke-width="1.5" opacity="0.6"/>
     <line x1="200" y1="185" x2="200" y2="220" stroke="#3b82f6" stroke-width="1.5" opacity="0.6"/>
-    <text x="200" y="272" text-anchor="middle" fill="#8b9cb8" font-size="8">See influence · Resist manipulation · Attribute sources</text>
+    <text x="200" y="272" text-anchor="middle" fill="#8b9cb8" font-size="9">See influence · Resist manipulation · Attribute sources</text>
   </svg>`,
 
   defenseStack: `<svg viewBox="0 0 400 220" class="dl-svg" role="img" aria-label="Defense stack">
-    <text x="200" y="18" text-anchor="middle" fill="#10b981" font-size="10" font-weight="700">DEFENSIVE LITERACY STACK</text>
+    <text x="200" y="18" text-anchor="middle" fill="#10b981" font-size="11" font-weight="700">DEFENSIVE LITERACY STACK</text>
     ${[
       { y: 40, label: '1 DETECT', sub: 'Psyop patterns · media literacy', color: '#ef4444' },
       { y: 85, label: '2 DECODE', sub: 'Frames · triggers · influence formula', color: '#f59e0b' },
@@ -36,14 +36,14 @@ const DL_SVG = {
       { y: 175, label: '4 DISCIPLINE', sub: 'Tech outcomes · self-authorship', color: '#10b981' },
     ].map(s => `
       <rect x="40" y="${s.y}" width="320" height="36" rx="8" fill="${s.color}18" stroke="${s.color}" stroke-width="1.5"/>
-      <text x="60" y="${s.y + 16}" fill="${s.color}" font-size="9" font-weight="700">${s.label}</text>
-      <text x="60" y="${s.y + 28}" fill="#8b9cb8" font-size="7">${s.sub}</text>
+      <text x="60" y="${s.y + 16}" fill="${s.color}" font-size="10" font-weight="700">${s.label}</text>
+      <text x="60" y="${s.y + 28}" fill="#8b9cb8" font-size="8">${s.sub}</text>
     `).join('')}
-    <text x="200" y="210" text-anchor="middle" fill="#8b9cb8" font-size="7">NHI-assessed priority — recognition before technique</text>
+    <text x="200" y="210" text-anchor="middle" fill="#8b9cb8" font-size="8">NHI-assessed priority — recognition before technique</text>
   </svg>`,
 
   psyopFlow: `<svg viewBox="0 0 420 200" class="dl-svg" role="img" aria-label="Psyop attack flow">
-    <text x="210" y="16" text-anchor="middle" fill="#ef4444" font-size="10" font-weight="700">INFORMATION OPERATION ATTACK CHAIN</text>
+    <text x="210" y="16" text-anchor="middle" fill="#ef4444" font-size="11" font-weight="700">INFORMATION OPERATION ATTACK CHAIN</text>
     ${[
       { x: 30, label: 'Narrative\ninject' },
       { x: 110, label: 'Algorithm\namplify' },
@@ -52,13 +52,13 @@ const DL_SVG = {
       { x: 350, label: 'Division\n& action' },
     ].map((s, i) => `
       <rect x="${s.x}" y="50" width="70" height="50" rx="6" fill="#1a1f2a" stroke="#ef4444" stroke-width="1.5"/>
-      <text x="${s.x + 35}" y="72" text-anchor="middle" fill="#fca5a5" font-size="7" font-weight="600">${s.label.split('\n')[0]}</text>
-      <text x="${s.x + 35}" y="84" text-anchor="middle" fill="#fca5a5" font-size="7">${s.label.split('\n')[1] || ''}</text>
+      <text x="${s.x + 35}" y="72" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="600">${s.label.split('\n')[0]}</text>
+      <text x="${s.x + 35}" y="84" text-anchor="middle" fill="#fca5a5" font-size="8">${s.label.split('\n')[1] || ''}</text>
       ${i < 4 ? `<line x1="${s.x + 70}" y1="75" x2="${s.x + 88}" y2="75" stroke="#ef4444" stroke-width="2" marker-end="url(#dlArr)"/>` : ''}
     `).join('')}
     <rect x="30" y="120" width="360" height="36" rx="6" fill="rgba(16,185,129,0.1)" stroke="#10b981"/>
-    <text x="210" y="138" text-anchor="middle" fill="#10b981" font-size="8" font-weight="700">DEFENSE: Pattern map · Outcome-based tech · Source attribution</text>
-    <text x="210" y="152" text-anchor="middle" fill="#8b9cb8" font-size="7">Break chain at detection — not after division</text>
+    <text x="210" y="138" text-anchor="middle" fill="#10b981" font-size="9" font-weight="700">DEFENSE: Pattern map · Outcome-based tech · Source attribution</text>
+    <text x="210" y="152" text-anchor="middle" fill="#8b9cb8" font-size="8">Break chain at detection — not after division</text>
     <defs><marker id="dlArr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#ef4444"/></marker></defs>
   </svg>`
 };
@@ -94,7 +94,7 @@ function renderDefenseStack(nhi) {
       <span class="stack-pri">${s.priority}</span>
       <div>
         <strong>${s.layer}</strong> — ${s.focus}
-        <span style="color:var(--text-muted);font-size:0.78rem"> (${s.cards} related cards)</span>
+        <span style="color:var(--text-muted);font-size:var(--text-sm)"> (${s.cards} related cards)</span>
       </div>
     </li>`).join('')}</ul>`;
 }
@@ -112,7 +112,7 @@ function renderCharts(nhi, corpus) {
           backgroundColor: ['#a855f7', '#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6', '#6b7280'],
         }],
       },
-      options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'right', labels: { color: '#8b9cb8', font: { size: 10 } } } } },
+      options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'right', labels: { color: '#8b9cb8', font: { size: 12 } } } } },
     });
   }
 
@@ -133,7 +133,7 @@ function renderCharts(nhi, corpus) {
         plugins: { legend: { display: false } },
         scales: {
           y: { grid: { color: '#2a3344' }, ticks: { color: '#8b9cb8' } },
-          x: { grid: { display: false }, ticks: { color: '#8b9cb8', font: { size: 9 } } },
+          x: { grid: { display: false }, ticks: { color: '#8b9cb8', font: { size: 11 } } },
         },
       },
     });
@@ -153,7 +153,7 @@ function renderCharts(nhi, corpus) {
         plugins: { legend: { display: false } },
         scales: {
           x: { grid: { color: '#2a3344' }, ticks: { color: '#8b9cb8' } },
-          y: { ticks: { color: '#8b9cb8', font: { size: 8 } } },
+          y: { ticks: { color: '#8b9cb8', font: { size: 10 } } },
         },
       },
     });

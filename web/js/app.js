@@ -77,9 +77,9 @@ function renderCardBrowser() {
       </div>
       <h4>${c.title}</h4>
       <p>${c.content}</p>
-      ${c.reasoning ? `<p style="margin-top:0.4rem;font-size:0.78rem"><em>${c.reasoning}</em></p>` : ''}
+      ${c.reasoning ? `<p style="margin-top:0.4rem;font-size:var(--text-sm)"><em>${c.reasoning}</em></p>` : ''}
       ${c.framework_steps?.length ? `<ol class="k-card-steps">${c.framework_steps.map(s => `<li>${s}</li>`).join('')}</ol>` : ''}
-      ${c.source_quote ? `<p style="margin-top:0.4rem;font-size:0.75rem;color:var(--warn)">"${c.source_quote}"</p>` : ''}
+      ${c.source_quote ? `<p style="margin-top:0.4rem;font-size:var(--text-xs);color:var(--warn)">"${c.source_quote}"</p>` : ''}
       <p class="k-card-source"><a href="${c.video_url}" target="_blank" rel="noopener noreferrer">${c.video_title}</a></p>
     </article>`).join('');
 
