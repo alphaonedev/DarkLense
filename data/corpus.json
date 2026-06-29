@@ -2,7 +2,7 @@
   "meta": {
     "name": "DarkLense",
     "version": "1.0.0",
-    "exported_at": "2026-06-29T19:37:05.690351Z",
+    "exported_at": "2026-06-29T19:38:58.254448Z",
     "source": "Knowledge Atlas (paraphrased cards only)",
     "copyright": "Copyright 2026 AlphaOne LLC. Corpus synthesis licensed Apache-2.0.",
     "attribution": "Knowledge cards are LLM-paraphrased standalone distillations. Original video content © respective creators. Source: Chase Hughes — https://www.youtube.com/@chasehughesofficial/videos",
@@ -15,12 +15,12 @@
     "url": "https://www.youtube.com/@chasehughesofficial/videos",
     "domain": "Psychology",
     "expertise": "Psychological Warfare Subject Matter Expert",
-    "videoCount": 85
+    "videoCount": 86
   },
   "totals": {
-    "cards": 635,
-    "videos": 85,
-    "categories": 359
+    "cards": 645,
+    "videos": 86,
+    "categories": 364
   },
   "cards": [
     {
@@ -4224,6 +4224,164 @@
     },
     {
       "id": 269,
+      "kind": "mental_model",
+      "category": "manufactured-reality",
+      "title": "The Nice Cage Traps Best",
+      "content": "The most effective prison looks like a pleasant, familiar hometown with perfect fences, clean streets, and pre-approved dreams. No bars or locks are needed when the environment feels like the America people already half-remember and long for.",
+      "reasoning": "People will defend their own choice to remain in a comfortable setting far more vigorously than they would resist overt force.",
+      "source_quote": "The cage is really freaking nice.",
+      "framework_steps": [],
+      "video_id": "SlQtB9Xuxlk",
+      "video_title": "It's Worse for YOU",
+      "video_url": "https://www.youtube.com/watch?v=SlQtB9Xuxlk",
+      "source_id": "chasehughesofficial",
+      "pillar": "information_operations"
+    },
+    {
+      "id": 270,
+      "kind": "principle",
+      "category": "control-mechanisms",
+      "title": "Installed Fears Block the Exit",
+      "content": "Controllers implant specific fears in childhood, such as terror of water, then reinforce them for decades through media, education, and staged events. These fears are positioned exactly at the only real exit from the constructed world.",
+      "reasoning": "A self-maintained fear is more reliable than any physical barrier because the person enforces it unconsciously.",
+      "source_quote": "It was installed in him when he was a little kid.",
+      "framework_steps": [],
+      "video_id": "SlQtB9Xuxlk",
+      "video_title": "It's Worse for YOU",
+      "video_url": "https://www.youtube.com/watch?v=SlQtB9Xuxlk",
+      "source_id": "chasehughesofficial",
+      "pillar": "psychology"
+    },
+    {
+      "id": 271,
+      "kind": "tactic",
+      "category": "control-mechanisms",
+      "title": "Arrange Conditions, Don't Command",
+      "content": "Effective manipulation never says no directly. Instead, it engineers the environment so every road, bus, flight, or opportunity produces an obstacle. The target then freely decides to stay, defending that decision to the death.",
+      "reasoning": "People fight hardest for choices they believe they made themselves.",
+      "source_quote": "He makes sure that no is the only thing the environment ever says.",
+      "framework_steps": [],
+      "video_id": "SlQtB9Xuxlk",
+      "video_title": "It's Worse for YOU",
+      "video_url": "https://www.youtube.com/watch?v=SlQtB9Xuxlk",
+      "source_id": "chasehughesofficial",
+      "pillar": "psychology"
+    },
+    {
+      "id": 272,
+      "kind": "quote",
+      "category": "human-nature",
+      "title": "We Accept the Presented Reality",
+      "content": "People accept the reality of the world with which they're presented. This principle explains both the prisoner inside the constructed world and the audience that watches and funds it.",
+      "reasoning": null,
+      "source_quote": "We accept the reality of the world with which we're presented. It's as simple as that.",
+      "framework_steps": [],
+      "video_id": "SlQtB9Xuxlk",
+      "video_title": "It's Worse for YOU",
+      "video_url": "https://www.youtube.com/watch?v=SlQtB9Xuxlk",
+      "source_id": "chasehughesofficial",
+      "pillar": "information_operations"
+    },
+    {
+      "id": 273,
+      "kind": "mental_model",
+      "category": "awakening",
+      "title": "Restlessness Is the Unkillable Spark",
+      "content": "The persistent desire to explore beyond the map, to reach the uncolored place like Fiji, cannot be fully engineered away even after thirty years of behavioral conditioning. This restlessness is the authentic piece of the person that was never meant for the cage.",
+      "reasoning": "It represents the Gnostic concept of the spark trapped in the false creation.",
+      "source_quote": null,
+      "framework_steps": [],
+      "video_id": "SlQtB9Xuxlk",
+      "video_title": "It's Worse for YOU",
+      "video_url": "https://www.youtube.com/watch?v=SlQtB9Xuxlk",
+      "source_id": "chasehughesofficial",
+      "pillar": "psychology"
+    },
+    {
+      "id": 274,
+      "kind": "framework",
+      "category": "awakening",
+      "title": "Awakening Through Checking Reality",
+      "content": "True awakening happens through direct contact with anomalies, not arguments or new beliefs. Notice the rain that follows only you, the radio narrating your movements, the looping cars. Then run experiments that test whether the world behaves as claimed.",
+      "reasoning": "Belief can be countered with better belief; direct verification cannot.",
+      "source_quote": "He didn't believe his way out. He checked his way out.",
+      "framework_steps": [
+        "Observe seams that cannot exist in the official reality",
+        "Run small personal experiments to test consistency",
+        "Let the accumulating discrepancies reorganize your past without external persuasion"
+      ],
+      "video_id": "SlQtB9Xuxlk",
+      "video_title": "It's Worse for YOU",
+      "video_url": "https://www.youtube.com/watch?v=SlQtB9Xuxlk",
+      "source_id": "chasehughesofficial",
+      "pillar": "psychology"
+    },
+    {
+      "id": 275,
+      "kind": "warning",
+      "category": "cognitive-dissonance",
+      "title": "Truth Costs Too Much to Accept",
+      "content": "Evidence of a false reality arrives into a room already occupied by your identity, marriage, friends, and thirty years of sunk costs. The mind protects the existing furniture rather than accept the scale of betrayal required to reorganize everything.",
+      "reasoning": "Festinger's doomsday cult study showed that disproof often strengthens belief when the personal price of abandoning it is too high.",
+      "source_quote": "The more you've paid for a belief, the more being proven wrong can cement it even further.",
+      "framework_steps": [],
+      "video_id": "SlQtB9Xuxlk",
+      "video_title": "It's Worse for YOU",
+      "video_url": "https://www.youtube.com/watch?v=SlQtB9Xuxlk",
+      "source_id": "chasehughesofficial",
+      "pillar": "psychology"
+    },
+    {
+      "id": 276,
+      "kind": "mental_model",
+      "category": "social-control",
+      "title": "Loved Ones as Unpaid Guards",
+      "content": "The most effective wardens are the people closest to you who manage the lie with concern, love, and soft redirection rather than force. They protect their own investment in the shared story, creating confusion that buys time.",
+      "reasoning": "A prison guarded by people who love you produces compliance without riots.",
+      "source_quote": "They're keeping him organized inside of the lie.",
+      "framework_steps": [],
+      "video_id": "SlQtB9Xuxlk",
+      "video_title": "It's Worse for YOU",
+      "video_url": "https://www.youtube.com/watch?v=SlQtB9Xuxlk",
+      "source_id": "chasehughesofficial",
+      "pillar": "psychology"
+    },
+    {
+      "id": 277,
+      "kind": "framework",
+      "category": "practical-gnosis",
+      "title": "Three Practices for Gnosis",
+      "content": "Gnosis is a trainable skill of seeing seams, not hunting villains. First, ask what a message is trying to make you feel or do before asking who is behind it. Second, identify the beliefs you defend fastest as your own load-bearing walls. Third, break character in small doses by refusing to laugh off anomalies or accept neat explanations too quickly.",
+      "reasoning": "Pointing the practice inward prevents defensive walls from going up in others.",
+      "source_quote": null,
+      "framework_steps": [
+        "Hunt seams, not villains",
+        "Audit your own dissonance first",
+        "Break character in small doses and become harder to rush or shame"
+      ],
+      "video_id": "SlQtB9Xuxlk",
+      "video_title": "It's Worse for YOU",
+      "video_url": "https://www.youtube.com/watch?v=SlQtB9Xuxlk",
+      "source_id": "chasehughesofficial",
+      "pillar": "psychology"
+    },
+    {
+      "id": 278,
+      "kind": "principle",
+      "category": "control-mechanisms",
+      "title": "Comfort Fails, Then Fear Returns",
+      "content": "When the comfort of the constructed world stops holding people in place, operators reach for the pre-installed wound and amplify fear. The same mechanism that cues sunshine can cue a storm to drive the person back into the safe zone.",
+      "reasoning": "Historical patterns from Gulf of Tonkin to Reichstag show fear as the reliable backup steering tool when comfort loses effectiveness.",
+      "source_quote": null,
+      "framework_steps": [],
+      "video_id": "SlQtB9Xuxlk",
+      "video_title": "It's Worse for YOU",
+      "video_url": "https://www.youtube.com/watch?v=SlQtB9Xuxlk",
+      "source_id": "chasehughesofficial",
+      "pillar": "psychology"
+    },
+    {
+      "id": 279,
       "kind": "framework",
       "category": "authority-building",
       "title": "Five Authority Tripwires",
@@ -4238,7 +4396,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 270,
+      "id": 280,
       "kind": "tactic",
       "category": "body-language",
       "title": "Align Ears-Heart-Pelvis",
@@ -4253,7 +4411,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 271,
+      "id": 281,
       "kind": "tactic",
       "category": "body-language",
       "title": "Mirror Posture Reminder",
@@ -4268,7 +4426,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 272,
+      "id": 282,
       "kind": "mental_model",
       "category": "body-language",
       "title": "Underwater Movement Speed",
@@ -4283,7 +4441,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 273,
+      "id": 283,
       "kind": "mental_model",
       "category": "composure",
       "title": "Composure Pendulum",
@@ -4298,7 +4456,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 274,
+      "id": 284,
       "kind": "principle",
       "category": "confidence",
       "title": "Positive Intent Builds Confidence",
@@ -4313,7 +4471,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 275,
+      "id": 285,
       "kind": "quote",
       "category": "authority-building",
       "title": "Marcus Aurelius on Maximus",
@@ -4328,7 +4486,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 276,
+      "id": 286,
       "kind": "principle",
       "category": "leadership",
       "title": "Be Slowest and Most Comfortable",
@@ -4343,7 +4501,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 277,
+      "id": 287,
       "kind": "principle",
       "category": "success-mindset",
       "title": "Success Through Helping Others",
@@ -4358,7 +4516,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 278,
+      "id": 288,
       "kind": "principle",
       "category": "competitive-strategy",
       "title": "Never Fight Fair",
@@ -4373,7 +4531,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 279,
+      "id": 289,
       "kind": "mental_model",
       "category": "behavioral-influence",
       "title": "The Brain Has No Firewall",
@@ -4388,7 +4546,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 280,
+      "id": 290,
       "kind": "principle",
       "category": "human-skills",
       "title": "Behavioral Skills Create Superpowers",
@@ -4403,7 +4561,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 281,
+      "id": 291,
       "kind": "warning",
       "category": "learning",
       "title": "Prioritize Skills Over Courses",
@@ -4418,7 +4576,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 282,
+      "id": 292,
       "kind": "mental_model",
       "category": "learning-approach",
       "title": "Path Versus Goal",
@@ -4433,7 +4591,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 283,
+      "id": 293,
       "kind": "principle",
       "category": "brain-architecture",
       "title": "Evolutionary Brain Hierarchy",
@@ -4448,7 +4606,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 284,
+      "id": 294,
       "kind": "framework",
       "category": "hierarchy-of-influence",
       "title": "Hierarchy of Influence",
@@ -4468,7 +4626,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 285,
+      "id": 295,
       "kind": "tactic",
       "category": "script-triggering",
       "title": "Trigger Borrowed Scripts",
@@ -4483,7 +4641,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 286,
+      "id": 296,
       "kind": "tactic",
       "category": "focus-manipulation",
       "title": "Break Scripts for Instant Focus",
@@ -4498,7 +4656,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 287,
+      "id": 297,
       "kind": "mental_model",
       "category": "persuasion",
       "title": "Persuasion as Focus Management",
@@ -4513,7 +4671,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 288,
+      "id": 298,
       "kind": "framework",
       "category": "influence-cascade",
       "title": "The Influence Cascade",
@@ -4533,7 +4691,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 289,
+      "id": 299,
       "kind": "warning",
       "category": "persuasion-training",
       "title": "Information Experts Lack Depth",
@@ -4548,7 +4706,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 290,
+      "id": 300,
       "kind": "mental_model",
       "category": "frame-control",
       "title": "Frames Shape Every Interaction",
@@ -4563,7 +4721,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 291,
+      "id": 301,
       "kind": "warning",
       "category": "frame-control",
       "title": "Naked Questions Surrender Power",
@@ -4578,7 +4736,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 292,
+      "id": 302,
       "kind": "framework",
       "category": "frame-setting-statements",
       "title": "Five Frame-Setting Statements",
@@ -4599,7 +4757,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 293,
+      "id": 303,
       "kind": "framework",
       "category": "question-types",
       "title": "Five Frame-Locking Questions",
@@ -4620,7 +4778,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 294,
+      "id": 304,
       "kind": "tactic",
       "category": "resonance",
       "title": "Name Their Internal State",
@@ -4635,7 +4793,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 295,
+      "id": 305,
       "kind": "principle",
       "category": "frame-recovery",
       "title": "Recover From a Missed Frame",
@@ -4655,7 +4813,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 296,
+      "id": 306,
       "kind": "principle",
       "category": "frame-control",
       "title": "Assess the Existing Frame First",
@@ -4670,7 +4828,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 297,
+      "id": 307,
       "kind": "principle",
       "category": "influence",
       "title": "Focus on the Next Micro-Move",
@@ -4685,7 +4843,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 298,
+      "id": 308,
       "kind": "tactic",
       "category": "concession",
       "title": "Concede Before Hard Questions",
@@ -4700,7 +4858,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 299,
+      "id": 309,
       "kind": "mental_model",
       "category": "mitochondrial-health",
       "title": "Mitochondrial Dysfunction as Disease Root",
@@ -4715,7 +4873,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 300,
+      "id": 310,
       "kind": "tactic",
       "category": "brain-health",
       "title": "Leverage Methylene Blue",
@@ -4730,7 +4888,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 301,
+      "id": 311,
       "kind": "tactic",
       "category": "brain-health",
       "title": "High-Dose Melatonin Protocol",
@@ -4745,7 +4903,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 302,
+      "id": 312,
       "kind": "tactic",
       "category": "brain-health",
       "title": "Combine Red Light and Methylene Blue",
@@ -4760,7 +4918,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 303,
+      "id": 313,
       "kind": "mental_model",
       "category": "holistic-health",
       "title": "Nature Connection Prevents Disease",
@@ -4775,7 +4933,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 304,
+      "id": 314,
       "kind": "tactic",
       "category": "respiratory-health",
       "title": "Balance Nasal Breathing",
@@ -4790,7 +4948,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 305,
+      "id": 315,
       "kind": "tactic",
       "category": "brain-health",
       "title": "Use Beetroot for Cerebral Blood Flow",
@@ -4805,7 +4963,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 306,
+      "id": 316,
       "kind": "principle",
       "category": "brain-health",
       "title": "Neuroplasticity Enables Repair",
@@ -4820,7 +4978,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 307,
+      "id": 317,
       "kind": "principle",
       "category": "mitochondrial-health",
       "title": "Mitochondria Drive Nearly All Disease",
@@ -4835,7 +4993,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 308,
+      "id": 318,
       "kind": "mental_model",
       "category": "ketogenic-diet",
       "title": "Glucose vs Ketones as Cellular Fuel",
@@ -4850,7 +5008,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 309,
+      "id": 319,
       "kind": "principle",
       "category": "brain-repair",
       "title": "Ketosis Enables Synaptic Plasticity",
@@ -4865,7 +5023,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 310,
+      "id": 320,
       "kind": "tactic",
       "category": "supplementation",
       "title": "Methylene Blue for Mitochondrial Rescue",
@@ -4880,7 +5038,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 311,
+      "id": 321,
       "kind": "tactic",
       "category": "red-light-therapy",
       "title": "Combine Methylene Blue with Red Light",
@@ -4895,7 +5053,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 312,
+      "id": 322,
       "kind": "tactic",
       "category": "ketogenic-diet",
       "title": "Use Exogenous Ketones to Bootstrap Ketosis",
@@ -4910,7 +5068,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 313,
+      "id": 323,
       "kind": "warning",
       "category": "ketogenic-diet",
       "title": "Avoid Dirty Keto Products",
@@ -4925,7 +5083,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 314,
+      "id": 324,
       "kind": "framework",
       "category": "metabolic-monitoring",
       "title": "Track the Dr. Boz Ratio",
@@ -4945,7 +5103,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 315,
+      "id": 325,
       "kind": "principle",
       "category": "neuroprotection",
       "title": "Nicotine Is Neuroprotective",
@@ -4960,7 +5118,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 316,
+      "id": 326,
       "kind": "warning",
       "category": "dietary-avoidance",
       "title": "Alcohol Disrupts All Metabolic Repair",
@@ -4975,7 +5133,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 317,
+      "id": 327,
       "kind": "framework",
       "category": "cognitive-virology",
       "title": "The Five-Step Cognitive Virus Cycle",
@@ -4996,7 +5154,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 318,
+      "id": 328,
       "kind": "principle",
       "category": "meme-theory",
       "title": "Memes Replicate by Fitness, Not Truth",
@@ -5011,7 +5169,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 319,
+      "id": 329,
       "kind": "mental_model",
       "category": "cognitive-virology",
       "title": "Ideas Act Like Parasitic Viruses",
@@ -5026,7 +5184,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 320,
+      "id": 330,
       "kind": "warning",
       "category": "psychological-defense",
       "title": "Viral Beliefs Build Self-Protecting Clusters",
@@ -5041,7 +5199,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 321,
+      "id": 331,
       "kind": "tactic",
       "category": "disarming-ideas",
       "title": "Diagnostic Questions to Detect Infection",
@@ -5056,7 +5214,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 322,
+      "id": 332,
       "kind": "tactic",
       "category": "disarming-ideas",
       "title": "Epistemic Pull-Out Phrases",
@@ -5071,7 +5229,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 323,
+      "id": 333,
       "kind": "tactic",
       "category": "ethical-persuasion",
       "title": "Apply the Cycle for Constructive Influence",
@@ -5086,7 +5244,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 324,
+      "id": 334,
       "kind": "principle",
       "category": "persuasion",
       "title": "Attachment Must Precede Entry",
@@ -5101,7 +5259,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 325,
+      "id": 335,
       "kind": "warning",
       "category": "temporal-lobe-epilepsy",
       "title": "Hidden Seizures and Amnesia",
@@ -5116,7 +5274,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 326,
+      "id": 336,
       "kind": "mental_model",
       "category": "temporal-lobe-epilepsy",
       "title": "Post-Seizure Reality Blend",
@@ -5131,7 +5289,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 327,
+      "id": 337,
       "kind": "framework",
       "category": "dissociation-symptoms",
       "title": "Three Layers of Reality Distortion",
@@ -5150,7 +5308,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 328,
+      "id": 338,
       "kind": "principle",
       "category": "temporal-lobe-epilepsy",
       "title": "Seizure Time Dilation",
@@ -5165,7 +5323,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 329,
+      "id": 339,
       "kind": "tactic",
       "category": "coping-with-epilepsy",
       "title": "Masking Acute Memory Loss",
@@ -5180,7 +5338,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 330,
+      "id": 340,
       "kind": "mental_model",
       "category": "personal-resilience",
       "title": "Legacy Documentation Under Decline",
@@ -5195,7 +5353,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 331,
+      "id": 341,
       "kind": "warning",
       "category": "neurological-disorders",
       "title": "Mesial Temporal Sclerosis Risk",
@@ -5210,7 +5368,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 332,
+      "id": 342,
       "kind": "mental_model",
       "category": "system-pressure",
       "title": "Systems Under Pressure Behave Predictably",
@@ -5225,7 +5383,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 333,
+      "id": 343,
       "kind": "principle",
       "category": "geopolitical-pressure",
       "title": "Friction Over Open Conflict",
@@ -5240,7 +5398,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 334,
+      "id": 344,
       "kind": "warning",
       "category": "ai-impact",
       "title": "AI Replaces Creative Identity",
@@ -5255,7 +5413,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 335,
+      "id": 345,
       "kind": "principle",
       "category": "psychological-effects",
       "title": "Loneliness Comes From Friction",
@@ -5270,7 +5428,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 336,
+      "id": 346,
       "kind": "warning",
       "category": "ai-mental-health",
       "title": "AI Becomes Default Therapist",
@@ -5285,7 +5443,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 337,
+      "id": 347,
       "kind": "warning",
       "category": "information-environment",
       "title": "Saturation With Synthetic Content",
@@ -5300,7 +5458,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 338,
+      "id": 348,
       "kind": "principle",
       "category": "social-isolation",
       "title": "Isolation Presented as Relief",
@@ -5315,7 +5473,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 339,
+      "id": 349,
       "kind": "mental_model",
       "category": "psychological-operations",
       "title": "Overt Influence Shifts to Environment",
@@ -5330,7 +5488,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 340,
+      "id": 350,
       "kind": "principle",
       "category": "meaning-repair",
       "title": "Psychedelics Repair Lost Meaning",
@@ -5345,7 +5503,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 341,
+      "id": 351,
       "kind": "tactic",
       "category": "pattern-recognition",
       "title": "Ask If It's a Solution or Adjustment",
@@ -5360,7 +5518,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 342,
+      "id": 352,
       "kind": "mental_model",
       "category": "influence",
       "title": "Limbic Influence vs Placebo Influence",
@@ -5375,7 +5533,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 343,
+      "id": 353,
       "kind": "principle",
       "category": "influence",
       "title": "Rewrite Your Nervous System First",
@@ -5390,7 +5548,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 344,
+      "id": 354,
       "kind": "warning",
       "category": "influence",
       "title": "Liberation Is the Only Mission",
@@ -5405,7 +5563,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 345,
+      "id": 355,
       "kind": "framework",
       "category": "personal-conditioning",
       "title": "Break the Childhood Contract",
@@ -5424,7 +5582,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 346,
+      "id": 356,
       "kind": "principle",
       "category": "influence",
       "title": "Influence Moves Internal Reality",
@@ -5439,7 +5597,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 347,
+      "id": 357,
       "kind": "tactic",
       "category": "influence",
       "title": "Speak Truth the Body Cannot Ignore",
@@ -5454,7 +5612,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 348,
+      "id": 358,
       "kind": "mental_model",
       "category": "influence",
       "title": "Humans Are Not Logical Creatures",
@@ -5469,7 +5627,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 349,
+      "id": 359,
       "kind": "framework",
       "category": "childhood-psychology",
       "title": "Childhood Development Triangle",
@@ -5488,7 +5646,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 350,
+      "id": 360,
       "kind": "principle",
       "category": "behavioral-understanding",
       "title": "Behavior Is Encrypted Grief",
@@ -5503,7 +5661,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 351,
+      "id": 361,
       "kind": "mental_model",
       "category": "personal-growth",
       "title": "There Is No Grown-Up",
@@ -5518,7 +5676,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 352,
+      "id": 362,
       "kind": "framework",
       "category": "decoding-behavior",
       "title": "Decode the Triangle in Others",
@@ -5537,7 +5695,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 353,
+      "id": 363,
       "kind": "tactic",
       "category": "self-awareness",
       "title": "Reassure Your Inner Child",
@@ -5552,7 +5710,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 354,
+      "id": 364,
       "kind": "principle",
       "category": "persuasion",
       "title": "Persuasion Uses Language of Grief",
@@ -5567,7 +5725,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 355,
+      "id": 365,
       "kind": "warning",
       "category": "self-improvement",
       "title": "Self-Help Often Misses the Grief",
@@ -5582,7 +5740,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 356,
+      "id": 366,
       "kind": "principle",
       "category": "emotional-intelligence",
       "title": "Use Understanding, Never Fixing",
@@ -5597,7 +5755,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 357,
+      "id": 367,
       "kind": "framework",
       "category": "ego-triangle",
       "title": "The Ego Triangle Model",
@@ -5616,7 +5774,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 358,
+      "id": 368,
       "kind": "mental_model",
       "category": "ego-triangle",
       "title": "Identity Threats Are Most Common",
@@ -5631,7 +5789,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 359,
+      "id": 369,
       "kind": "tactic",
       "category": "de-escalation",
       "title": "Diagnose Threats from Behavior",
@@ -5646,7 +5804,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 360,
+      "id": 370,
       "kind": "tactic",
       "category": "de-escalation",
       "title": "Targeted Threat Responses",
@@ -5661,7 +5819,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 361,
+      "id": 371,
       "kind": "warning",
       "category": "frame-control",
       "title": "Never Do These 10 Things in Conflict",
@@ -5676,7 +5834,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 362,
+      "id": 372,
       "kind": "framework",
       "category": "frame-control",
       "title": "Tactical Pre-Framing",
@@ -5698,7 +5856,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 363,
+      "id": 373,
       "kind": "mental_model",
       "category": "frame-control",
       "title": "The Frame Controls Meaning",
@@ -5713,7 +5871,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 364,
+      "id": 374,
       "kind": "tactic",
       "category": "frame-control",
       "title": "Disarm and Reframe Tactics",
@@ -5728,7 +5886,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 365,
+      "id": 375,
       "kind": "framework",
       "category": "perception-lenses",
       "title": "The Five Lenses of Perception",
@@ -5749,7 +5907,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 366,
+      "id": 376,
       "kind": "principle",
       "category": "influence",
       "title": "Influence Is Being, Not Doing",
@@ -5764,7 +5922,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 367,
+      "id": 377,
       "kind": "mental_model",
       "category": "influence",
       "title": "Worldview Is the Real Bottleneck",
@@ -5779,7 +5937,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 368,
+      "id": 378,
       "kind": "warning",
       "category": "influence",
       "title": "Scripts Fail Without Self-Mastery",
@@ -5794,7 +5952,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 369,
+      "id": 379,
       "kind": "principle",
       "category": "perception",
       "title": "Perception Outranks Power",
@@ -5809,7 +5967,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 370,
+      "id": 380,
       "kind": "mental_model",
       "category": "confidence",
       "title": "Confidence Through Subtraction",
@@ -5824,7 +5982,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 371,
+      "id": 381,
       "kind": "principle",
       "category": "influence",
       "title": "Command Your Own Reality",
@@ -5839,7 +5997,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 372,
+      "id": 382,
       "kind": "principle",
       "category": "emotional-triggers",
       "title": "Arguments Are With Ghosts",
@@ -5854,7 +6012,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 373,
+      "id": 383,
       "kind": "mental_model",
       "category": "emotional-triggers",
       "title": "Childhood Pattern-Matching Database",
@@ -5869,7 +6027,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 374,
+      "id": 384,
       "kind": "principle",
       "category": "emotional-triggers",
       "title": "No Timestamp on Triggers",
@@ -5884,7 +6042,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 375,
+      "id": 385,
       "kind": "warning",
       "category": "emotional-triggers",
       "title": "Disproportionate Reaction Signal",
@@ -5899,7 +6057,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 376,
+      "id": 386,
       "kind": "framework",
       "category": "emotional-triggers",
       "title": "Three Layers of a Trigger",
@@ -5918,7 +6076,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 377,
+      "id": 387,
       "kind": "principle",
       "category": "emotional-triggers",
       "title": "Old Code on New Hardware",
@@ -5933,7 +6091,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 378,
+      "id": 388,
       "kind": "tactic",
       "category": "self-awareness",
       "title": "Ask for the First Time",
@@ -5948,7 +6106,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 379,
+      "id": 389,
       "kind": "principle",
       "category": "self-awareness",
       "title": "Reactions That Don't Fit",
@@ -5963,7 +6121,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 380,
+      "id": 390,
       "kind": "principle",
       "category": "political-violence",
       "title": "Violence Reveals Bankrupt Ideas",
@@ -5978,7 +6136,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 381,
+      "id": 391,
       "kind": "framework",
       "category": "radicalization",
       "title": "The Three-Step Radicalization Process",
@@ -5997,7 +6155,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 382,
+      "id": 392,
       "kind": "mental_model",
       "category": "media-manipulation",
       "title": "Left vs Right Is a Distraction",
@@ -6012,7 +6170,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 383,
+      "id": 393,
       "kind": "warning",
       "category": "political-violence",
       "title": "Cheering Assassination Normalizes Evil",
@@ -6027,7 +6185,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 384,
+      "id": 394,
       "kind": "mental_model",
       "category": "elite-control",
       "title": "The Covert Elite Playbook",
@@ -6042,7 +6200,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 385,
+      "id": 395,
       "kind": "principle",
       "category": "social-unity",
       "title": "Shared Needs Across the Aisle",
@@ -6057,7 +6215,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 386,
+      "id": 396,
       "kind": "tactic",
       "category": "personal-resistance",
       "title": "Choose Sanity as Rebellion",
@@ -6072,7 +6230,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 387,
+      "id": 397,
       "kind": "quote",
       "category": "violence",
       "title": "MLK on the Futility of Violence",
@@ -6087,7 +6245,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 388,
+      "id": 398,
       "kind": "framework",
       "category": "psyop-detection",
       "title": "The FATE Model",
@@ -6107,7 +6265,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 389,
+      "id": 399,
       "kind": "tactic",
       "category": "psyop-detection",
       "title": "Exploit Novelty Bias",
@@ -6122,7 +6280,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 390,
+      "id": 400,
       "kind": "warning",
       "category": "psyop-detection",
       "title": "Centralized Echo Chambers",
@@ -6137,7 +6295,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 391,
+      "id": 401,
       "kind": "tactic",
       "category": "psyop-detection",
       "title": "Counter Cognitive Dissonance Weapons",
@@ -6152,7 +6310,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 392,
+      "id": 402,
       "kind": "principle",
       "category": "psyop-detection",
       "title": "Follow the Money Trail",
@@ -6167,7 +6325,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 393,
+      "id": 403,
       "kind": "principle",
       "category": "psyop-detection",
       "title": "Context Boundary Shifting",
@@ -6182,7 +6340,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 394,
+      "id": 404,
       "kind": "tactic",
       "category": "psyop-detection",
       "title": "Deconstruct Archetypes",
@@ -6197,7 +6355,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 395,
+      "id": 405,
       "kind": "framework",
       "category": "psyop-detection",
       "title": "Frame Evaluation",
@@ -6217,7 +6375,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 396,
+      "id": 406,
       "kind": "tactic",
       "category": "psyop-detection",
       "title": "Spot Logical Fallacies",
@@ -6232,7 +6390,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 397,
+      "id": 407,
       "kind": "principle",
       "category": "behavioral-profiling",
       "title": "Three Roots of Failure",
@@ -6247,7 +6405,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 398,
+      "id": 408,
       "kind": "framework",
       "category": "mastery-levels",
       "title": "Four Levels of Behavioral Mastery",
@@ -6267,7 +6425,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 399,
+      "id": 409,
       "kind": "warning",
       "category": "learning-mindset",
       "title": "Dunning-Kruger in Behavior Reading",
@@ -6282,7 +6440,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 400,
+      "id": 410,
       "kind": "mental_model",
       "category": "nonverbal-communication",
       "title": "The Two-Thirds Rule",
@@ -6297,7 +6455,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 401,
+      "id": 411,
       "kind": "mental_model",
       "category": "brain-science",
       "title": "Mammalian Brain Drives Decisions",
@@ -6312,7 +6470,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 402,
+      "id": 412,
       "kind": "principle",
       "category": "persuasion-skills",
       "title": "Skills Beat Information",
@@ -6327,7 +6485,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 403,
+      "id": 413,
       "kind": "phrase",
       "category": "focus-management",
       "title": "Focus Is Currency",
@@ -6342,7 +6500,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 404,
+      "id": 414,
       "kind": "tactic",
       "category": "behavioral-profiling",
       "title": "Eliminate the Wait-Till-End Fallacy",
@@ -6357,7 +6515,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 405,
+      "id": 415,
       "kind": "principle",
       "category": "persuasion-skills",
       "title": "Decision Means To Cut Off",
@@ -6372,7 +6530,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 406,
+      "id": 416,
       "kind": "mental_model",
       "category": "mediated-reality",
       "title": "The Symbolic Layer",
@@ -6387,7 +6545,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 407,
+      "id": 417,
       "kind": "principle",
       "category": "branding",
       "title": "Humans as Branded Livestock",
@@ -6402,7 +6560,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 408,
+      "id": 418,
       "kind": "warning",
       "category": "human-conditioning",
       "title": "Performance Replaces Authenticity",
@@ -6417,7 +6575,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 409,
+      "id": 419,
       "kind": "principle",
       "category": "information-collapse",
       "title": "Content Versus Information",
@@ -6432,7 +6590,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 410,
+      "id": 420,
       "kind": "mental_model",
       "category": "fear-control",
       "title": "Fear as the Ultimate Engagement Tool",
@@ -6447,7 +6605,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 411,
+      "id": 421,
       "kind": "framework",
       "category": "narrative-warfare",
       "title": "Narrative Warfare Mechanism",
@@ -6469,7 +6627,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 412,
+      "id": 422,
       "kind": "mental_model",
       "category": "theater-of-power",
       "title": "Politics as Theater",
@@ -6484,7 +6642,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 413,
+      "id": 423,
       "kind": "principle",
       "category": "awakening",
       "title": "Seeing the Simulation",
@@ -6499,7 +6657,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 414,
+      "id": 424,
       "kind": "principle",
       "category": "confidence-building",
       "title": "Confidence Outranks All Techniques",
@@ -6514,7 +6672,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 415,
+      "id": 425,
       "kind": "mental_model",
       "category": "limiting-beliefs",
       "title": "Limiting Beliefs Are Childhood Survival Rules",
@@ -6529,7 +6687,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 416,
+      "id": 426,
       "kind": "tactic",
       "category": "limiting-beliefs",
       "title": "Use Wallpaper to Shame Limiting Beliefs",
@@ -6544,7 +6702,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 417,
+      "id": 427,
       "kind": "tactic",
       "category": "limiting-beliefs",
       "title": "Name Your Inner Critic's Radio Station",
@@ -6559,7 +6717,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 418,
+      "id": 428,
       "kind": "mental_model",
       "category": "limiting-beliefs",
       "title": "Inner Voice as a Six-Year-Old Child",
@@ -6574,7 +6732,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 419,
+      "id": 429,
       "kind": "principle",
       "category": "limiting-beliefs",
       "title": "Respond to Limiting Beliefs with Gratitude",
@@ -6589,7 +6747,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 420,
+      "id": 430,
       "kind": "principle",
       "category": "confidence-building",
       "title": "Choose Your Delusion Wisely",
@@ -6604,7 +6762,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 421,
+      "id": 431,
       "kind": "principle",
       "category": "confidence-building",
       "title": "Definition of True Confidence",
@@ -6619,7 +6777,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 422,
+      "id": 432,
       "kind": "framework",
       "category": "limiting-beliefs",
       "title": "Four Steps to Rewire Limiting Beliefs",
@@ -6639,7 +6797,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 423,
+      "id": 433,
       "kind": "principle",
       "category": "confidence-building",
       "title": "Confidence's Unfair Advantage",
@@ -6654,7 +6812,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 424,
+      "id": 434,
       "kind": "mental_model",
       "category": "evolutionary-psychology",
       "title": "Tribal Leadership Scanner",
@@ -6669,7 +6827,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 425,
+      "id": 435,
       "kind": "mental_model",
       "category": "confidence-building",
       "title": "Definition of Confidence",
@@ -6684,7 +6842,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 426,
+      "id": 436,
       "kind": "framework",
       "category": "social-influence",
       "title": "Five Elements of Confident Influence",
@@ -6705,7 +6863,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 427,
+      "id": 437,
       "kind": "tactic",
       "category": "confidence-building",
       "title": "Assume Internal Permission",
@@ -6720,7 +6878,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 428,
+      "id": 438,
       "kind": "principle",
       "category": "persuasion",
       "title": "Permission Beats Persuasion",
@@ -6735,7 +6893,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 429,
+      "id": 439,
       "kind": "warning",
       "category": "social-influence",
       "title": "The Confidence Man Mechanism",
@@ -6750,7 +6908,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 430,
+      "id": 440,
       "kind": "mental_model",
       "category": "societal-collapse",
       "title": "Social Collapse Scale",
@@ -6765,7 +6923,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 431,
+      "id": 441,
       "kind": "principle",
       "category": "psychopathy",
       "title": "Psychopaths Gravitate to Cities",
@@ -6780,7 +6938,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 432,
+      "id": 442,
       "kind": "warning",
       "category": "separation-from-nature",
       "title": "Ancestral Brain in Modern Cities",
@@ -6795,7 +6953,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 433,
+      "id": 443,
       "kind": "mental_model",
       "category": "separation-from-nature",
       "title": "Biopathy Defined",
@@ -6810,7 +6968,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 434,
+      "id": 444,
       "kind": "principle",
       "category": "social-manipulation",
       "title": "Induce Uncertainty to Control",
@@ -6825,7 +6983,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 435,
+      "id": 445,
       "kind": "principle",
       "category": "mass-psychosis",
       "title": "Expose to Reduce Power",
@@ -6840,7 +6998,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 436,
+      "id": 446,
       "kind": "warning",
       "category": "bystander-effect",
       "title": "Bystander Effect in Crises",
@@ -6855,7 +7013,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 437,
+      "id": 447,
       "kind": "principle",
       "category": "self-awareness",
       "title": "Master Your Own Brain First",
@@ -6870,7 +7028,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 438,
+      "id": 448,
       "kind": "principle",
       "category": "behavior-profiling",
       "title": "Action Beats Identification",
@@ -6885,7 +7043,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 439,
+      "id": 449,
       "kind": "warning",
       "category": "body-language",
       "title": "Internet Articles Are Insufficient",
@@ -6900,7 +7058,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 440,
+      "id": 450,
       "kind": "mental_model",
       "category": "skill-development",
       "title": "Knowledge Must Become Executable Skill",
@@ -6915,7 +7073,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 441,
+      "id": 451,
       "kind": "principle",
       "category": "body-language",
       "title": "Signs of Honest Behavior",
@@ -6930,7 +7088,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 442,
+      "id": 452,
       "kind": "mental_model",
       "category": "deception-detection",
       "title": "Focus on Comfort and Stress",
@@ -6945,7 +7103,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 443,
+      "id": 453,
       "kind": "tactic",
       "category": "body-language",
       "title": "Spot Scripted Camera Moments",
@@ -6960,7 +7118,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 444,
+      "id": 454,
       "kind": "warning",
       "category": "political-communication",
       "title": "Politicians as Performers",
@@ -6975,7 +7133,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 445,
+      "id": 455,
       "kind": "principle",
       "category": "nonverbal-communication",
       "title": "One-Hand Gestures as Truth Test",
@@ -6990,7 +7148,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 446,
+      "id": 456,
       "kind": "mental_model",
       "category": "dealing-with-bullies",
       "title": "Bullies as Fear-Driven Animals",
@@ -7005,7 +7163,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 447,
+      "id": 457,
       "kind": "framework",
       "category": "dealing-with-bullies",
       "title": "Four Roots of Bullying",
@@ -7025,7 +7183,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 448,
+      "id": 458,
       "kind": "principle",
       "category": "dealing-with-bullies",
       "title": "Bullies Equalize Their Pain",
@@ -7040,7 +7198,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 449,
+      "id": 459,
       "kind": "warning",
       "category": "dealing-with-bullies",
       "title": "Retaliation Makes You the Bully",
@@ -7055,7 +7213,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 450,
+      "id": 460,
       "kind": "mental_model",
       "category": "social-dynamics",
       "title": "Competitive vs Collaborative Mindset",
@@ -7070,7 +7228,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 451,
+      "id": 461,
       "kind": "tactic",
       "category": "de-escalation",
       "title": "Use Empathetic One-Liners",
@@ -7085,7 +7243,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 452,
+      "id": 462,
       "kind": "tactic",
       "category": "de-escalation",
       "title": "Name the Predicted Behavior",
@@ -7100,7 +7258,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 453,
+      "id": 463,
       "kind": "principle",
       "category": "dealing-with-bullies",
       "title": "Default to De-escalation",
@@ -7115,7 +7273,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 454,
+      "id": 464,
       "kind": "mental_model",
       "category": "psychological-warfare",
       "title": "People vs. The System",
@@ -7130,7 +7288,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 455,
+      "id": 465,
       "kind": "principle",
       "category": "revolutions",
       "title": "Revolutions Shift Violence Monopoly",
@@ -7145,7 +7303,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 456,
+      "id": 466,
       "kind": "quote",
       "category": "psychological-warfare",
       "title": "Belief Mandatory Makes Truth a Liability",
@@ -7160,7 +7318,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 457,
+      "id": 467,
       "kind": "principle",
       "category": "authoritarianism",
       "title": "Regimes Fall When Their Story Stops Working",
@@ -7175,7 +7333,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 458,
+      "id": 468,
       "kind": "principle",
       "category": "suppression",
       "title": "Memory of Self Defeats Suppression",
@@ -7190,7 +7348,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 459,
+      "id": 469,
       "kind": "mental_model",
       "category": "psychological-warfare",
       "title": "Psyops Hijack Existing Movements",
@@ -7205,7 +7363,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 460,
+      "id": 470,
       "kind": "framework",
       "category": "regime-change",
       "title": "Three Paths for Iran",
@@ -7224,7 +7382,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 461,
+      "id": 471,
       "kind": "warning",
       "category": "societal-collapse",
       "title": "Fear Replaces Consent",
@@ -7239,7 +7397,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 462,
+      "id": 472,
       "kind": "mental_model",
       "category": "mind-power",
       "title": "All Begins in the Mind",
@@ -7254,7 +7412,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 463,
+      "id": 473,
       "kind": "warning",
       "category": "hypnotic-content",
       "title": "Hypnotic Audiobook Caution",
@@ -7269,7 +7427,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 464,
+      "id": 474,
       "kind": "mental_model",
       "category": "neuroplasticity",
       "title": "Programmable Experience-Dependent Rewiring",
@@ -7284,7 +7442,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 465,
+      "id": 475,
       "kind": "principle",
       "category": "psilocybin-rewiring",
       "title": "Sensory Strengthening and Self Quieting",
@@ -7299,7 +7457,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 466,
+      "id": 476,
       "kind": "framework",
       "category": "neuroscience-methods",
       "title": "Modified Rabies Virus Brain Mapping",
@@ -7321,7 +7479,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 467,
+      "id": 477,
       "kind": "warning",
       "category": "psychedelic-therapy",
       "title": "Attention Controls Post-Trip Identity",
@@ -7336,7 +7494,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 468,
+      "id": 478,
       "kind": "tactic",
       "category": "psychedelic-application",
       "title": "Intentionally Direct Plasticity",
@@ -7351,7 +7509,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 469,
+      "id": 479,
       "kind": "mental_model",
       "category": "consciousness",
       "title": "Identity as Dynamic Networks",
@@ -7366,7 +7524,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 470,
+      "id": 480,
       "kind": "principle",
       "category": "neuroscience-breakthrough",
       "title": "From Observation to Brain Editing",
@@ -7381,7 +7539,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 471,
+      "id": 481,
       "kind": "mental_model",
       "category": "self-improvement",
       "title": "The Butler Mindset",
@@ -7396,7 +7554,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 472,
+      "id": 482,
       "kind": "tactic",
       "category": "morning-routine",
       "title": "Lay Out Clothes the Night Before",
@@ -7411,7 +7569,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 473,
+      "id": 483,
       "kind": "tactic",
       "category": "meal-prep",
       "title": "Pre-Stage Breakfast Ingredients",
@@ -7426,7 +7584,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 474,
+      "id": 484,
       "kind": "tactic",
       "category": "environment",
       "title": "Maintain a Clean Car",
@@ -7441,7 +7599,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 475,
+      "id": 485,
       "kind": "tactic",
       "category": "impulse-control",
       "title": "Block Impulse Purchases",
@@ -7456,7 +7614,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 476,
+      "id": 486,
       "kind": "principle",
       "category": "self-care",
       "title": "Serve Your Future Self",
@@ -7471,7 +7629,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 477,
+      "id": 487,
       "kind": "mental_model",
       "category": "hypnosis",
       "title": "Hypnosis as Distinct State",
@@ -7486,7 +7644,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 478,
+      "id": 488,
       "kind": "principle",
       "category": "hypnotic-compliance",
       "title": "Perception Overrides Will",
@@ -7501,7 +7659,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 479,
+      "id": 489,
       "kind": "principle",
       "category": "suggestibility",
       "title": "Highly Suggestible Subjects",
@@ -7516,7 +7674,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 480,
+      "id": 490,
       "kind": "tactic",
       "category": "mind-control",
       "title": "Pre-Installed Triggers",
@@ -7531,7 +7689,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 481,
+      "id": 491,
       "kind": "framework",
       "category": "hypnosis",
       "title": "Building Hypnotic Influence",
@@ -7550,7 +7708,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 482,
+      "id": 492,
       "kind": "warning",
       "category": "mind-control",
       "title": "Induced Amnesia Risks",
@@ -7565,7 +7723,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 483,
+      "id": 493,
       "kind": "principle",
       "category": "influence",
       "title": "Context Over Skill",
@@ -7580,7 +7738,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 484,
+      "id": 494,
       "kind": "quote",
       "category": "mind-control",
       "title": "Estabrooks on Manchurian Candidates",
@@ -7595,7 +7753,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 485,
+      "id": 495,
       "kind": "mental_model",
       "category": "behavioral-loopholes",
       "title": "The Fortress Illusion",
@@ -7610,7 +7768,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 486,
+      "id": 496,
       "kind": "principle",
       "category": "behavioral-loopholes",
       "title": "Behavioral Loopholes",
@@ -7625,7 +7783,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 487,
+      "id": 497,
       "kind": "warning",
       "category": "obedience-experiments",
       "title": "Milgram Experiment Reality",
@@ -7640,7 +7798,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 488,
+      "id": 498,
       "kind": "warning",
       "category": "conformity",
       "title": "Bystander Conformity Danger",
@@ -7655,7 +7813,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 489,
+      "id": 499,
       "kind": "principle",
       "category": "conformity",
       "title": "Normative vs Informational Influence",
@@ -7670,7 +7828,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 490,
+      "id": 500,
       "kind": "principle",
       "category": "psychological-influence",
       "title": "Novelty Creates Instant Focus",
@@ -7685,7 +7843,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 491,
+      "id": 501,
       "kind": "framework",
       "category": "authority",
       "title": "Five Components of Authority",
@@ -7706,7 +7864,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 492,
+      "id": 502,
       "kind": "mental_model",
       "category": "psychological-influence",
       "title": "Authority Needs Focus First",
@@ -7721,7 +7879,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 493,
+      "id": 503,
       "kind": "mental_model",
       "category": "cognitive-dissonance",
       "title": "Cognitive Dissonance Explained",
@@ -7736,7 +7894,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 494,
+      "id": 504,
       "kind": "warning",
       "category": "cognitive-dissonance",
       "title": "The Backfire Effect",
@@ -7751,7 +7909,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 495,
+      "id": 505,
       "kind": "framework",
       "category": "influence-formula",
       "title": "6-Step Cognitive Dissonance Formula",
@@ -7773,7 +7931,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 496,
+      "id": 506,
       "kind": "principle",
       "category": "influence-formula",
       "title": "Self-Persuasion Beats Direct Commands",
@@ -7788,7 +7946,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 497,
+      "id": 507,
       "kind": "tactic",
       "category": "influence-formula",
       "title": "Craft Identity Statements",
@@ -7803,7 +7961,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 498,
+      "id": 508,
       "kind": "tactic",
       "category": "influence-formula",
       "title": "Personality Inventory Questions",
@@ -7818,7 +7976,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 499,
+      "id": 509,
       "kind": "tactic",
       "category": "influence-formula",
       "title": "Negative Dissociation and Off-Casting",
@@ -7833,7 +7991,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 500,
+      "id": 510,
       "kind": "tactic",
       "category": "influence-formula",
       "title": "Article Technique for Authority",
@@ -7848,7 +8006,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 501,
+      "id": 511,
       "kind": "tactic",
       "category": "influence-formula",
       "title": "Social Introduction Commitment",
@@ -7863,7 +8021,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 502,
+      "id": 512,
       "kind": "principle",
       "category": "influence-formula",
       "title": "Identity Protection Drives Behavior",
@@ -7878,7 +8036,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 503,
+      "id": 513,
       "kind": "principle",
       "category": "self-awareness",
       "title": "Self-Knowledge Before Profiling Others",
@@ -7893,7 +8051,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 504,
+      "id": 514,
       "kind": "framework",
       "category": "cognitive-biases",
       "title": "Blindfold Map of Persuasion Biases",
@@ -7913,7 +8071,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 505,
+      "id": 515,
       "kind": "warning",
       "category": "sales-management",
       "title": "Survivorship Bias in Team Training",
@@ -7928,7 +8086,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 506,
+      "id": 516,
       "kind": "warning",
       "category": "persuasion-training",
       "title": "Confirmation Bias and Script Worship",
@@ -7943,7 +8101,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 507,
+      "id": 517,
       "kind": "warning",
       "category": "sales",
       "title": "Overconfidence Bias and the Numbers Game",
@@ -7958,7 +8116,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 508,
+      "id": 518,
       "kind": "tactic",
       "category": "bias-detection",
       "title": "Ten Questions to Map Someone's Biases",
@@ -7973,7 +8131,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 509,
+      "id": 519,
       "kind": "tactic",
       "category": "coaching",
       "title": "Anchor Bad News with the Bias Diagram",
@@ -7988,7 +8146,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 510,
+      "id": 520,
       "kind": "mental_model",
       "category": "persuasion",
       "title": "Tradecraft Blindfold Collapse",
@@ -8003,7 +8161,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 511,
+      "id": 521,
       "kind": "framework",
       "category": "spotting-psyops",
       "title": "8-Step Framework to Detect Psyops",
@@ -8027,7 +8185,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 512,
+      "id": 522,
       "kind": "principle",
       "category": "government-narratives",
       "title": "Three Motives Behind UFO Narratives",
@@ -8042,7 +8200,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 513,
+      "id": 523,
       "kind": "framework",
       "category": "ufo-narratives",
       "title": "Three Phases of a UFO Psyop",
@@ -8057,7 +8215,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 514,
+      "id": 524,
       "kind": "warning",
       "category": "media-manipulation",
       "title": "Spot Coordinated Media Language",
@@ -8072,7 +8230,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 515,
+      "id": 525,
       "kind": "tactic",
       "category": "critical-thinking",
       "title": "Three Questions to Evaluate Any Narrative",
@@ -8087,7 +8245,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 516,
+      "id": 526,
       "kind": "mental_model",
       "category": "psychological-resilience",
       "title": "Stay Grounded Amid Fear Campaigns",
@@ -8102,7 +8260,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 517,
+      "id": 527,
       "kind": "principle",
       "category": "ufo-narratives",
       "title": "The Alien Hypothesis Still Requires Scrutiny",
@@ -8117,7 +8275,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 518,
+      "id": 528,
       "kind": "tactic",
       "category": "practical-preparedness",
       "title": "Prepare for Infrastructure Disruption",
@@ -8132,7 +8290,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 519,
+      "id": 529,
       "kind": "mental_model",
       "category": "self-confidence",
       "title": "Confidence as Expectation of Manageable Outcomes",
@@ -8147,7 +8305,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 520,
+      "id": 530,
       "kind": "principle",
       "category": "self-confidence",
       "title": "Confidence Is a Buildable Skill",
@@ -8162,7 +8320,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 521,
+      "id": 531,
       "kind": "warning",
       "category": "self-confidence",
       "title": "Stop Emotional Subcontracting",
@@ -8177,7 +8335,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 522,
+      "id": 532,
       "kind": "tactic",
       "category": "self-confidence",
       "title": "Practice Radical Self-Forgiveness",
@@ -8192,7 +8350,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 523,
+      "id": 533,
       "kind": "principle",
       "category": "self-confidence",
       "title": "Step Into Roles Instead of Waiting to Feel Ready",
@@ -8207,7 +8365,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 524,
+      "id": 534,
       "kind": "mental_model",
       "category": "self-confidence",
       "title": "Act Without External Permission",
@@ -8222,7 +8380,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 525,
+      "id": 535,
       "kind": "principle",
       "category": "self-confidence",
       "title": "Confidence Equals Safety and Composure",
@@ -8237,7 +8395,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 526,
+      "id": 536,
       "kind": "phrase",
       "category": "self-confidence",
       "title": "Internal Confidence Declaration",
@@ -8252,7 +8410,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 527,
+      "id": 537,
       "kind": "principle",
       "category": "language-parasite",
       "title": "Language Meets Parasite Criteria",
@@ -8267,7 +8425,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 528,
+      "id": 538,
       "kind": "warning",
       "category": "automatic-labeling",
       "title": "Mind Names Before Perceiving",
@@ -8282,7 +8440,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 529,
+      "id": 539,
       "kind": "mental_model",
       "category": "linguistic-relativity",
       "title": "Language Creates Perceptual Categories",
@@ -8297,7 +8455,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 530,
+      "id": 540,
       "kind": "mental_model",
       "category": "metaphors",
       "title": "We Think in Unchosen Metaphors",
@@ -8312,7 +8470,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 531,
+      "id": 541,
       "kind": "principle",
       "category": "identity",
       "title": "Language Constructs Identity",
@@ -8327,7 +8485,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 532,
+      "id": 542,
       "kind": "warning",
       "category": "language-limits",
       "title": "Language Shrinks Real Experience",
@@ -8342,7 +8500,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 533,
+      "id": 543,
       "kind": "tactic",
       "category": "mindfulness",
       "title": "Observe Without Naming",
@@ -8357,7 +8515,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 534,
+      "id": 544,
       "kind": "principle",
       "category": "hypnosis-resistance",
       "title": "Address Misconceptions First",
@@ -8372,7 +8530,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 535,
+      "id": 545,
       "kind": "mental_model",
       "category": "hypnosis-control",
       "title": "Hypnosis as Valet Mode",
@@ -8387,7 +8545,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 536,
+      "id": 546,
       "kind": "tactic",
       "category": "induction-techniques",
       "title": "Progressive Relaxation Direction",
@@ -8402,7 +8560,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 537,
+      "id": 547,
       "kind": "warning",
       "category": "hypnosis-myths",
       "title": "Flashing Lights Are Fiction",
@@ -8417,7 +8575,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 538,
+      "id": 548,
       "kind": "principle",
       "category": "hypnosis-effects",
       "title": "Time Distortion Is Common",
@@ -8432,7 +8590,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 539,
+      "id": 549,
       "kind": "tactic",
       "category": "post-hypnotic-suggestions",
       "title": "Target Autopilot Behaviors",
@@ -8447,7 +8605,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 540,
+      "id": 550,
       "kind": "framework",
       "category": "counter-hypnosis",
       "title": "Fractionation for Safety",
@@ -8467,7 +8625,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 541,
+      "id": 551,
       "kind": "warning",
       "category": "hypnosis-limits",
       "title": "Survival Instincts Override Hypnosis",
@@ -8482,7 +8640,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 542,
+      "id": 552,
       "kind": "principle",
       "category": "hypnosis-therapy",
       "title": "Hypnosis Is a Neutral Tool",
@@ -8497,7 +8655,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 543,
+      "id": 553,
       "kind": "principle",
       "category": "brain-chemistry",
       "title": "Manufacturing Problem, Not Discipline",
@@ -8512,7 +8670,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 544,
+      "id": 554,
       "kind": "mental_model",
       "category": "neurotransmitters",
       "title": "The Three Performance Chemicals",
@@ -8527,7 +8685,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 545,
+      "id": 555,
       "kind": "mental_model",
       "category": "identity-change",
       "title": "Predictability Beats Success",
@@ -8542,7 +8700,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 546,
+      "id": 556,
       "kind": "warning",
       "category": "self-discipline",
       "title": "Willpower Is a Temporary State",
@@ -8557,7 +8715,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 547,
+      "id": 557,
       "kind": "principle",
       "category": "identity-change",
       "title": "You Have Identity, Not Habits",
@@ -8572,7 +8730,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 548,
+      "id": 558,
       "kind": "tactic",
       "category": "identity-change",
       "title": "Weaponize Disgust and Targeted Shame",
@@ -8587,7 +8745,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 549,
+      "id": 559,
       "kind": "framework",
       "category": "self-discipline",
       "title": "Match Fix to Failure Pattern",
@@ -8607,7 +8765,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 550,
+      "id": 560,
       "kind": "principle",
       "category": "self-discipline",
       "title": "Measure Identity Change by Alienation",
@@ -8622,7 +8780,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 551,
+      "id": 561,
       "kind": "principle",
       "category": "redefining-ego",
       "title": "Ego Is Not the Enemy",
@@ -8637,7 +8795,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 552,
+      "id": 562,
       "kind": "mental_model",
       "category": "ego-psychology",
       "title": "Ego as Executive Mediator",
@@ -8652,7 +8810,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 553,
+      "id": 563,
       "kind": "warning",
       "category": "ego-traps",
       "title": "How Ego Sabotages Confidence",
@@ -8667,7 +8825,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 554,
+      "id": 564,
       "kind": "framework",
       "category": "ego-development",
       "title": "Loevinger's Stages of Ego Development",
@@ -8693,7 +8851,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 555,
+      "id": 565,
       "kind": "principle",
       "category": "ego-development",
       "title": "Higher Stages Eliminate Suffering",
@@ -8708,7 +8866,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 556,
+      "id": 566,
       "kind": "mental_model",
       "category": "non-duality",
       "title": "The Separate Self Is an Illusion",
@@ -8723,7 +8881,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 557,
+      "id": 567,
       "kind": "tactic",
       "category": "transcending-ego",
       "title": "Maintain Unity Awareness",
@@ -8738,7 +8896,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 558,
+      "id": 568,
       "kind": "mental_model",
       "category": "human-psychology",
       "title": "Beliefs Are Outdated Software",
@@ -8753,7 +8911,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 559,
+      "id": 569,
       "kind": "principle",
       "category": "influence",
       "title": "Read the Nervous System",
@@ -8768,7 +8926,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 560,
+      "id": 570,
       "kind": "mental_model",
       "category": "human-behavior",
       "title": "Everyone Runs Safety Programs",
@@ -8783,7 +8941,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 561,
+      "id": 571,
       "kind": "framework",
       "category": "behavioral-profiling",
       "title": "Profile Using Three Layers",
@@ -8802,7 +8960,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 562,
+      "id": 572,
       "kind": "tactic",
       "category": "influence",
       "title": "Speak to the Being Behind the Mask",
@@ -8817,7 +8975,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 563,
+      "id": 573,
       "kind": "warning",
       "category": "communication",
       "title": "You're Talking to Scar Tissue",
@@ -8832,7 +8990,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 564,
+      "id": 574,
       "kind": "principle",
       "category": "self-improvement",
       "title": "Stop Judging the Mess",
@@ -8847,7 +9005,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 565,
+      "id": 575,
       "kind": "principle",
       "category": "overcoming-shame",
       "title": "Shame Is Cowardice, Not Morality",
@@ -8862,7 +9020,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 566,
+      "id": 576,
       "kind": "mental_model",
       "category": "overcoming-shame",
       "title": "Guilt Is Ego Masturbation",
@@ -8877,7 +9035,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 567,
+      "id": 577,
       "kind": "principle",
       "category": "overcoming-shame",
       "title": "Pain Disguised as Virtue",
@@ -8892,7 +9050,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 568,
+      "id": 578,
       "kind": "tactic",
       "category": "self-forgiveness",
       "title": "Forgive Yourself Like a Friend",
@@ -8907,7 +9065,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 569,
+      "id": 579,
       "kind": "warning",
       "category": "personal-power",
       "title": "Shame Destroys the Authority Triangle",
@@ -8922,7 +9080,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 570,
+      "id": 580,
       "kind": "mental_model",
       "category": "self-forgiveness",
       "title": "Weaponize Radical Forgiveness",
@@ -8937,7 +9095,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 571,
+      "id": 581,
       "kind": "principle",
       "category": "leadership",
       "title": "People Follow Wholeness",
@@ -8952,7 +9110,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 572,
+      "id": 582,
       "kind": "phrase",
       "category": "self-forgiveness",
       "title": "Self-Forgiveness Body Reset",
@@ -8967,7 +9125,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 573,
+      "id": 583,
       "kind": "mental_model",
       "category": "life-as-game",
       "title": "Earth as a Game with Hidden Character Stats",
@@ -8982,7 +9140,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 574,
+      "id": 584,
       "kind": "tactic",
       "category": "mental-clarity",
       "title": "Close Background Programs to Reduce Lag",
@@ -8997,7 +9155,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 575,
+      "id": 585,
       "kind": "principle",
       "category": "self-management",
       "title": "Combat Entropy with Regular System Reviews",
@@ -9012,7 +9170,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 576,
+      "id": 586,
       "kind": "framework",
       "category": "success-pillars",
       "title": "Five Irreplaceable Mechanics of Success",
@@ -9033,7 +9191,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 577,
+      "id": 587,
       "kind": "framework",
       "category": "quest-design",
       "title": "Design Custom Quests Using Five Drivers",
@@ -9054,7 +9212,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 578,
+      "id": 588,
       "kind": "warning",
       "category": "distraction-traps",
       "title": "Avoid the NPC Conversion Trap",
@@ -9069,7 +9227,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 579,
+      "id": 589,
       "kind": "framework",
       "category": "end-game-scoring",
       "title": "The Five Secret Exit Scoring Criteria",
@@ -9090,7 +9248,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 580,
+      "id": 590,
       "kind": "principle",
       "category": "life-as-game",
       "title": "Reboot Your Character When Stuck",
@@ -9105,7 +9263,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 581,
+      "id": 591,
       "kind": "mental_model",
       "category": "emotional-debt",
       "title": "Emotional Debt Explained",
@@ -9120,7 +9278,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 582,
+      "id": 592,
       "kind": "principle",
       "category": "emotional-debt",
       "title": "Emotions Have No Expiration",
@@ -9135,7 +9293,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 583,
+      "id": 593,
       "kind": "mental_model",
       "category": "nervous-system",
       "title": "Comfort Zone as Avoidance Perimeter",
@@ -9150,7 +9308,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 584,
+      "id": 594,
       "kind": "warning",
       "category": "emotional-debt",
       "title": "Four Costs of Emotional Debt",
@@ -9165,7 +9323,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 585,
+      "id": 595,
       "kind": "principle",
       "category": "trauma-resolution",
       "title": "Remembering vs Re-entering",
@@ -9180,7 +9338,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 586,
+      "id": 596,
       "kind": "framework",
       "category": "perspective-shifts",
       "title": "Five Steps to Pay Emotional Debt",
@@ -9201,7 +9359,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 587,
+      "id": 597,
       "kind": "tactic",
       "category": "nervous-system",
       "title": "Stop Accumulating New Debt",
@@ -9216,7 +9374,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 588,
+      "id": 598,
       "kind": "warning",
       "category": "addiction-recovery",
       "title": "Debt Servicing Masquerades",
@@ -9231,7 +9389,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 589,
+      "id": 599,
       "kind": "principle",
       "category": "emotional-debt",
       "title": "Perspective Is the Active Ingredient",
@@ -9246,7 +9404,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 590,
+      "id": 600,
       "kind": "mental_model",
       "category": "emotional-debt",
       "title": "Debt Compounds Like Finance",
@@ -9261,7 +9419,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 591,
+      "id": 601,
       "kind": "mental_model",
       "category": "psychological-operations",
       "title": "Track Pressure, Not Events",
@@ -9276,7 +9434,7 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 592,
+      "id": 602,
       "kind": "framework",
       "category": "pressure-detection",
       "title": "SORUM Pressure Scanner",
@@ -9297,7 +9455,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 593,
+      "id": 603,
       "kind": "framework",
       "category": "seeding-detection",
       "title": "PRISM Seeding Model",
@@ -9318,7 +9476,7 @@
       "pillar": "information_operations"
     },
     {
-      "id": 594,
+      "id": 604,
       "kind": "framework",
       "category": "probability-assessment",
       "title": "NARS Probability Index",
@@ -9339,7 +9497,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 595,
+      "id": 605,
       "kind": "framework",
       "category": "phase-prediction",
       "title": "TRAPIN Evolution Tracker",
@@ -9360,7 +9518,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 596,
+      "id": 606,
       "kind": "framework",
       "category": "human-influence",
       "title": "FATE Model of Manipulation",
@@ -9380,7 +9538,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 597,
+      "id": 607,
       "kind": "framework",
       "category": "human-influence",
       "title": "Six-Axis Human Response Model",
@@ -9402,7 +9560,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 598,
+      "id": 608,
       "kind": "mental_model",
       "category": "cause-blindness",
       "title": "Cause Blindness",
@@ -9417,7 +9575,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 599,
+      "id": 609,
       "kind": "principle",
       "category": "goal-setting",
       "title": "Target Causes, Not Symptoms",
@@ -9432,7 +9590,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 600,
+      "id": 610,
       "kind": "mental_model",
       "category": "happiness",
       "title": "Pleasure Is Not Happiness",
@@ -9447,7 +9605,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 601,
+      "id": 611,
       "kind": "warning",
       "category": "behavior-change",
       "title": "Why Diets and Habits Fail",
@@ -9462,7 +9620,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 602,
+      "id": 612,
       "kind": "framework",
       "category": "behavior-change",
       "title": "The FATE Model",
@@ -9482,7 +9640,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 603,
+      "id": 613,
       "kind": "principle",
       "category": "neuroscience",
       "title": "Retrain Your RAS",
@@ -9497,7 +9655,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 604,
+      "id": 614,
       "kind": "quote",
       "category": "happiness",
       "title": "Jordan Peterson on Fake Retirement Visions",
@@ -9512,7 +9670,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 605,
+      "id": 615,
       "kind": "principle",
       "category": "persuasion",
       "title": "Core Definition of Persuasion",
@@ -9527,7 +9685,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 606,
+      "id": 616,
       "kind": "framework",
       "category": "six-axis-model",
       "title": "Six Axis Model of Influence",
@@ -9549,7 +9707,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 607,
+      "id": 617,
       "kind": "mental_model",
       "category": "six-axis-model",
       "title": "All Influence Operates Inside the Six Axes",
@@ -9564,7 +9722,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 608,
+      "id": 618,
       "kind": "principle",
       "category": "six-axis-model",
       "title": "Only Three Axes Needed",
@@ -9579,7 +9737,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 609,
+      "id": 619,
       "kind": "tactic",
       "category": "influence-strategy",
       "title": "Plan Conversations with the Model",
@@ -9594,7 +9752,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 610,
+      "id": 620,
       "kind": "warning",
       "category": "six-axis-model",
       "title": "Milgram Experiment Diagnosis",
@@ -9609,7 +9767,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 611,
+      "id": 621,
       "kind": "tactic",
       "category": "influence-strategy",
       "title": "Post-Mortem Analysis Tool",
@@ -9624,7 +9782,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 612,
+      "id": 622,
       "kind": "warning",
       "category": "algorithmic-influence",
       "title": "Algorithms Curate Your Identity",
@@ -9639,7 +9797,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 613,
+      "id": 623,
       "kind": "warning",
       "category": "cognitive-effects",
       "title": "Digital Overload Blocks Memory Encoding",
@@ -9654,7 +9812,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 614,
+      "id": 624,
       "kind": "mental_model",
       "category": "self-awareness",
       "title": "Cognitive Drift into Identity Loss",
@@ -9669,7 +9827,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 615,
+      "id": 625,
       "kind": "framework",
       "category": "memory-recovery",
       "title": "Six Steps to Reclaim Your Self",
@@ -9691,7 +9849,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 616,
+      "id": 626,
       "kind": "tactic",
       "category": "self-inquiry",
       "title": "Question Your Forgotten Parts",
@@ -9706,7 +9864,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 617,
+      "id": 627,
       "kind": "principle",
       "category": "attention-control",
       "title": "Attention Is Your Primary Weapon",
@@ -9721,7 +9879,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 618,
+      "id": 628,
       "kind": "principle",
       "category": "identity-preservation",
       "title": "Memory Fractures Enable Self-Control",
@@ -9736,7 +9894,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 619,
+      "id": 629,
       "kind": "principle",
       "category": "behavioral-magnetics",
       "title": "Nervous System Prefers Familiar",
@@ -9751,7 +9909,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 620,
+      "id": 630,
       "kind": "mental_model",
       "category": "behavioral-magnetics",
       "title": "Emotional Gravity",
@@ -9766,7 +9924,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 621,
+      "id": 631,
       "kind": "framework",
       "category": "behavioral-magnetics",
       "title": "Familiarity Cycle",
@@ -9786,7 +9944,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 622,
+      "id": 632,
       "kind": "principle",
       "category": "mirror-magnet",
       "title": "Mirror Magnet",
@@ -9801,7 +9959,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 623,
+      "id": 633,
       "kind": "principle",
       "category": "echo-magnet",
       "title": "Echo Magnet",
@@ -9816,7 +9974,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 624,
+      "id": 634,
       "kind": "principle",
       "category": "reversal-magnet",
       "title": "Reversal Magnet",
@@ -9831,7 +9989,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 625,
+      "id": 635,
       "kind": "principle",
       "category": "completion-magnet",
       "title": "Completion Magnet",
@@ -9846,7 +10004,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 626,
+      "id": 636,
       "kind": "framework",
       "category": "rewiring-patterns",
       "title": "Break the Behavioral Magnet",
@@ -9866,7 +10024,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 627,
+      "id": 637,
       "kind": "warning",
       "category": "healing-process",
       "title": "Peace Feels Unfamiliar",
@@ -9881,7 +10039,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 628,
+      "id": 638,
       "kind": "mental_model",
       "category": "identity-and-persuasion",
       "title": "Identity as Decision Control Panel",
@@ -9896,7 +10054,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 629,
+      "id": 639,
       "kind": "principle",
       "category": "persuasion",
       "title": "Persuasion Offers New Stories",
@@ -9911,7 +10069,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 630,
+      "id": 640,
       "kind": "principle",
       "category": "cognitive-dissonance",
       "title": "Brain's Emotional Permission Gate",
@@ -9926,7 +10084,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 631,
+      "id": 641,
       "kind": "tactic",
       "category": "identity-hacking",
       "title": "Trigger the Three Fragile Identities",
@@ -9941,7 +10099,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 632,
+      "id": 642,
       "kind": "principle",
       "category": "persuasion",
       "title": "Composure Creates Safety for Change",
@@ -9956,7 +10114,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 633,
+      "id": 643,
       "kind": "framework",
       "category": "identity-trap",
       "title": "The Identity Trap Sequence",
@@ -9976,7 +10134,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 634,
+      "id": 644,
       "kind": "principle",
       "category": "persuasion",
       "title": "True Persuasion Is Permission",
@@ -9991,7 +10149,7 @@
       "pillar": "psychology"
     },
     {
-      "id": 635,
+      "id": 645,
       "kind": "mental_model",
       "category": "persuasion",
       "title": "Speak Primal to Identity",
@@ -10516,6 +10674,21 @@
         "mind-control"
       ],
       "card_count": 8
+    },
+    {
+      "video_id": "SlQtB9Xuxlk",
+      "video_title": "It's Worse for YOU",
+      "video_url": "https://www.youtube.com/watch?v=SlQtB9Xuxlk",
+      "one_line": "The Truman Show illustrates why presenting absolute truth makes people cling harder to comforting lies.",
+      "best_for": "Watch this if you want to understand why evidence fails to awaken people and learn practical ways to detect and escape manufactured realities.",
+      "categories": [
+        "truman-show-analysis",
+        "gnostic-philosophy",
+        "cognitive-dissonance",
+        "media-manipulation",
+        "psychological-awakening"
+      ],
+      "card_count": 10
     },
     {
       "video_id": "TiF9Xp1Id5k",

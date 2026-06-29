@@ -12,9 +12,9 @@
 
 | Metric | Count |
 |--------|-------|
-| Knowledge cards | 635 |
-| Source videos | 85 |
-| Topic categories | 359 |
+| Knowledge cards | 645 |
+| Source videos | 86 |
+| Topic categories | 364 |
 | Primary source | Chase Hughes (Psychology / Psy War SME) |
 
 Cards are **LLM-paraphrased standalone knowledge** with YouTube provenance — transformative synthesis, not transcript redistribution.

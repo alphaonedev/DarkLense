@@ -1,13 +1,13 @@
 {
   "title": "DarkLense AI NHI Corpus Assessment",
   "date": "2026-06-29",
-  "executiveSummary": "DarkLense indexes 635 LLM-paraphrased knowledge cards from 85 videos by Chase Hughes on psychology, psychological warfare, and information operations. Cards are standalone, transformative synthesis — not raw transcripts. Highest-density clusters: influence (38c), frame-control (13c), psyop-detection (9c), and persuasion (15c). Use for defense: recognition, de-escalation, media literacy, and ethical influence — not coercion.",
+  "executiveSummary": "DarkLense indexes 645 LLM-paraphrased knowledge cards from 86 videos by Chase Hughes on psychology, psychological warfare, and information operations. Cards are standalone, transformative synthesis — not raw transcripts. Highest-density clusters: influence (38c), frame-control (13c), psyop-detection (9c), and persuasion (15c). Use for defense: recognition, de-escalation, media literacy, and ethical influence — not coercion.",
   "pillars": [
     {
       "id": "psychology",
       "name": "Psychology",
       "description": "Identity, emotion, behavior, neuroscience, persuasion mechanics, frames, and interpersonal influence at the individual level.",
-      "cardCount": 568,
+      "cardCount": 576,
       "color": "#8b5cf6"
     },
     {
@@ -21,18 +21,18 @@
       "id": "information_operations",
       "name": "Information Operations",
       "description": "Media manipulation, algorithmic influence, narrative warfare, manufactured consensus, and information-environment defense.",
-      "cardCount": 40,
+      "cardCount": 42,
       "color": "#3b82f6"
     }
   ],
   "kindDistribution": {
-    "warning": 84,
-    "principle": 191,
-    "framework": 87,
-    "mental_model": 128,
-    "tactic": 131,
+    "warning": 85,
+    "principle": 193,
+    "framework": 89,
+    "mental_model": 131,
+    "tactic": 132,
     "phrase": 7,
-    "quote": 7
+    "quote": 8
   },
   "topCategories": [
     {
@@ -368,14 +368,14 @@
   ],
   "highValueCards": [
     {
-      "id": 395,
+      "id": 405,
       "title": "Frame Evaluation",
       "kind": "framework",
       "category": "psyop-detection",
       "pillar": "psychological_warfare"
     },
     {
-      "id": 411,
+      "id": 421,
       "title": "Narrative Warfare Mechanism",
       "kind": "framework",
       "category": "narrative-warfare",
@@ -389,49 +389,49 @@
       "pillar": "psychological_warfare"
     },
     {
-      "id": 320,
+      "id": 330,
       "title": "Viral Beliefs Build Self-Protecting Clusters",
       "kind": "warning",
       "category": "psychological-defense",
       "pillar": "psychological_warfare"
     },
     {
-      "id": 367,
+      "id": 377,
       "title": "Worldview Is the Real Bottleneck",
       "kind": "mental_model",
       "category": "influence",
       "pillar": "information_operations"
     },
     {
-      "id": 382,
+      "id": 392,
       "title": "Left vs Right Is a Distraction",
       "kind": "mental_model",
       "category": "media-manipulation",
       "pillar": "information_operations"
     },
     {
-      "id": 390,
+      "id": 400,
       "title": "Centralized Echo Chambers",
       "kind": "warning",
       "category": "psyop-detection",
       "pillar": "psychological_warfare"
     },
     {
-      "id": 454,
+      "id": 464,
       "title": "People vs. The System",
       "kind": "mental_model",
       "category": "psychological-warfare",
       "pillar": "psychological_warfare"
     },
     {
-      "id": 459,
+      "id": 469,
       "title": "Psyops Hijack Existing Movements",
       "kind": "mental_model",
       "category": "psychological-warfare",
       "pillar": "psychological_warfare"
     },
     {
-      "id": 591,
+      "id": 601,
       "title": "Track Pressure, Not Events",
       "kind": "mental_model",
       "category": "psychological-operations",
@@ -473,42 +473,42 @@
       "pillar": "psychology"
     },
     {
-      "id": 362,
+      "id": 372,
       "title": "Tactical Pre-Framing",
       "kind": "framework",
       "category": "frame-control",
       "pillar": "psychology"
     },
     {
-      "id": 376,
+      "id": 386,
       "title": "Three Layers of a Trigger",
       "kind": "framework",
       "category": "emotional-triggers",
       "pillar": "psychology"
     },
     {
-      "id": 388,
+      "id": 398,
       "title": "The FATE Model",
       "kind": "framework",
       "category": "psyop-detection",
       "pillar": "psychology"
     },
     {
-      "id": 491,
+      "id": 501,
       "title": "Five Components of Authority",
       "kind": "framework",
       "category": "authority",
       "pillar": "psychology"
     },
     {
-      "id": 495,
+      "id": 505,
       "title": "6-Step Cognitive Dissonance Formula",
       "kind": "framework",
       "category": "influence-formula",
       "pillar": "psychology"
     },
     {
-      "id": 561,
+      "id": 571,
       "title": "Profile Using Three Layers",
       "kind": "framework",
       "category": "behavioral-profiling",
@@ -544,12 +544,12 @@
     }
   ],
   "stats": {
-    "videos": 85,
-    "cards": 635,
-    "categories": 359,
-    "tactics": 131,
-    "frameworks": 87,
-    "warnings": 84
+    "videos": 86,
+    "cards": 645,
+    "categories": 364,
+    "tactics": 132,
+    "frameworks": 89,
+    "warnings": 85
   },
   "ethicalUse": {
     "permitted": [

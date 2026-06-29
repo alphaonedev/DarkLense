@@ -36,6 +36,19 @@ function renderHeroStats() {
     <div class="stat-card"><div class="stat-value">${t.videos}</div><div class="stat-label">Videos indexed</div></div>
     <div class="stat-card"><div class="stat-value">${t.categories}</div><div class="stat-label">Topic categories</div></div>
     <div class="stat-card"><div class="stat-value">${n.frameworks || 0}</div><div class="stat-label">Frameworks</div></div>`;
+
+  const heroSub = document.getElementById('hero-sub');
+  if (heroSub) {
+    heroSub.innerHTML = `A searchable knowledge lens on <strong>psychology</strong>, <strong>psychological warfare</strong>, and <strong>information operations</strong> — <strong>${t.cards}</strong> paraphrased cards from <strong>${t.videos}</strong> indexed videos. Defensive literacy, not a manipulation playbook.`;
+  }
+  const corpusIntro = document.getElementById('corpus-intro');
+  if (corpusIntro) {
+    corpusIntro.textContent = `Search and filter ${t.cards} paraphrased knowledge cards. Each links to source video for full context.`;
+  }
+  const videosIntro = document.getElementById('videos-intro');
+  if (videosIntro) {
+    videosIntro.textContent = `${t.videos} indexed videos with card counts. Watch originals for full context — cards are distillations only.`;
+  }
 }
 
 function renderSourceMeta() {
