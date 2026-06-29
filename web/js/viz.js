@@ -89,14 +89,46 @@ function renderPillarCards(nhi) {
 function renderDefenseStack(nhi) {
   const el = document.getElementById('defense-stack-list');
   if (!el || !nhi?.defenseStack) return;
-  el.innerHTML = `<ul class="stack-list">${nhi.defenseStack.map(s => `
+  el.innerHTML = `<ul class="stack-list">${nhi.defenseStack.map(s => {
+    const preview = (s.linkedCards || []).slice(0, 4);
+    const more = (s.cards || 0) - preview.length;
+    return `
     <li class="stack-item">
       <span class="stack-pri">${s.priority}</span>
-      <div>
-        <strong>${s.layer}</strong> — ${s.focus}
-        <span style="color:var(--text-muted);font-size:var(--text-sm)"> (${s.cards} related cards)</span>
+      <div class="stack-body">
+        <div class="stack-head">
+          <strong>${s.layer}</strong> — ${s.focus}
+          <a href="#corpus" class="stack-card-link" data-stack-priority="${s.priority}">
+            ${s.cards} related card${s.cards === 1 ? '' : 's'} →
+          </a>
+        </div>
+        ${preview.length ? `<div class="stack-linked-cards">${preview.map(c =>
+          `<a href="#corpus" class="stack-card-chip" data-card-id="${c.id}" title="${c.category}">${c.title}</a>`
+        ).join('')}${more > 0 ? `<a href="#corpus" class="stack-card-more" data-stack-priority="${s.priority}">+${more} more</a>` : ''}</div>` : ''}
       </div>
-    </li>`).join('')}</ul>`;
+    </li>`;
+  }).join('')}</ul>`;
+
+  el.querySelectorAll('[data-stack-priority]').forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      const layer = nhi.defenseStack.find(x => x.priority === Number(a.dataset.stackPriority));
+      if (layer && window.navigateToCards) {
+        window.navigateToCards({
+          cardIds: layer.cardIds,
+          categories: layer.categories,
+        });
+      }
+    });
+  });
+  el.querySelectorAll('[data-card-id]').forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      if (window.navigateToCards) {
+        window.navigateToCards({ cardId: Number(a.dataset.cardId), cardIds: [Number(a.dataset.cardId)] });
+      }
+    });
+  });
 }
 
 function renderCharts(nhi, corpus) {

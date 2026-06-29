@@ -4,7 +4,43 @@ let corpusData = null;
 let nhiData = null;
 let activePillar = 'all';
 let activeKind = 'all';
+let activeCategories = null;
+let activeCardIds = null;
 let searchQuery = '';
+
+/** Navigate corpus browser — used by defense stack and high-value links */
+function navigateToCards({ categories = null, cardIds = null, query = '', pillar = 'all', kind = 'all', cardId = null } = {}) {
+  activeCategories = categories?.length ? new Set(categories) : null;
+  activeCardIds = cardIds?.length ? new Set(cardIds.map(String)) : null;
+  activePillar = pillar;
+  activeKind = kind;
+  searchQuery = query;
+
+  const search = document.getElementById('card-search');
+  if (search) search.value = query;
+
+  document.querySelectorAll('#pillar-filters .filter-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.pillar === pillar);
+  });
+  document.querySelectorAll('#kind-filters .filter-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.kind === kind);
+  });
+
+  renderCardBrowser();
+  document.getElementById('corpus')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+  if (cardId) {
+    requestAnimationFrame(() => {
+      const el = document.getElementById(`card-${cardId}`);
+      if (el) {
+        el.classList.add('k-card-highlight');
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setTimeout(() => el.classList.remove('k-card-highlight'), 2500);
+      }
+    });
+  }
+}
+window.navigateToCards = navigateToCards;
 
 async function loadData() {
   const bases = ['data/', '../data/'];
@@ -63,6 +99,8 @@ function getFilteredCards() {
   return corpusData.cards.filter(c => {
     if (activePillar !== 'all' && c.pillar !== activePillar) return false;
     if (activeKind !== 'all' && c.kind !== activeKind) return false;
+    if (activeCardIds && !activeCardIds.has(String(c.id))) return false;
+    if (activeCategories && !activeCategories.has(c.category)) return false;
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
       const hay = `${c.title} ${c.content} ${c.category} ${c.kind}`.toLowerCase();
@@ -82,7 +120,7 @@ function renderCardBrowser() {
 
   const display = cards.slice(0, 120);
   grid.innerHTML = display.map(c => `
-    <article class="k-card" data-id="${c.id}">
+    <article class="k-card" id="card-${c.id}" data-id="${c.id}">
       <div class="k-card-meta">
         <span class="k-badge k-badge-kind">${c.kind}</span>
         <span class="k-badge k-badge-pillar-${c.pillar}">${pillarLabel(c.pillar)}</span>
@@ -112,6 +150,8 @@ function setupFilters() {
         kindRow.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         activeKind = btn.dataset.kind;
+        activeCategories = null;
+        activeCardIds = null;
         renderCardBrowser();
       });
     });
@@ -124,6 +164,8 @@ function setupFilters() {
         pillarRow.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         activePillar = btn.dataset.pillar;
+        activeCategories = null;
+        activeCardIds = null;
         renderCardBrowser();
       });
     });
@@ -133,6 +175,8 @@ function setupFilters() {
   if (search) {
     search.addEventListener('input', e => {
       searchQuery = e.target.value.trim();
+      activeCategories = null;
+      activeCardIds = null;
       renderCardBrowser();
     });
   }
@@ -143,13 +187,13 @@ function renderHighValue(nhi) {
   if (!el || !nhi?.highValueCards) return;
   el.innerHTML = `<table class="data-table"><thead><tr><th>Title</th><th>Kind</th><th>Category</th><th>Pillar</th></tr></thead><tbody>
     ${nhi.highValueCards.map(c => `<tr>
-      <td><a href="#corpus" class="hv-search" data-q="${c.title.replace(/"/g, '&quot;')}">${c.title}</a></td>
+      <td><a href="#corpus" class="hv-search" data-id="${c.id}" data-q="${c.title.replace(/"/g, '&quot;')}">${c.title}</a></td>
       <td>${c.kind}</td><td>${c.category}</td><td>${pillarLabel(c.pillar)}</td></tr>`).join('')}
   </tbody></table>`;
   el.querySelectorAll('.hv-search').forEach(a => {
-    a.addEventListener('click', () => {
-      const search = document.getElementById('card-search');
-      if (search) { search.value = a.dataset.q; search.dispatchEvent(new Event('input')); }
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      navigateToCards({ query: a.dataset.q, cardId: a.dataset.id });
     });
   });
 }

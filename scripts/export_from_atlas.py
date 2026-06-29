@@ -46,12 +46,72 @@ PILLAR_RULES = {
     ],
 }
 
+DEFENSE_STACK_LAYERS = [
+    {
+        "priority": 1,
+        "layer": "Detect",
+        "focus": "Psyop-detection, pattern recognition, media-literacy",
+        "categories": [
+            "psyop-detection", "spotting-psyops", "psyops", "media-literacy",
+            "pattern-recognition", "propaganda", "mass-manipulation",
+        ],
+    },
+    {
+        "priority": 2,
+        "layer": "Decode",
+        "focus": "Frame-control, influence-formula, emotional-triggers",
+        "categories": [
+            "frame-control", "frames", "frame-recovery", "frame-setting-statements",
+            "influence-formula", "emotional-triggers", "influence", "influence-sequence",
+        ],
+    },
+    {
+        "priority": 3,
+        "layer": "Defend",
+        "focus": "Boundaries, de-escalation, psychological-defense, ethical-persuasion",
+        "categories": [
+            "boundaries", "emotional-boundaries", "de-escalation",
+            "psychological-defense", "ethical-persuasion",
+        ],
+    },
+    {
+        "priority": 4,
+        "layer": "Discipline",
+        "focus": "Outcome-based tech use, self-authorship, identity repair",
+        "categories": [
+            "self-authorship", "phone-addiction", "attention-economy",
+            "psychology-of-social-media", "dopamine-hacking", "digital-addiction",
+        ],
+    },
+]
+
 HIGH_VALUE_CATEGORIES = [
     "influence", "frame-control", "psyop-detection", "persuasion", "body-language",
     "emotional-triggers", "influence-formula", "psychological-warfare", "psychological-operations",
     "media-manipulation", "narrative-warfare", "behavioral-profiling", "cult-recruitment",
     "linguistic-weapons", "authority", "de-escalation", "ethical-persuasion", "psychological-defense",
 ]
+
+
+def _build_defense_stack(cards: list) -> list:
+    """Build defense stack layers with linked card IDs for the site corpus browser."""
+    stack = []
+    for layer in DEFENSE_STACK_LAYERS:
+        cats = set(layer["categories"])
+        matched = [c for c in cards if c["category"] in cats]
+        stack.append({
+            "priority": layer["priority"],
+            "layer": layer["layer"],
+            "focus": layer["focus"],
+            "categories": layer["categories"],
+            "cards": len(matched),
+            "cardIds": [c["id"] for c in matched],
+            "linkedCards": [
+                {"id": c["id"], "title": c["title"], "category": c["category"], "kind": c["kind"]}
+                for c in matched
+            ],
+        })
+    return stack
 
 
 def assign_pillar(card: dict) -> str:
@@ -174,12 +234,7 @@ def build_nhi_analysis(cards: list, videos: list, source: dict) -> dict:
         ],
         "kindDistribution": dict(kind_counts),
         "topCategories": top_categories,
-        "defenseStack": [
-            {"priority": 1, "layer": "Detect", "focus": "Psyop-detection, pattern recognition, media-literacy cards", "cards": cat_counts.get("psyop-detection", 0) + cat_counts.get("media-literacy", 0)},
-            {"priority": 2, "layer": "Decode", "focus": "Frame-control, influence-formula, emotional-triggers", "cards": cat_counts.get("frame-control", 0) + cat_counts.get("influence-formula", 0) + cat_counts.get("emotional-triggers", 0)},
-            {"priority": 3, "layer": "Defend", "focus": "Boundaries, de-escalation, psychological-defense, ethical-persuasion", "cards": cat_counts.get("boundaries", 0) + cat_counts.get("de-escalation", 0) + cat_counts.get("psychological-defense", 0)},
-            {"priority": 4, "layer": "Discipline", "focus": "Outcome-based tech use, self-authorship, identity repair", "cards": cat_counts.get("self-authorship", 0) + cat_counts.get("phone-addiction", 0)},
-        ],
+        "defenseStack": _build_defense_stack(cards),
         "topFrameworks": [
             {"title": c["title"], "category": c["category"], "pillar": c["pillar"], "steps": len(c.get("framework_steps", []))}
             for c in sorted(frameworks, key=lambda x: len(x.get("framework_steps", [])), reverse=True)[:15]
