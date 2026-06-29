@@ -370,6 +370,16 @@ def main():
 
     nhi = build_nhi_analysis(cards, videos, source)
 
+    # Full-corpus AI NHI universal human-value assessment
+    try:
+        from nhi_human_value_assess import assess_corpus, merge_into_nhi
+
+        nhi = merge_into_nhi(nhi, assess_corpus(cards))
+    except ImportError:
+        assess_script = Path(__file__).resolve().parent / "nhi_human_value_assess.py"
+        if assess_script.exists():
+            subprocess.run([sys.executable, str(assess_script)], check=False)
+
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     WEB_DIR.mkdir(parents=True, exist_ok=True)
     (OUT_DIR / "corpus.json").write_text(json.dumps(corpus, indent=2, ensure_ascii=False))

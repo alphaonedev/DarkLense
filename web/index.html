@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+  <script src="js/nhi-human-value.js" defer></script>
   <script src="js/viz.js" defer></script>
   <script src="js/app.js" defer></script>
 </head>
@@ -19,6 +20,7 @@
       <a href="#" class="logo">DarkLense</a>
       <ul class="nav-links">
         <li><a href="#corpus">All Cards</a></li>
+        <li><a href="#human-value">NHI Top Picks</a></li>
         <li><a href="#pillars">Pillars</a></li>
         <li><a href="#defense">Defense Stack</a></li>
         <li><a href="#frameworks">Frameworks</a></li>
@@ -42,6 +44,45 @@
     <div id="source-meta" class="section-intro" style="margin-top:1rem"></div>
   </section>
 
+  <section id="human-value" class="container hva-section">
+    <div class="section-header">
+      <h2>Universal Human Value — AI NHI Assessment</h2>
+      <p class="section-intro">Full-corpus NHI scan of all 645 cards ranked for importance to every human — manipulation defense, identity, boundaries, and media literacy.</p>
+      <p class="hva-meta" id="hva-meta"></p>
+    </div>
+
+    <div class="nhi-voice" style="border-left-color:#ef4444">
+      <div class="nhi-voice-label">AI NHI — Executive assessment</div>
+      <div id="nhi-human-value-executive"></div>
+    </div>
+
+    <div class="hva-layout">
+      <div class="diagram-box"><div id="hva-theme-diagram"></div></div>
+      <div class="chart-box">
+        <div class="chart-title">Cards per universal value theme</div>
+        <div class="chart-canvas" style="height:320px"><canvas id="hvaThemeChart"></canvas></div>
+      </div>
+    </div>
+
+    <div class="fs-section">
+      <h3>Eight Universal Value Themes</h3>
+      <p class="section-intro" style="margin-bottom:1rem">Click a theme to filter the corpus to its highest-ranked cards.</p>
+      <div class="hva-themes-grid" id="hva-themes-grid"></div>
+    </div>
+
+    <div class="fs-section">
+      <h3>Tier S — Essential for Every Human</h3>
+      <p class="section-intro" style="margin-bottom:1rem">15 cards NHI flags as non-negotiable defensive literacy for civilians.</p>
+      <div class="hva-tier-s-grid" id="hva-tier-s"></div>
+    </div>
+
+    <div class="fs-section">
+      <h3>Tier A — High Universal Value</h3>
+      <p class="section-intro" style="margin-bottom:1rem">20 additional cards with broad human relevance across relationships, influence, and emotional safety.</p>
+      <div id="hva-tier-a"></div>
+    </div>
+  </section>
+
   <section id="corpus" class="container corpus-primary">
     <div class="section-header">
       <h2>Knowledge Corpus — All Cards</h2>
@@ -60,6 +101,7 @@
           <option value="kind">Kind</option>
           <option value="pillar">Pillar</option>
         </select>
+        <button type="button" class="filter-btn nhi-top-btn" id="nhi-top-filter" title="Show only NHI Tier S+A picks">NHI Top Picks</button>
         <div class="view-toggle" role="group" aria-label="View mode">
           <button type="button" class="view-toggle-btn active" data-view="cards">Cards</button>
           <button type="button" class="view-toggle-btn" data-view="compact">Compact list</button>
@@ -108,8 +150,8 @@
 
   <section id="analytics" class="container">
     <div class="section-header">
-      <h2>Topic Density</h2>
-      <p class="section-intro">Highest-value clusters for influence defense and media literacy.</p>
+      <h2>Topic Density &amp; NHI Rankings</h2>
+      <p class="section-intro">Category density plus full NHI-ranked high-value cards (Tier S+A) from the 645-card assessment.</p>
     </div>
     <div class="chart-box"><div class="chart-title">Top 15 categories</div><div class="chart-canvas" style="height:400px"><canvas id="categoryChart"></canvas></div></div>
     <div id="high-value-list" style="margin-top:2rem"></div>

@@ -1,7 +1,7 @@
 {
   "title": "DarkLense AI NHI Corpus Assessment",
   "date": "2026-06-29",
-  "executiveSummary": "DarkLense indexes 645 LLM-paraphrased knowledge cards from 86 videos by Chase Hughes on psychology, psychological warfare, and information operations. Cards are standalone, transformative synthesis — not raw transcripts. Highest-density clusters: influence (38c), frame-control (13c), psyop-detection (9c), and persuasion (15c). Use for defense: recognition, de-escalation, media literacy, and ethical influence — not coercion.",
+  "executiveSummary": "DarkLense indexes 645 LLM-paraphrased knowledge cards from 86 videos. AI NHI assessed all 645 cards for universal human value: 15 Tier-S essentials, 20 Tier-A high-value picks across How Influence Works, Emotional Triggers & Boundaries, Recognize & Resist Manipulation, and related themes. Cards are standalone defensive literacy — not raw transcripts. Use for recognition, boundaries, media literacy, and ethical self-governance — not coercion.",
   "pillars": [
     {
       "id": "psychology",
@@ -190,26 +190,846 @@
     {
       "priority": 1,
       "layer": "Detect",
-      "focus": "Psyop-detection, pattern recognition, media-literacy cards",
-      "cards": 10
+      "focus": "Psyop-detection, pattern recognition, media-literacy",
+      "categories": [
+        "psyop-detection",
+        "spotting-psyops",
+        "psyops",
+        "media-literacy",
+        "pattern-recognition",
+        "propaganda",
+        "mass-manipulation"
+      ],
+      "cards": 15,
+      "cardIds": [
+        41,
+        47,
+        261,
+        262,
+        351,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        521
+      ],
+      "linkedCards": [
+        {
+          "id": 41,
+          "title": "Selective Extremes on Social Media",
+          "category": "psyops",
+          "kind": "mental_model"
+        },
+        {
+          "id": 47,
+          "title": "Map Connective Tissue in News",
+          "category": "media-literacy",
+          "kind": "tactic"
+        },
+        {
+          "id": 261,
+          "title": "Trauma Makes Populations Pliable",
+          "category": "mass-manipulation",
+          "kind": "mental_model"
+        },
+        {
+          "id": 262,
+          "title": "Weaponize the Unconscious Mind",
+          "category": "propaganda",
+          "kind": "principle"
+        },
+        {
+          "id": 351,
+          "title": "Ask If It's a Solution or Adjustment",
+          "category": "pattern-recognition",
+          "kind": "tactic"
+        },
+        {
+          "id": 398,
+          "title": "The FATE Model",
+          "category": "psyop-detection",
+          "kind": "framework"
+        },
+        {
+          "id": 399,
+          "title": "Exploit Novelty Bias",
+          "category": "psyop-detection",
+          "kind": "tactic"
+        },
+        {
+          "id": 400,
+          "title": "Centralized Echo Chambers",
+          "category": "psyop-detection",
+          "kind": "warning"
+        },
+        {
+          "id": 401,
+          "title": "Counter Cognitive Dissonance Weapons",
+          "category": "psyop-detection",
+          "kind": "tactic"
+        },
+        {
+          "id": 402,
+          "title": "Follow the Money Trail",
+          "category": "psyop-detection",
+          "kind": "principle"
+        },
+        {
+          "id": 403,
+          "title": "Context Boundary Shifting",
+          "category": "psyop-detection",
+          "kind": "principle"
+        },
+        {
+          "id": 404,
+          "title": "Deconstruct Archetypes",
+          "category": "psyop-detection",
+          "kind": "tactic"
+        },
+        {
+          "id": 405,
+          "title": "Frame Evaluation",
+          "category": "psyop-detection",
+          "kind": "framework"
+        },
+        {
+          "id": 406,
+          "title": "Spot Logical Fallacies",
+          "category": "psyop-detection",
+          "kind": "tactic"
+        },
+        {
+          "id": 521,
+          "title": "8-Step Framework to Detect Psyops",
+          "category": "spotting-psyops",
+          "kind": "framework"
+        }
+      ]
     },
     {
       "priority": 2,
       "layer": "Decode",
       "focus": "Frame-control, influence-formula, emotional-triggers",
-      "cards": 29
+      "categories": [
+        "frame-control",
+        "frames",
+        "frame-recovery",
+        "frame-setting-statements",
+        "influence-formula",
+        "emotional-triggers",
+        "influence",
+        "influence-sequence"
+      ],
+      "cards": 75,
+      "cardIds": [
+        5,
+        6,
+        7,
+        8,
+        22,
+        30,
+        51,
+        140,
+        141,
+        142,
+        143,
+        144,
+        147,
+        195,
+        196,
+        207,
+        210,
+        213,
+        221,
+        222,
+        223,
+        224,
+        225,
+        229,
+        230,
+        231,
+        239,
+        240,
+        241,
+        242,
+        244,
+        246,
+        247,
+        248,
+        249,
+        250,
+        254,
+        260,
+        300,
+        301,
+        302,
+        305,
+        306,
+        307,
+        352,
+        353,
+        354,
+        356,
+        357,
+        358,
+        371,
+        372,
+        373,
+        374,
+        376,
+        377,
+        378,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386,
+        387,
+        493,
+        505,
+        506,
+        507,
+        508,
+        509,
+        510,
+        511,
+        512,
+        569,
+        572
+      ],
+      "linkedCards": [
+        {
+          "id": 5,
+          "title": "Identity Creates Cognitive Dissonance",
+          "category": "influence",
+          "kind": "mental_model"
+        },
+        {
+          "id": 6,
+          "title": "Choose the Right Identity by Context",
+          "category": "influence",
+          "kind": "tactic"
+        },
+        {
+          "id": 7,
+          "title": "IDEA Framework to Leverage Identity",
+          "category": "influence",
+          "kind": "framework"
+        },
+        {
+          "id": 8,
+          "title": "Identity Affirmation Phrases",
+          "category": "influence",
+          "kind": "phrase"
+        },
+        {
+          "id": 22,
+          "title": "Seen and Unjudged",
+          "category": "influence",
+          "kind": "mental_model"
+        },
+        {
+          "id": 30,
+          "title": "Iteratively Push Influence Limits",
+          "category": "influence",
+          "kind": "mental_model"
+        },
+        {
+          "id": 51,
+          "title": "Explaining Signals Weakness",
+          "category": "influence",
+          "kind": "principle"
+        },
+        {
+          "id": 140,
+          "title": "Compliance Is Not Influence",
+          "category": "influence",
+          "kind": "principle"
+        },
+        {
+          "id": 141,
+          "title": "Alignment vs Compliance",
+          "category": "influence",
+          "kind": "mental_model"
+        },
+        {
+          "id": 142,
+          "title": "Compliance Teaches People to Hide",
+          "category": "influence",
+          "kind": "warning"
+        },
+        {
+          "id": 143,
+          "title": "The Energy Test",
+          "category": "influence",
+          "kind": "framework"
+        },
+        {
+          "id": 144,
+          "title": "Influence as Nervous System Resonance",
+          "category": "influence",
+          "kind": "mental_model"
+        },
+        {
+          "id": 147,
+          "title": "Alignment Is a Byproduct of Truth",
+          "category": "influence",
+          "kind": "principle"
+        },
+        {
+          "id": 195,
+          "title": "Lead with Novelty to Capture Focus",
+          "category": "influence",
+          "kind": "tactic"
+        },
+        {
+          "id": 196,
+          "title": "The Million-Year Test",
+          "category": "influence",
+          "kind": "mental_model"
+        },
+        {
+          "id": 207,
+          "title": "Triggers Bypass Logic",
+          "category": "emotional-triggers",
+          "kind": "principle"
+        },
+        {
+          "id": 210,
+          "title": "Trigger Formula",
+          "category": "emotional-triggers",
+          "kind": "principle"
+        },
+        {
+          "id": 213,
+          "title": "Limbic Permission Slip",
+          "category": "influence",
+          "kind": "mental_model"
+        },
+        {
+          "id": 221,
+          "title": "First to Name Wins",
+          "category": "frames",
+          "kind": "principle"
+        },
+        {
+          "id": 222,
+          "title": "Install a Frame",
+          "category": "frames",
+          "kind": "framework"
+        },
+        {
+          "id": 223,
+          "title": "Never Argue Inside a Frame",
+          "category": "frames",
+          "kind": "warning"
+        },
+        {
+          "id": 224,
+          "title": "Defang a Hostile Frame",
+          "category": "frames",
+          "kind": "framework"
+        },
+        {
+          "id": 225,
+          "title": "Soft Frame Replacement",
+          "category": "frames",
+          "kind": "tactic"
+        },
+        {
+          "id": 229,
+          "title": "The Five-Step Control Loop",
+          "category": "influence-sequence",
+          "kind": "framework"
+        },
+        {
+          "id": 230,
+          "title": "Structure Reality Before Content",
+          "category": "influence",
+          "kind": "mental_model"
+        },
+        {
+          "id": 231,
+          "title": "Three Levers of Influence",
+          "category": "influence",
+          "kind": "principle"
+        },
+        {
+          "id": 239,
+          "title": "Speak to the Operating System",
+          "category": "influence",
+          "kind": "principle"
+        },
+        {
+          "id": 240,
+          "title": "Six Behavioral Systems",
+          "category": "influence",
+          "kind": "framework"
+        },
+        {
+          "id": 241,
+          "title": "Signs of True Influence",
+          "category": "influence",
+          "kind": "principle"
+        },
+        {
+          "id": 242,
+          "title": "Pass the Post-Opening Test",
+          "category": "influence",
+          "kind": "tactic"
+        },
+        {
+          "id": 244,
+          "title": "Avoid Mask-Level Results",
+          "category": "influence",
+          "kind": "warning"
+        },
+        {
+          "id": 246,
+          "title": "Frames Decide Power and Rules",
+          "category": "frame-control",
+          "kind": "mental_model"
+        },
+        {
+          "id": 247,
+          "title": "Belief Beats Reaction",
+          "category": "frame-control",
+          "kind": "principle"
+        },
+        {
+          "id": 248,
+          "title": "Four Pillars of Frame Control",
+          "category": "frame-control",
+          "kind": "framework"
+        },
+        {
+          "id": 249,
+          "title": "Pattern Interrupt",
+          "category": "frame-control",
+          "kind": "tactic"
+        },
+        {
+          "id": 250,
+          "title": "Quiet Reframing",
+          "category": "frame-control",
+          "kind": "tactic"
+        },
+        {
+          "id": 254,
+          "title": "Challenges Test Your Structure",
+          "category": "frame-control",
+          "kind": "principle"
+        },
+        {
+          "id": 260,
+          "title": "Manufacture Compliance Psychologically",
+          "category": "influence",
+          "kind": "principle"
+        },
+        {
+          "id": 300,
+          "title": "Frames Shape Every Interaction",
+          "category": "frame-control",
+          "kind": "mental_model"
+        },
+        {
+          "id": 301,
+          "title": "Naked Questions Surrender Power",
+          "category": "frame-control",
+          "kind": "warning"
+        },
+        {
+          "id": 302,
+          "title": "Five Frame-Setting Statements",
+          "category": "frame-setting-statements",
+          "kind": "framework"
+        },
+        {
+          "id": 305,
+          "title": "Recover From a Missed Frame",
+          "category": "frame-recovery",
+          "kind": "principle"
+        },
+        {
+          "id": 306,
+          "title": "Assess the Existing Frame First",
+          "category": "frame-control",
+          "kind": "principle"
+        },
+        {
+          "id": 307,
+          "title": "Focus on the Next Micro-Move",
+          "category": "influence",
+          "kind": "principle"
+        },
+        {
+          "id": 352,
+          "title": "Limbic Influence vs Placebo Influence",
+          "category": "influence",
+          "kind": "mental_model"
+        },
+        {
+          "id": 353,
+          "title": "Rewrite Your Nervous System First",
+          "category": "influence",
+          "kind": "principle"
+        },
+        {
+          "id": 354,
+          "title": "Liberation Is the Only Mission",
+          "category": "influence",
+          "kind": "warning"
+        },
+        {
+          "id": 356,
+          "title": "Influence Moves Internal Reality",
+          "category": "influence",
+          "kind": "principle"
+        },
+        {
+          "id": 357,
+          "title": "Speak Truth the Body Cannot Ignore",
+          "category": "influence",
+          "kind": "tactic"
+        },
+        {
+          "id": 358,
+          "title": "Humans Are Not Logical Creatures",
+          "category": "influence",
+          "kind": "mental_model"
+        },
+        {
+          "id": 371,
+          "title": "Never Do These 10 Things in Conflict",
+          "category": "frame-control",
+          "kind": "warning"
+        },
+        {
+          "id": 372,
+          "title": "Tactical Pre-Framing",
+          "category": "frame-control",
+          "kind": "framework"
+        },
+        {
+          "id": 373,
+          "title": "The Frame Controls Meaning",
+          "category": "frame-control",
+          "kind": "mental_model"
+        },
+        {
+          "id": 374,
+          "title": "Disarm and Reframe Tactics",
+          "category": "frame-control",
+          "kind": "tactic"
+        },
+        {
+          "id": 376,
+          "title": "Influence Is Being, Not Doing",
+          "category": "influence",
+          "kind": "principle"
+        },
+        {
+          "id": 377,
+          "title": "Worldview Is the Real Bottleneck",
+          "category": "influence",
+          "kind": "mental_model"
+        },
+        {
+          "id": 378,
+          "title": "Scripts Fail Without Self-Mastery",
+          "category": "influence",
+          "kind": "warning"
+        },
+        {
+          "id": 381,
+          "title": "Command Your Own Reality",
+          "category": "influence",
+          "kind": "principle"
+        },
+        {
+          "id": 382,
+          "title": "Arguments Are With Ghosts",
+          "category": "emotional-triggers",
+          "kind": "principle"
+        },
+        {
+          "id": 383,
+          "title": "Childhood Pattern-Matching Database",
+          "category": "emotional-triggers",
+          "kind": "mental_model"
+        },
+        {
+          "id": 384,
+          "title": "No Timestamp on Triggers",
+          "category": "emotional-triggers",
+          "kind": "principle"
+        },
+        {
+          "id": 385,
+          "title": "Disproportionate Reaction Signal",
+          "category": "emotional-triggers",
+          "kind": "warning"
+        },
+        {
+          "id": 386,
+          "title": "Three Layers of a Trigger",
+          "category": "emotional-triggers",
+          "kind": "framework"
+        },
+        {
+          "id": 387,
+          "title": "Old Code on New Hardware",
+          "category": "emotional-triggers",
+          "kind": "principle"
+        },
+        {
+          "id": 493,
+          "title": "Context Over Skill",
+          "category": "influence",
+          "kind": "principle"
+        },
+        {
+          "id": 505,
+          "title": "6-Step Cognitive Dissonance Formula",
+          "category": "influence-formula",
+          "kind": "framework"
+        },
+        {
+          "id": 506,
+          "title": "Self-Persuasion Beats Direct Commands",
+          "category": "influence-formula",
+          "kind": "principle"
+        },
+        {
+          "id": 507,
+          "title": "Craft Identity Statements",
+          "category": "influence-formula",
+          "kind": "tactic"
+        },
+        {
+          "id": 508,
+          "title": "Personality Inventory Questions",
+          "category": "influence-formula",
+          "kind": "tactic"
+        },
+        {
+          "id": 509,
+          "title": "Negative Dissociation and Off-Casting",
+          "category": "influence-formula",
+          "kind": "tactic"
+        },
+        {
+          "id": 510,
+          "title": "Article Technique for Authority",
+          "category": "influence-formula",
+          "kind": "tactic"
+        },
+        {
+          "id": 511,
+          "title": "Social Introduction Commitment",
+          "category": "influence-formula",
+          "kind": "tactic"
+        },
+        {
+          "id": 512,
+          "title": "Identity Protection Drives Behavior",
+          "category": "influence-formula",
+          "kind": "principle"
+        },
+        {
+          "id": 569,
+          "title": "Read the Nervous System",
+          "category": "influence",
+          "kind": "principle"
+        },
+        {
+          "id": 572,
+          "title": "Speak to the Being Behind the Mask",
+          "category": "influence",
+          "kind": "tactic"
+        }
+      ]
     },
     {
       "priority": 3,
       "layer": "Defend",
       "focus": "Boundaries, de-escalation, psychological-defense, ethical-persuasion",
-      "cards": 9
+      "categories": [
+        "boundaries",
+        "emotional-boundaries",
+        "de-escalation",
+        "psychological-defense",
+        "ethical-persuasion"
+      ],
+      "cards": 11,
+      "cardIds": [
+        14,
+        133,
+        134,
+        135,
+        137,
+        330,
+        333,
+        369,
+        370,
+        461,
+        462
+      ],
+      "linkedCards": [
+        {
+          "id": 14,
+          "title": "Call Out Extremes Gently",
+          "category": "emotional-boundaries",
+          "kind": "tactic"
+        },
+        {
+          "id": 133,
+          "title": "Pause to Override Inherited Authority",
+          "category": "boundaries",
+          "kind": "tactic"
+        },
+        {
+          "id": 134,
+          "title": "Answer Only One Request",
+          "category": "boundaries",
+          "kind": "tactic"
+        },
+        {
+          "id": 135,
+          "title": "Redirect Morality to Facts",
+          "category": "boundaries",
+          "kind": "tactic"
+        },
+        {
+          "id": 137,
+          "title": "Use Short Declarative Statements",
+          "category": "boundaries",
+          "kind": "tactic"
+        },
+        {
+          "id": 330,
+          "title": "Viral Beliefs Build Self-Protecting Clusters",
+          "category": "psychological-defense",
+          "kind": "warning"
+        },
+        {
+          "id": 333,
+          "title": "Apply the Cycle for Constructive Influence",
+          "category": "ethical-persuasion",
+          "kind": "tactic"
+        },
+        {
+          "id": 369,
+          "title": "Diagnose Threats from Behavior",
+          "category": "de-escalation",
+          "kind": "tactic"
+        },
+        {
+          "id": 370,
+          "title": "Targeted Threat Responses",
+          "category": "de-escalation",
+          "kind": "tactic"
+        },
+        {
+          "id": 461,
+          "title": "Use Empathetic One-Liners",
+          "category": "de-escalation",
+          "kind": "tactic"
+        },
+        {
+          "id": 462,
+          "title": "Name the Predicted Behavior",
+          "category": "de-escalation",
+          "kind": "tactic"
+        }
+      ]
     },
     {
       "priority": 4,
       "layer": "Discipline",
       "focus": "Outcome-based tech use, self-authorship, identity repair",
-      "cards": 3
+      "categories": [
+        "self-authorship",
+        "phone-addiction",
+        "attention-economy",
+        "psychology-of-social-media",
+        "dopamine-hacking",
+        "digital-addiction"
+      ],
+      "cards": 9,
+      "cardIds": [
+        124,
+        129,
+        148,
+        149,
+        150,
+        151,
+        153,
+        156,
+        266
+      ],
+      "linkedCards": [
+        {
+          "id": 124,
+          "title": "Choose Authorship Over Obedience",
+          "category": "self-authorship",
+          "kind": "principle"
+        },
+        {
+          "id": 129,
+          "title": "Truth Is Remembered Not Learned",
+          "category": "self-authorship",
+          "kind": "mental_model"
+        },
+        {
+          "id": 148,
+          "title": "Attention as the Ultimate Asset",
+          "category": "attention-economy",
+          "kind": "mental_model"
+        },
+        {
+          "id": 149,
+          "title": "The Hidden Cost of Screen Time",
+          "category": "phone-addiction",
+          "kind": "warning"
+        },
+        {
+          "id": 150,
+          "title": "Notifications Seize Focus",
+          "category": "psychology-of-social-media",
+          "kind": "principle"
+        },
+        {
+          "id": 151,
+          "title": "Dopamine Hits on Anticipation",
+          "category": "dopamine-hacking",
+          "kind": "principle"
+        },
+        {
+          "id": 153,
+          "title": "Feed Sorted by Arousal",
+          "category": "psychology-of-social-media",
+          "kind": "mental_model"
+        },
+        {
+          "id": 156,
+          "title": "Personalized Model Beats Charisma",
+          "category": "digital-addiction",
+          "kind": "principle"
+        },
+        {
+          "id": 266,
+          "title": "Outrage Is the Cheapest Lever",
+          "category": "digital-addiction",
+          "kind": "principle"
+        }
+      ]
     }
   ],
   "topFrameworks": [
@@ -368,179 +1188,354 @@
   ],
   "highValueCards": [
     {
-      "id": 405,
-      "title": "Frame Evaluation",
-      "kind": "framework",
-      "category": "psyop-detection",
-      "pillar": "psychological_warfare"
-    },
-    {
-      "id": 421,
-      "title": "Narrative Warfare Mechanism",
-      "kind": "framework",
-      "category": "narrative-warfare",
-      "pillar": "psychological_warfare"
-    },
-    {
-      "id": 48,
-      "title": "Unrestricted Warfare Division Strategy",
-      "kind": "warning",
-      "category": "psychological-warfare",
-      "pillar": "psychological_warfare"
-    },
-    {
-      "id": 330,
-      "title": "Viral Beliefs Build Self-Protecting Clusters",
-      "kind": "warning",
-      "category": "psychological-defense",
-      "pillar": "psychological_warfare"
-    },
-    {
-      "id": 377,
-      "title": "Worldview Is the Real Bottleneck",
-      "kind": "mental_model",
-      "category": "influence",
-      "pillar": "information_operations"
-    },
-    {
-      "id": 392,
-      "title": "Left vs Right Is a Distraction",
-      "kind": "mental_model",
-      "category": "media-manipulation",
-      "pillar": "information_operations"
-    },
-    {
-      "id": 400,
-      "title": "Centralized Echo Chambers",
-      "kind": "warning",
-      "category": "psyop-detection",
-      "pillar": "psychological_warfare"
-    },
-    {
-      "id": 464,
-      "title": "People vs. The System",
-      "kind": "mental_model",
-      "category": "psychological-warfare",
-      "pillar": "psychological_warfare"
-    },
-    {
-      "id": 469,
-      "title": "Psyops Hijack Existing Movements",
-      "kind": "mental_model",
-      "category": "psychological-warfare",
-      "pillar": "psychological_warfare"
-    },
-    {
-      "id": 601,
-      "title": "Track Pressure, Not Events",
-      "kind": "mental_model",
-      "category": "psychological-operations",
-      "pillar": "psychological_warfare"
-    },
-    {
-      "id": 7,
-      "title": "IDEA Framework to Leverage Identity",
-      "kind": "framework",
-      "category": "influence",
-      "pillar": "psychology"
-    },
-    {
-      "id": 71,
-      "title": "Four Elements of Perceived Authority",
-      "kind": "framework",
-      "category": "authority",
-      "pillar": "psychology"
-    },
-    {
-      "id": 143,
-      "title": "The Energy Test",
-      "kind": "framework",
-      "category": "influence",
-      "pillar": "psychology"
-    },
-    {
-      "id": 240,
-      "title": "Six Behavioral Systems",
-      "kind": "framework",
-      "category": "influence",
-      "pillar": "psychology"
-    },
-    {
-      "id": 248,
-      "title": "Four Pillars of Frame Control",
-      "kind": "framework",
-      "category": "frame-control",
-      "pillar": "psychology"
-    },
-    {
-      "id": 372,
-      "title": "Tactical Pre-Framing",
-      "kind": "framework",
-      "category": "frame-control",
-      "pillar": "psychology"
-    },
-    {
-      "id": 386,
-      "title": "Three Layers of a Trigger",
-      "kind": "framework",
-      "category": "emotional-triggers",
-      "pillar": "psychology"
-    },
-    {
       "id": 398,
       "title": "The FATE Model",
       "kind": "framework",
       "category": "psyop-detection",
-      "pillar": "psychology"
+      "pillar": "psychology",
+      "tier": "S",
+      "theme": "Recognize & Resist Manipulation",
+      "nhiVerdict": "Actionable framework — Recognize & Resist Manipulation. Apply defensively, not coercively."
     },
     {
-      "id": 501,
-      "title": "Five Components of Authority",
+      "id": 521,
+      "title": "8-Step Framework to Detect Psyops",
       "kind": "framework",
-      "category": "authority",
-      "pillar": "psychology"
+      "category": "spotting-psyops",
+      "pillar": "psychology",
+      "tier": "S",
+      "theme": "Recognize & Resist Manipulation",
+      "nhiVerdict": "Actionable framework — Recognize & Resist Manipulation. Apply defensively, not coercively."
     },
     {
       "id": 505,
       "title": "6-Step Cognitive Dissonance Formula",
       "kind": "framework",
       "category": "influence-formula",
-      "pillar": "psychology"
-    },
-    {
-      "id": 571,
-      "title": "Profile Using Three Layers",
-      "kind": "framework",
-      "category": "behavioral-profiling",
-      "pillar": "psychology"
+      "pillar": "psychology",
+      "tier": "S",
+      "theme": "How Influence Works",
+      "nhiVerdict": "Actionable framework — How Influence Works. Apply defensively, not coercively."
     },
     {
       "id": 5,
       "title": "Identity Creates Cognitive Dissonance",
       "kind": "mental_model",
       "category": "influence",
-      "pillar": "psychology"
+      "pillar": "psychology",
+      "tier": "S",
+      "theme": "How Influence Works",
+      "nhiVerdict": "Foundational mental model for how influence works. Changes what you notice before you react."
     },
     {
       "id": 19,
       "title": "The Immunity Illusion",
       "kind": "warning",
       "category": "cult-recruitment",
-      "pillar": "psychology"
+      "pillar": "psychology",
+      "tier": "S",
+      "theme": "Recognize & Resist Manipulation",
+      "nhiVerdict": "Universal warning under Recognize & Resist Manipulation: Believing you are too smart or aware to join a cult lowers your guard and makes you more vulnerable to recruitment…"
     },
     {
-      "id": 22,
-      "title": "Seen and Unjudged",
+      "id": 71,
+      "title": "Four Elements of Perceived Authority",
+      "kind": "framework",
+      "category": "authority",
+      "pillar": "psychology",
+      "tier": "S",
+      "theme": "Relationships & Social Power",
+      "nhiVerdict": "Actionable framework — Relationships & Social Power. Apply defensively, not coercively."
+    },
+    {
+      "id": 421,
+      "title": "Narrative Warfare Mechanism",
+      "kind": "framework",
+      "category": "narrative-warfare",
+      "pillar": "psychological_warfare",
+      "tier": "S",
+      "theme": "Media & Information Literacy",
+      "nhiVerdict": "Actionable framework — Media & Information Literacy. Apply defensively, not coercively."
+    },
+    {
+      "id": 588,
+      "title": "Avoid the NPC Conversion Trap",
+      "kind": "warning",
+      "category": "distraction-traps",
+      "pillar": "information_operations",
+      "tier": "S",
+      "theme": "Media & Information Literacy",
+      "nhiVerdict": "Universal warning under Media & Information Literacy: The game converts players into NPCs through endless distractions like social media doomscrolling, political…"
+    },
+    {
+      "id": 622,
+      "title": "Algorithms Curate Your Identity",
+      "kind": "warning",
+      "category": "algorithmic-influence",
+      "pillar": "psychology",
+      "tier": "S",
+      "theme": "Identity, Autonomy & Self-Authorship",
+      "nhiVerdict": "Universal warning under Identity, Autonomy & Self-Authorship: Social platforms detect your anger, loneliness, and cravings then selectively present content that shapes your…"
+    },
+    {
+      "id": 41,
+      "title": "Selective Extremes on Social Media",
       "kind": "mental_model",
+      "category": "psyops",
+      "pillar": "psychological_warfare",
+      "tier": "S",
+      "theme": "Media & Information Literacy",
+      "nhiVerdict": "Foundational mental model for media & information literacy. Changes what you notice before you react."
+    },
+    {
+      "id": 48,
+      "title": "Unrestricted Warfare Division Strategy",
+      "kind": "warning",
+      "category": "psychological-warfare",
+      "pillar": "psychological_warfare",
+      "tier": "S",
+      "theme": "Recognize & Resist Manipulation",
+      "nhiVerdict": "Universal warning under Recognize & Resist Manipulation: Adversaries splinter societies by fragmenting ideologies into opposing factions and flooding them with tribal language."
+    },
+    {
+      "id": 78,
+      "title": "Rank Is Not Leadership",
+      "kind": "warning",
+      "category": "leadership",
+      "pillar": "psychology",
+      "tier": "S",
+      "theme": "Relationships & Social Power",
+      "nhiVerdict": "Universal warning under Relationships & Social Power: Formal position or rank does not equal leadership. People follow the strongest, clearest, most consistent behavioral…"
+    },
+    {
+      "id": 85,
+      "title": "Six Steps of Awakening",
+      "kind": "framework",
+      "category": "spiritual-awakening",
+      "pillar": "psychology",
+      "tier": "S",
+      "theme": "Identity, Autonomy & Self-Authorship",
+      "nhiVerdict": "Actionable framework — Identity, Autonomy & Self-Authorship. Apply defensively, not coercively."
+    },
+    {
+      "id": 110,
+      "title": "Four-Step Insult Decoder",
+      "kind": "framework",
+      "category": "insults",
+      "pillar": "psychology",
+      "tier": "S",
+      "theme": "Emotional Triggers & Boundaries",
+      "nhiVerdict": "Actionable framework — Emotional Triggers & Boundaries. Apply defensively, not coercively."
+    },
+    {
+      "id": 142,
+      "title": "Compliance Teaches People to Hide",
+      "kind": "warning",
       "category": "influence",
-      "pillar": "psychology"
+      "pillar": "psychology",
+      "tier": "S",
+      "theme": "How Influence Works",
+      "nhiVerdict": "Universal warning under How Influence Works: Every push for pure compliance trains the other person to conceal their real thoughts. They learn that truth is…"
+    },
+    {
+      "id": 386,
+      "title": "Three Layers of a Trigger",
+      "kind": "framework",
+      "category": "emotional-triggers",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "Emotional Triggers & Boundaries",
+      "nhiVerdict": "Actionable framework — Emotional Triggers & Boundaries. Apply defensively, not coercively."
+    },
+    {
+      "id": 3,
+      "title": "Social Identity Theory",
+      "kind": "framework",
+      "category": "social-identity-theory",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "Identity, Autonomy & Self-Authorship",
+      "nhiVerdict": "Actionable framework — Identity, Autonomy & Self-Authorship. Apply defensively, not coercively."
+    },
+    {
+      "id": 7,
+      "title": "IDEA Framework to Leverage Identity",
+      "kind": "framework",
+      "category": "influence",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "How Influence Works",
+      "nhiVerdict": "Actionable framework — How Influence Works. Apply defensively, not coercively."
+    },
+    {
+      "id": 9,
+      "title": "FOG and CAVA Detection Framework",
+      "kind": "framework",
+      "category": "manipulation-tactics",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "Emotional Triggers & Boundaries",
+      "nhiVerdict": "Actionable framework — Emotional Triggers & Boundaries. Apply defensively, not coercively."
     },
     {
       "id": 27,
       "title": "Preemptive Invalidation",
       "kind": "warning",
       "category": "cult-recruitment",
-      "pillar": "psychology"
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "Recognize & Resist Manipulation",
+      "nhiVerdict": "Universal warning under Recognize & Resist Manipulation: Prepare recruits for outsiders' concerns by framing family and friends as afraid, stuck in the old system, or unable…"
+    },
+    {
+      "id": 122,
+      "title": "Your Amygdala Runs Ghost Scripts",
+      "kind": "mental_model",
+      "category": "inherited-trauma",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "Emotional Triggers & Boundaries",
+      "nhiVerdict": "Foundational mental model for emotional triggers & boundaries. Changes what you notice before you react."
+    },
+    {
+      "id": 143,
+      "title": "The Energy Test",
+      "kind": "framework",
+      "category": "influence",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "How Influence Works",
+      "nhiVerdict": "Actionable framework — How Influence Works. Apply defensively, not coercively."
+    },
+    {
+      "id": 229,
+      "title": "The Five-Step Control Loop",
+      "kind": "framework",
+      "category": "influence-sequence",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "How Influence Works",
+      "nhiVerdict": "Actionable framework — How Influence Works. Apply defensively, not coercively."
+    },
+    {
+      "id": 240,
+      "title": "Six Behavioral Systems",
+      "kind": "framework",
+      "category": "influence",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "How Influence Works",
+      "nhiVerdict": "Actionable framework — How Influence Works. Apply defensively, not coercively."
+    },
+    {
+      "id": 372,
+      "title": "Tactical Pre-Framing",
+      "kind": "framework",
+      "category": "frame-control",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "How Influence Works",
+      "nhiVerdict": "Actionable framework — How Influence Works. Apply defensively, not coercively."
+    },
+    {
+      "id": 469,
+      "title": "Psyops Hijack Existing Movements",
+      "kind": "mental_model",
+      "category": "psychological-warfare",
+      "pillar": "psychological_warfare",
+      "tier": "A",
+      "theme": "Recognize & Resist Manipulation",
+      "nhiVerdict": "Foundational mental model for recognize & resist manipulation. Changes what you notice before you react."
+    },
+    {
+      "id": 603,
+      "title": "PRISM Seeding Model",
+      "kind": "framework",
+      "category": "seeding-detection",
+      "pillar": "information_operations",
+      "tier": "A",
+      "theme": "Emotional Triggers & Boundaries",
+      "nhiVerdict": "Actionable framework — Emotional Triggers & Boundaries. Apply defensively, not coercively."
+    },
+    {
+      "id": 644,
+      "title": "True Persuasion Is Permission",
+      "kind": "principle",
+      "category": "persuasion",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "How Influence Works",
+      "nhiVerdict": "Core principle for how influence works — relevant across relationships, media, and self-governance."
+    },
+    {
+      "id": 1,
+      "title": "Dementia Erases Your Identity",
+      "kind": "warning",
+      "category": "identity-loss",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "Identity, Autonomy & Self-Authorship",
+      "nhiVerdict": "Universal warning under Identity, Autonomy & Self-Authorship: Dementia removes random pieces of your life—memories, names, faces, and sense of home—until familiar people become…"
+    },
+    {
+      "id": 54,
+      "title": "Reactions Leak Power",
+      "kind": "warning",
+      "category": "power-management",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "Relationships & Social Power",
+      "nhiVerdict": "Universal warning under Relationships & Social Power: Every reaction leaks power, every explanation invites judgment, and every justification causes you to shrink. Replace…"
+    },
+    {
+      "id": 73,
+      "title": "Influence Works Through Permission",
+      "kind": "principle",
+      "category": "persuasion",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "How Influence Works",
+      "nhiVerdict": "Core principle for how influence works — relevant across relationships, media, and self-governance."
+    },
+    {
+      "id": 173,
+      "title": "The FEAR Brainwashing Formula",
+      "kind": "framework",
+      "category": "goal-setting",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "Emotional Triggers & Boundaries",
+      "nhiVerdict": "Actionable framework — Emotional Triggers & Boundaries. Apply defensively, not coercively."
+    },
+    {
+      "id": 213,
+      "title": "Limbic Permission Slip",
+      "kind": "mental_model",
+      "category": "influence",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "How Influence Works",
+      "nhiVerdict": "Foundational mental model for how influence works. Changes what you notice before you react."
+    },
+    {
+      "id": 327,
+      "title": "The Five-Step Cognitive Virus Cycle",
+      "kind": "framework",
+      "category": "cognitive-virology",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "Emotional Triggers & Boundaries",
+      "nhiVerdict": "Actionable framework — Emotional Triggers & Boundaries. Apply defensively, not coercively."
+    },
+    {
+      "id": 352,
+      "title": "Limbic Influence vs Placebo Influence",
+      "kind": "mental_model",
+      "category": "influence",
+      "pillar": "psychology",
+      "tier": "A",
+      "theme": "How Influence Works",
+      "nhiVerdict": "Foundational mental model for how influence works. Changes what you notice before you react."
     }
   ],
   "stats": {
@@ -566,5 +1561,1094 @@
       "Harassment"
     ],
     "note": "DarkLense is defensive literacy — understanding influence to resist it, not to weaponize it."
+  },
+  "humanValueAssessment": {
+    "title": "AI NHI — Universal Human Value Assessment",
+    "date": "2026-06-29",
+    "cardsAssessed": 645,
+    "methodology": "Full-corpus NHI scan of all 645 knowledge cards. Each card scored on manipulation defense, identity/autonomy, emotional boundaries, media literacy, persuasion awareness, relationship dynamics, warning salience, and framework actionability. Tier S = essential for every civilian; Tier A = high universal value; Tier B = strong situational value. Manual NHI boosts applied to cult-warning, psyop-detection, and algorithmic-identity cards.",
+    "executiveSummaryDistill": {
+      "lead": "NHI assessed all 645 cards for universal human importance — not operator utility, not sport persuasion, not niche elite tradecraft.",
+      "findingsTitle": "NHI findings",
+      "findings": [
+        "85 warning cards — highest salience for civilians who assume they are immune",
+        "89 frameworks — 15 Tier-S models are actionable without classified context",
+        "Manipulation defense and identity/autonomy dominate the top 60 — not tactical pickup or sales scripts",
+        "Media literacy and algorithmic identity cards rank essential in the digital-attention economy",
+        "Defensive literacy stack holds: detect psyops → decode frames/triggers → defend boundaries → discipline attention"
+      ],
+      "tierSTitle": "Tier S — essential for every human (15 cards)",
+      "tierS": [
+        "The FATE Model — Recognize & Resist Manipulation",
+        "8-Step Framework to Detect Psyops — Recognize & Resist Manipulation",
+        "6-Step Cognitive Dissonance Formula — How Influence Works",
+        "Identity Creates Cognitive Dissonance — How Influence Works",
+        "The Immunity Illusion — Recognize & Resist Manipulation",
+        "Four Elements of Perceived Authority — Relationships & Social Power",
+        "Narrative Warfare Mechanism — Media & Information Literacy",
+        "Avoid the NPC Conversion Trap — Media & Information Literacy",
+        "Algorithms Curate Your Identity — Identity, Autonomy & Self-Authorship",
+        "Selective Extremes on Social Media — Media & Information Literacy",
+        "Unrestricted Warfare Division Strategy — Recognize & Resist Manipulation",
+        "Rank Is Not Leadership — Relationships & Social Power",
+        "Six Steps of Awakening — Identity, Autonomy & Self-Authorship",
+        "Four-Step Insult Decoder — Emotional Triggers & Boundaries",
+        "Compliance Teaches People to Hide — How Influence Works"
+      ],
+      "imperativeTitle": "NHI imperative",
+      "imperative": [
+        "Assume you are already being influenced — immunity is the primary vulnerability",
+        "Identity is the attack surface; protect self-authorship before debating facts",
+        "Triggers precede compliance — decode emotion before accepting frames",
+        "Algorithms curate identity; outrage is engagement fuel, not truth signal",
+        "Use frameworks for recognition and exit — never for coercion"
+      ]
+    },
+    "themes": [
+      {
+        "id": "emotional_boundaries",
+        "label": "Emotional Triggers & Boundaries",
+        "why": "Unmanaged triggers and absent boundaries make anyone exploitable when stressed or shamed.",
+        "color": "#f59e0b",
+        "cardCount": 258,
+        "topCardIds": [
+          398,
+          521,
+          122,
+          110,
+          386,
+          9,
+          19,
+          383
+        ],
+        "filterCategories": [
+          "emotional-triggers",
+          "emotional-boundaries",
+          "de-escalation",
+          "boundaries",
+          "trauma",
+          "shame",
+          "inherited-trauma"
+        ]
+      },
+      {
+        "id": "persuasion_awareness",
+        "label": "How Influence Works",
+        "why": "Understanding persuasion mechanics is defensive literacy — the vaccine, not the weapon.",
+        "color": "#a855f7",
+        "cardCount": 235,
+        "topCardIds": [
+          5,
+          71,
+          73,
+          505,
+          644,
+          398,
+          438,
+          521
+        ],
+        "filterCategories": [
+          "influence",
+          "persuasion",
+          "frame-control",
+          "authority",
+          "influence-formula",
+          "ethical-persuasion",
+          "influence-sequence"
+        ]
+      },
+      {
+        "id": "identity_autonomy",
+        "label": "Identity, Autonomy & Self-Authorship",
+        "why": "Identity is the control surface — lose authorship of your story and you accept frames others set for you.",
+        "color": "#8b5cf6",
+        "cardCount": 232,
+        "topCardIds": [
+          622,
+          505,
+          3,
+          5,
+          85,
+          563,
+          1,
+          41
+        ],
+        "filterCategories": [
+          "identity",
+          "self-authorship",
+          "core-identities",
+          "social-identity-theory",
+          "identity-loss",
+          "personal-growth",
+          "ego-dissolution"
+        ]
+      },
+      {
+        "id": "relationship_dynamics",
+        "label": "Relationships & Social Power",
+        "why": "Status, rapport, and power leaks shape family, work, and community — everyone navigates these daily.",
+        "color": "#10b981",
+        "cardCount": 209,
+        "topCardIds": [
+          71,
+          398,
+          78,
+          521,
+          505,
+          54,
+          588,
+          3
+        ],
+        "filterCategories": [
+          "body-language",
+          "nonverbal",
+          "authority",
+          "leadership",
+          "narcissism",
+          "empathy",
+          "power-management"
+        ]
+      },
+      {
+        "id": "media_information",
+        "label": "Media & Information Literacy",
+        "why": "Algorithms, outrage loops, and manufactured consensus target every person with a screen.",
+        "color": "#3b82f6",
+        "cardCount": 158,
+        "topCardIds": [
+          398,
+          421,
+          588,
+          41,
+          521,
+          419,
+          392,
+          469
+        ],
+        "filterCategories": [
+          "media-literacy",
+          "media-manipulation",
+          "information-collapse",
+          "attention-economy",
+          "psychology-of-social-media",
+          "manufactured",
+          "narrative-warfare"
+        ]
+      },
+      {
+        "id": "manipulation_defense",
+        "label": "Recognize & Resist Manipulation",
+        "why": "Covert influence appears in relationships, workplaces, politics, and media — detection is universal self-defense.",
+        "color": "#ef4444",
+        "cardCount": 137,
+        "topCardIds": [
+          398,
+          521,
+          19,
+          469,
+          505,
+          48,
+          71,
+          404
+        ],
+        "filterCategories": [
+          "psyop-detection",
+          "cult-recruitment",
+          "manipulation",
+          "mass-manipulation",
+          "spotting-psyops",
+          "psychological-defense",
+          "influence-formula",
+          "frame-control",
+          "psychological-warfare",
+          "mind-control"
+        ]
+      },
+      {
+        "id": "actionable_frameworks",
+        "label": "Actionable Frameworks",
+        "why": "Multi-step models civilians can apply without elite training or classified context.",
+        "color": "#22c55e",
+        "cardCount": 89,
+        "topCardIds": [
+          398,
+          521,
+          505,
+          71,
+          421,
+          85,
+          110,
+          386
+        ],
+        "filterCategories": []
+      },
+      {
+        "id": "critical_warnings",
+        "label": "Universal Warning Signals",
+        "why": "High-signal warnings about patterns that destroy autonomy, trust, and judgment at scale.",
+        "color": "#dc2626",
+        "cardCount": 85,
+        "topCardIds": [
+          19,
+          588,
+          622,
+          48,
+          78,
+          142,
+          27,
+          1
+        ],
+        "filterCategories": []
+      }
+    ],
+    "tiers": {
+      "S": {
+        "label": "Tier S — Essential",
+        "description": "Every civilian benefits — manipulation defense, identity, media literacy, core warnings.",
+        "cards": [
+          {
+            "id": 398,
+            "title": "The FATE Model",
+            "kind": "framework",
+            "category": "psyop-detection",
+            "pillar": "psychology",
+            "theme": "Recognize & Resist Manipulation",
+            "themeId": "manipulation_defense",
+            "score": 29,
+            "tier": "S",
+            "nhiVerdict": "Actionable framework — Recognize & Resist Manipulation. Apply defensively, not coercively.",
+            "contentPreview": "PSYOPs hijack decisions by targeting Focus, Authority, Tribe, and Emotion to activate the mammalian brain. Focus uses repetition and fear-inducing visuals to dominate attention. Au…"
+          },
+          {
+            "id": 521,
+            "title": "8-Step Framework to Detect Psyops",
+            "kind": "framework",
+            "category": "spotting-psyops",
+            "pillar": "psychology",
+            "theme": "Recognize & Resist Manipulation",
+            "themeId": "manipulation_defense",
+            "score": 28,
+            "tier": "S",
+            "nhiVerdict": "Actionable framework — Recognize & Resist Manipulation. Apply defensively, not coercively.",
+            "contentPreview": "Analyze the source for credibility versus sensationalism and check ownership ties to defense or political entities. Question timing around crises or scandals. Look for identical la…"
+          },
+          {
+            "id": 505,
+            "title": "6-Step Cognitive Dissonance Formula",
+            "kind": "framework",
+            "category": "influence-formula",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 25,
+            "tier": "S",
+            "nhiVerdict": "Actionable framework — How Influence Works. Apply defensively, not coercively.",
+            "contentPreview": "1. Secure agreement on three positive identity statements about the person. 2. Ask a personality inventory question exploring how they developed that trait. 3. Use negative dissoci…"
+          },
+          {
+            "id": 5,
+            "title": "Identity Creates Cognitive Dissonance",
+            "kind": "mental_model",
+            "category": "influence",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 24,
+            "tier": "S",
+            "nhiVerdict": "Foundational mental model for how influence works. Changes what you notice before you react.",
+            "contentPreview": "When a decision aligns with someone's core identity, they experience strong internal pressure to accept it. Frame any choice as an expression of who they are and they will adopt it…"
+          },
+          {
+            "id": 19,
+            "title": "The Immunity Illusion",
+            "kind": "warning",
+            "category": "cult-recruitment",
+            "pillar": "psychology",
+            "theme": "Recognize & Resist Manipulation",
+            "themeId": "manipulation_defense",
+            "score": 24,
+            "tier": "S",
+            "nhiVerdict": "Universal warning under Recognize & Resist Manipulation: Believing you are too smart or aware to join a cult lowers your guard and makes you more vulnerable to recruitment…",
+            "contentPreview": "Believing you are too smart or aware to join a cult lowers your guard and makes you more vulnerable to recruitment than someone who stays alert."
+          },
+          {
+            "id": 71,
+            "title": "Four Elements of Perceived Authority",
+            "kind": "framework",
+            "category": "authority",
+            "pillar": "psychology",
+            "theme": "Relationships & Social Power",
+            "themeId": "relationship_dynamics",
+            "score": 23,
+            "tier": "S",
+            "nhiVerdict": "Actionable framework — Relationships & Social Power. Apply defensively, not coercively.",
+            "contentPreview": "Authority perception requires four elements: first break from the social norm to draw attention, project cultural signals of status through appearance, demonstrate total confidence…"
+          },
+          {
+            "id": 421,
+            "title": "Narrative Warfare Mechanism",
+            "kind": "framework",
+            "category": "narrative-warfare",
+            "pillar": "psychological_warfare",
+            "theme": "Media & Information Literacy",
+            "themeId": "media_information",
+            "score": 23,
+            "tier": "S",
+            "nhiVerdict": "Actionable framework — Media & Information Literacy. Apply defensively, not coercively.",
+            "contentPreview": "Media does not report events; it instantly supplies fully formed narrative frames that assign victims, villains, heroes, and moral sides before thinking can occur. Facts are option…"
+          },
+          {
+            "id": 588,
+            "title": "Avoid the NPC Conversion Trap",
+            "kind": "warning",
+            "category": "distraction-traps",
+            "pillar": "information_operations",
+            "theme": "Media & Information Literacy",
+            "themeId": "media_information",
+            "score": 23,
+            "tier": "S",
+            "nhiVerdict": "Universal warning under Media & Information Literacy: The game converts players into NPCs through endless distractions like social media doomscrolling, political…",
+            "contentPreview": "The game converts players into NPCs through endless distractions like social media doomscrolling, political consumption, trend following, and gathering information without applicat…"
+          },
+          {
+            "id": 622,
+            "title": "Algorithms Curate Your Identity",
+            "kind": "warning",
+            "category": "algorithmic-influence",
+            "pillar": "psychology",
+            "theme": "Identity, Autonomy & Self-Authorship",
+            "themeId": "identity_autonomy",
+            "score": 23,
+            "tier": "S",
+            "nhiVerdict": "Universal warning under Identity, Autonomy & Self-Authorship: Social platforms detect your anger, loneliness, and cravings then selectively present content that shapes your…",
+            "contentPreview": "Social platforms detect your anger, loneliness, and cravings then selectively present content that shapes your beliefs, reactions, and personality. This manufactured reality erodes…"
+          },
+          {
+            "id": 41,
+            "title": "Selective Extremes on Social Media",
+            "kind": "mental_model",
+            "category": "psyops",
+            "pillar": "psychological_warfare",
+            "theme": "Media & Information Literacy",
+            "themeId": "media_information",
+            "score": 22,
+            "tier": "S",
+            "nhiVerdict": "Foundational mental model for media & information literacy. Changes what you notice before you react.",
+            "contentPreview": "Algorithms deliberately show users the most foolish and extreme examples from opposing political tribes. This creates the false impression that everyone on the other side is danger…"
+          },
+          {
+            "id": 48,
+            "title": "Unrestricted Warfare Division Strategy",
+            "kind": "warning",
+            "category": "psychological-warfare",
+            "pillar": "psychological_warfare",
+            "theme": "Recognize & Resist Manipulation",
+            "themeId": "manipulation_defense",
+            "score": 22,
+            "tier": "S",
+            "nhiVerdict": "Universal warning under Recognize & Resist Manipulation: Adversaries splinter societies by fragmenting ideologies into opposing factions and flooding them with tribal language.",
+            "contentPreview": "Adversaries splinter societies by fragmenting ideologies into opposing factions and flooding them with tribal language. The goal is to make groups fight each other rather than reco…"
+          },
+          {
+            "id": 78,
+            "title": "Rank Is Not Leadership",
+            "kind": "warning",
+            "category": "leadership",
+            "pillar": "psychology",
+            "theme": "Relationships & Social Power",
+            "themeId": "relationship_dynamics",
+            "score": 22,
+            "tier": "S",
+            "nhiVerdict": "Universal warning under Relationships & Social Power: Formal position or rank does not equal leadership. People follow the strongest, clearest, most consistent behavioral…",
+            "contentPreview": "Formal position or rank does not equal leadership. People follow the strongest, clearest, most consistent behavioral signals in any environment, not the person with the brass plaqu…"
+          },
+          {
+            "id": 85,
+            "title": "Six Steps of Awakening",
+            "kind": "framework",
+            "category": "spiritual-awakening",
+            "pillar": "psychology",
+            "theme": "Identity, Autonomy & Self-Authorship",
+            "themeId": "identity_autonomy",
+            "score": 21,
+            "tier": "S",
+            "nhiVerdict": "Actionable framework — Identity, Autonomy & Self-Authorship. Apply defensively, not coercively.",
+            "contentPreview": "Awakening is not acquiring new beliefs but systematically removing illusions to remember your true nature. It transforms suffering into wisdom and shifts your relationship to the w…"
+          },
+          {
+            "id": 110,
+            "title": "Four-Step Insult Decoder",
+            "kind": "framework",
+            "category": "insults",
+            "pillar": "psychology",
+            "theme": "Emotional Triggers & Boundaries",
+            "themeId": "emotional_boundaries",
+            "score": 21,
+            "tier": "S",
+            "nhiVerdict": "Actionable framework — Emotional Triggers & Boundaries. Apply defensively, not coercively.",
+            "contentPreview": "Capture the exact word. Classify it into one of four judgment categories: capability, character, belonging, or control. Measure emotional intensity from mild to contempt-level terr…"
+          },
+          {
+            "id": 142,
+            "title": "Compliance Teaches People to Hide",
+            "kind": "warning",
+            "category": "influence",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 21,
+            "tier": "S",
+            "nhiVerdict": "Universal warning under How Influence Works: Every push for pure compliance trains the other person to conceal their real thoughts. They learn that truth is…",
+            "contentPreview": "Every push for pure compliance trains the other person to conceal their real thoughts. They learn that truth is dangerous around you. The result is nodding agreement followed by im…"
+          }
+        ]
+      },
+      "A": {
+        "label": "Tier A — High Value",
+        "description": "Broad human relevance — relationships, persuasion mechanics, emotional boundaries.",
+        "cards": [
+          {
+            "id": 386,
+            "title": "Three Layers of a Trigger",
+            "kind": "framework",
+            "category": "emotional-triggers",
+            "pillar": "psychology",
+            "theme": "Emotional Triggers & Boundaries",
+            "themeId": "emotional_boundaries",
+            "score": 21,
+            "tier": "A",
+            "nhiVerdict": "Actionable framework — Emotional Triggers & Boundaries. Apply defensively, not coercively.",
+            "contentPreview": "Peel emotional reactions in three layers: the surface present-moment story you believe and defend, the lifelong pattern it activates, and the original childhood installation event …"
+          },
+          {
+            "id": 3,
+            "title": "Social Identity Theory",
+            "kind": "framework",
+            "category": "social-identity-theory",
+            "pillar": "psychology",
+            "theme": "Identity, Autonomy & Self-Authorship",
+            "themeId": "identity_autonomy",
+            "score": 20,
+            "tier": "A",
+            "nhiVerdict": "Actionable framework — Identity, Autonomy & Self-Authorship. Apply defensively, not coercively.",
+            "contentPreview": "Social identity theory describes how humans categorize the world into groups using labels like nationality, profession, or religion, identify with certain groups, and then compare …"
+          },
+          {
+            "id": 7,
+            "title": "IDEA Framework to Leverage Identity",
+            "kind": "framework",
+            "category": "influence",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 20,
+            "tier": "A",
+            "nhiVerdict": "Actionable framework — How Influence Works. Apply defensively, not coercively.",
+            "contentPreview": "The IDEA method lets you identify someone's dominant identity and align any request with it in under ninety seconds, creating instant buy-in deeper than most therapists achieve in …"
+          },
+          {
+            "id": 9,
+            "title": "FOG and CAVA Detection Framework",
+            "kind": "framework",
+            "category": "manipulation-tactics",
+            "pillar": "psychology",
+            "theme": "Emotional Triggers & Boundaries",
+            "themeId": "emotional_boundaries",
+            "score": 20,
+            "tier": "A",
+            "nhiVerdict": "Actionable framework — Emotional Triggers & Boundaries. Apply defensively, not coercively.",
+            "contentPreview": "Manipulators rely on FOG (Fear, Obligation, Guilt) to control you and pursue one of four goals summarized by CAVA (Control, Approval, Validation, Attention). Spot which element of …"
+          },
+          {
+            "id": 27,
+            "title": "Preemptive Invalidation",
+            "kind": "warning",
+            "category": "cult-recruitment",
+            "pillar": "psychology",
+            "theme": "Recognize & Resist Manipulation",
+            "themeId": "manipulation_defense",
+            "score": 20,
+            "tier": "A",
+            "nhiVerdict": "Universal warning under Recognize & Resist Manipulation: Prepare recruits for outsiders' concerns by framing family and friends as afraid, stuck in the old system, or unable…",
+            "contentPreview": "Prepare recruits for outsiders' concerns by framing family and friends as afraid, stuck in the old system, or unable to understand. When criticism arrives it feels predictable and …"
+          },
+          {
+            "id": 122,
+            "title": "Your Amygdala Runs Ghost Scripts",
+            "kind": "mental_model",
+            "category": "inherited-trauma",
+            "pillar": "psychology",
+            "theme": "Emotional Triggers & Boundaries",
+            "themeId": "emotional_boundaries",
+            "score": 20,
+            "tier": "A",
+            "nhiVerdict": "Foundational mental model for emotional triggers & boundaries. Changes what you notice before you react.",
+            "contentPreview": "The amygdala acts like a 911 operator that bypasses your conscious mind during perceived threats. It floods your body with cortisol and executes preloaded scripts drawn from childh…"
+          },
+          {
+            "id": 143,
+            "title": "The Energy Test",
+            "kind": "framework",
+            "category": "influence",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 20,
+            "tier": "A",
+            "nhiVerdict": "Actionable framework — How Influence Works. Apply defensively, not coercively.",
+            "contentPreview": "When someone agrees with you, observe what happens to the energy in the room. If energy drops after agreement, you created compliance. If energy rises and they lean in, you created…"
+          },
+          {
+            "id": 229,
+            "title": "The Five-Step Control Loop",
+            "kind": "framework",
+            "category": "influence-sequence",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 20,
+            "tier": "A",
+            "nhiVerdict": "Actionable framework — How Influence Works. Apply defensively, not coercively.",
+            "contentPreview": "Set the altitude to stabilize emotional height. Name the frame casually and early. Lock the category when alignment is needed. Shape identity by offering a better functional metaph…"
+          },
+          {
+            "id": 240,
+            "title": "Six Behavioral Systems",
+            "kind": "framework",
+            "category": "influence",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 20,
+            "tier": "A",
+            "nhiVerdict": "Actionable framework — How Influence Works. Apply defensively, not coercively.",
+            "contentPreview": "Influence only lands when all six neurological systems are online. Identify which are offline in your counterpart and reactivate them to achieve full alignment."
+          },
+          {
+            "id": 372,
+            "title": "Tactical Pre-Framing",
+            "kind": "framework",
+            "category": "frame-control",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 20,
+            "tier": "A",
+            "nhiVerdict": "Actionable framework — How Influence Works. Apply defensively, not coercively.",
+            "contentPreview": "Set the frame in the first 30 seconds before conflict begins. Affirm their positive identity, define the conversation as collaborative problem-solving, establish behavioral boundar…"
+          },
+          {
+            "id": 469,
+            "title": "Psyops Hijack Existing Movements",
+            "kind": "mental_model",
+            "category": "psychological-warfare",
+            "pillar": "psychological_warfare",
+            "theme": "Recognize & Resist Manipulation",
+            "themeId": "manipulation_defense",
+            "score": 20,
+            "tier": "A",
+            "nhiVerdict": "Foundational mental model for recognize & resist manipulation. Changes what you notice before you react.",
+            "contentPreview": "Psychological operations rarely create movements from nothing. They hijack movements already in progress by redirecting anger, fragmenting narratives, and exploiting confusion duri…"
+          },
+          {
+            "id": 603,
+            "title": "PRISM Seeding Model",
+            "kind": "framework",
+            "category": "seeding-detection",
+            "pillar": "information_operations",
+            "theme": "Emotional Triggers & Boundaries",
+            "themeId": "emotional_boundaries",
+            "score": 20,
+            "tier": "A",
+            "nhiVerdict": "Actionable framework — Emotional Triggers & Boundaries. Apply defensively, not coercively.",
+            "contentPreview": "Detect if a narrative is being deliberately seeded using the PRISM checklist. Three or more signals scoring above 7.5/10 function as a warning light for engineered influence."
+          },
+          {
+            "id": 644,
+            "title": "True Persuasion Is Permission",
+            "kind": "principle",
+            "category": "persuasion",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 20,
+            "tier": "A",
+            "nhiVerdict": "Core principle for how influence works — relevant across relationships, media, and self-governance.",
+            "contentPreview": "Effective influence is not about pushing or manipulating someone into a new idea. It creates safety through composure, empathy, and authority so they can voluntarily step into a ne…"
+          },
+          {
+            "id": 1,
+            "title": "Dementia Erases Your Identity",
+            "kind": "warning",
+            "category": "identity-loss",
+            "pillar": "psychology",
+            "theme": "Identity, Autonomy & Self-Authorship",
+            "themeId": "identity_autonomy",
+            "score": 19,
+            "tier": "A",
+            "nhiVerdict": "Universal warning under Identity, Autonomy & Self-Authorship: Dementia removes random pieces of your life—memories, names, faces, and sense of home—until familiar people become…",
+            "contentPreview": "Dementia removes random pieces of your life—memories, names, faces, and sense of home—until familiar people become strangers and you watch yourself disappear while the world barely…"
+          },
+          {
+            "id": 54,
+            "title": "Reactions Leak Power",
+            "kind": "warning",
+            "category": "power-management",
+            "pillar": "psychology",
+            "theme": "Relationships & Social Power",
+            "themeId": "relationship_dynamics",
+            "score": 19,
+            "tier": "A",
+            "nhiVerdict": "Universal warning under Relationships & Social Power: Every reaction leaks power, every explanation invites judgment, and every justification causes you to shrink. Replace…",
+            "contentPreview": "Every reaction leaks power, every explanation invites judgment, and every justification causes you to shrink. Replace these habits with emotional discipline to preserve composure a…"
+          },
+          {
+            "id": 73,
+            "title": "Influence Works Through Permission",
+            "kind": "principle",
+            "category": "persuasion",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 19,
+            "tier": "A",
+            "nhiVerdict": "Core principle for how influence works — relevant across relationships, media, and self-governance.",
+            "contentPreview": "Effective authority-based influence does not persuade people to act against their will. Instead it creates internal permission that allows them to behave differently than their nor…"
+          },
+          {
+            "id": 173,
+            "title": "The FEAR Brainwashing Formula",
+            "kind": "framework",
+            "category": "goal-setting",
+            "pillar": "psychology",
+            "theme": "Emotional Triggers & Boundaries",
+            "themeId": "emotional_boundaries",
+            "score": 19,
+            "tier": "A",
+            "nhiVerdict": "Actionable framework — Emotional Triggers & Boundaries. Apply defensively, not coercively.",
+            "contentPreview": "To set and achieve goals, apply Focus, Emotional involvement, Agitation, and Repetition. Secure undivided attention on your objectives, engage strong emotions through sensory-rich …"
+          },
+          {
+            "id": 213,
+            "title": "Limbic Permission Slip",
+            "kind": "mental_model",
+            "category": "influence",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 19,
+            "tier": "A",
+            "nhiVerdict": "Foundational mental model for how influence works. Changes what you notice before you react.",
+            "contentPreview": "Position yourself as the single exception to every unsafe or unseen experience the person has ever had. Their nervous system then automatically grants trust and influence by defaul…"
+          },
+          {
+            "id": 327,
+            "title": "The Five-Step Cognitive Virus Cycle",
+            "kind": "framework",
+            "category": "cognitive-virology",
+            "pillar": "psychology",
+            "theme": "Emotional Triggers & Boundaries",
+            "themeId": "emotional_boundaries",
+            "score": 19,
+            "tier": "A",
+            "nhiVerdict": "Actionable framework — Emotional Triggers & Boundaries. Apply defensively, not coercively.",
+            "contentPreview": "Ideas infect minds through attach, enter, replicate, defend, and transmit. Attachment binds to pre-existing emotions like fear or belonging. Entry bypasses rational resistance usin…"
+          },
+          {
+            "id": 352,
+            "title": "Limbic Influence vs Placebo Influence",
+            "kind": "mental_model",
+            "category": "influence",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 19,
+            "tier": "A",
+            "nhiVerdict": "Foundational mental model for how influence works. Changes what you notice before you react.",
+            "contentPreview": "Real influence reaches the limbic system, the emotional survival center that actually drives decisions and behavior. Most persuasion training targets only the prefrontal cortex wit…"
+          }
+        ]
+      },
+      "B": {
+        "label": "Tier B — Situational",
+        "description": "Strong value when context matches — still paraphrased and attributed.",
+        "cards": [
+          {
+            "id": 40,
+            "title": "Identity Timeline Reorganization",
+            "kind": "framework",
+            "category": "identity-shift",
+            "pillar": "psychology",
+            "theme": "Actionable Frameworks",
+            "themeId": "actionable_frameworks",
+            "score": 18,
+            "tier": "B",
+            "nhiVerdict": "Actionable framework — Actionable Frameworks. Apply defensively, not coercively.",
+            "contentPreview": "View your possible selves as a field of glowing trajectories. Sense which future version resonates, step into its timeline, absorb the emotional and behavioral signature of that se…"
+          },
+          {
+            "id": 42,
+            "title": "Manufactured Artificial Consensus",
+            "kind": "warning",
+            "category": "manipulation",
+            "pillar": "information_operations",
+            "theme": "Recognize & Resist Manipulation",
+            "themeId": "manipulation_defense",
+            "score": 18,
+            "tier": "B",
+            "nhiVerdict": "Universal warning under Recognize & Resist Manipulation: Bots and coordinated accounts simulate mass disapproval or support, making artificial opinions appear as organic…",
+            "contentPreview": "Bots and coordinated accounts simulate mass disapproval or support, making artificial opinions appear as organic public sentiment. This bottom-up approach disguises top-down contro…"
+          },
+          {
+            "id": 96,
+            "title": "90-Second Brain Capture Map",
+            "kind": "framework",
+            "category": "90-second-influence",
+            "pillar": "psychology",
+            "theme": "Relationships & Social Power",
+            "themeId": "relationship_dynamics",
+            "score": 18,
+            "tier": "B",
+            "nhiVerdict": "Actionable framework — Relationships & Social Power. Apply defensively, not coercively.",
+            "contentPreview": "The first 90 seconds of any interaction follow four neurological intervals: 0-10s authority imprint, 10-30s novelty break, 30-60s identity softening, and 60-90s elevation to meanin…"
+          },
+          {
+            "id": 113,
+            "title": "High Cost of Concealment Strategies",
+            "kind": "warning",
+            "category": "shame",
+            "pillar": "psychology",
+            "theme": "Emotional Triggers & Boundaries",
+            "themeId": "emotional_boundaries",
+            "score": 18,
+            "tier": "B",
+            "nhiVerdict": "Universal warning under Emotional Triggers & Boundaries: No one would pay these prices unless the alternative once felt worse. Controllers never rest. Achievers never feel…",
+            "contentPreview": "No one would pay these prices unless the alternative once felt worse. Controllers never rest. Achievers never feel enough. Performers are rarely known. Moralists never find peace. …"
+          },
+          {
+            "id": 183,
+            "title": "The Five-Step Obedience Ritual",
+            "kind": "framework",
+            "category": "obedience-ritual",
+            "pillar": "psychology",
+            "theme": "Identity, Autonomy & Self-Authorship",
+            "themeId": "identity_autonomy",
+            "score": 18,
+            "tier": "B",
+            "nhiVerdict": "Actionable framework — Identity, Autonomy & Self-Authorship. Apply defensively, not coercively.",
+            "contentPreview": "Humans unconsciously perform a five-step ritual that sacrifices truth and authenticity for belonging and acceptance."
+          },
+          {
+            "id": 244,
+            "title": "Avoid Mask-Level Results",
+            "kind": "warning",
+            "category": "influence",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 18,
+            "tier": "B",
+            "nhiVerdict": "Universal warning under How Influence Works: Speaking to someone's protective mask produces only shallow, mask-level outcomes. Most influence fails because it…",
+            "contentPreview": "Speaking to someone's protective mask produces only shallow, mask-level outcomes. Most influence fails because it targets surface behaviors instead of the unexamined fear underneat…"
+          },
+          {
+            "id": 294,
+            "title": "Hierarchy of Influence",
+            "kind": "framework",
+            "category": "hierarchy-of-influence",
+            "pillar": "psychology",
+            "theme": "Emotional Triggers & Boundaries",
+            "themeId": "emotional_boundaries",
+            "score": 18,
+            "tier": "B",
+            "nhiVerdict": "Actionable framework — Emotional Triggers & Boundaries. Apply defensively, not coercively.",
+            "contentPreview": "Persuasion effectiveness increases as you move down the brain's pyramid: change thoughts at the surface, evoke emotions and chemical reactions, activate lifetime behavioral pattern…"
+          },
+          {
+            "id": 375,
+            "title": "The Five Lenses of Perception",
+            "kind": "framework",
+            "category": "perception-lenses",
+            "pillar": "psychology",
+            "theme": "Actionable Frameworks",
+            "themeId": "actionable_frameworks",
+            "score": 18,
+            "tier": "B",
+            "nhiVerdict": "Actionable framework — Actionable Frameworks. Apply defensively, not coercively.",
+            "contentPreview": "View people through five progressive lenses: as broken (pathology everywhere), different (personality labels creating ego battles), facts (cold data with less emotion), reasons (un…"
+          },
+          {
+            "id": 392,
+            "title": "Left vs Right Is a Distraction",
+            "kind": "mental_model",
+            "category": "media-manipulation",
+            "pillar": "information_operations",
+            "theme": "Media & Information Literacy",
+            "themeId": "media_information",
+            "score": 18,
+            "tier": "B",
+            "nhiVerdict": "Foundational mental model for media & information literacy. Changes what you notice before you react.",
+            "contentPreview": "The real conflict is not Republicans against Democrats but people against entrenched power. Media deliberately showcases the loudest, most extreme voices from each side to manufact…"
+          },
+          {
+            "id": 419,
+            "title": "Content Versus Information",
+            "kind": "principle",
+            "category": "information-collapse",
+            "pillar": "information_operations",
+            "theme": "Media & Information Literacy",
+            "themeId": "media_information",
+            "score": 18,
+            "tier": "B",
+            "nhiVerdict": "Core principle for media & information literacy — relevant across relationships, media, and self-governance.",
+            "contentPreview": "Information answers questions and creates understanding. Content stimulates emotional responses to occupy attention, trigger reactions, and prevent silence. Most of what fills feed…"
+          },
+          {
+            "id": 438,
+            "title": "Permission Beats Persuasion",
+            "kind": "principle",
+            "category": "persuasion",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 18,
+            "tier": "B",
+            "nhiVerdict": "Core principle for how influence works — relevant across relationships, media, and self-governance.",
+            "contentPreview": "The core of influence is not changing minds through argument but granting others permission to treat you with respect, trust, and compliance. Confident people transfer their certai…"
+          },
+          {
+            "id": 501,
+            "title": "Five Components of Authority",
+            "kind": "framework",
+            "category": "authority",
+            "pillar": "psychology",
+            "theme": "Relationships & Social Power",
+            "themeId": "relationship_dynamics",
+            "score": 18,
+            "tier": "B",
+            "nhiVerdict": "Actionable framework — Relationships & Social Power. Apply defensively, not coercively.",
+            "contentPreview": "True authority that drives obedience contains five precise elements: confidence, discipline, leadership, gratitude, and enjoyment. These traits must be cultivated together rather t…"
+          },
+          {
+            "id": 524,
+            "title": "Spot Coordinated Media Language",
+            "kind": "warning",
+            "category": "media-manipulation",
+            "pillar": "psychology",
+            "theme": "Media & Information Literacy",
+            "themeId": "media_information",
+            "score": 18,
+            "tier": "B",
+            "nhiVerdict": "Universal warning under Media & Information Literacy: When multiple outlets suddenly repeat identical phrases such as \"unprecedented threat\" or \"undeniable evidence,\" a…",
+            "contentPreview": "When multiple outlets suddenly repeat identical phrases such as \"unprecedented threat\" or \"undeniable evidence,\" a psychological operation is likely underway. Sensational headlines…"
+          },
+          {
+            "id": 563,
+            "title": "How Ego Sabotages Confidence",
+            "kind": "warning",
+            "category": "ego-traps",
+            "pillar": "psychology",
+            "theme": "Identity, Autonomy & Self-Authorship",
+            "themeId": "identity_autonomy",
+            "score": 18,
+            "tier": "B",
+            "nhiVerdict": "Universal warning under Identity, Autonomy & Self-Authorship: An insecure ego fixates on mistakes, downplays achievements, fears failure as an identity threat, and constantly…",
+            "contentPreview": "An insecure ego fixates on mistakes, downplays achievements, fears failure as an identity threat, and constantly compares you to others. It overvalues external validation and deplo…"
+          },
+          {
+            "id": 18,
+            "title": "Flip the Emotional Script",
+            "kind": "mental_model",
+            "category": "dealing-with-narcissists",
+            "pillar": "psychology",
+            "theme": "Emotional Triggers & Boundaries",
+            "themeId": "emotional_boundaries",
+            "score": 17,
+            "tier": "B",
+            "nhiVerdict": "Foundational mental model for emotional triggers & boundaries. Changes what you notice before you react.",
+            "contentPreview": "When facing FOG tactics, express empathy for the underlying emotion rather than engaging the guilt or fear: “It seems like you’re really worried about this. Can we talk about what’…"
+          },
+          {
+            "id": 30,
+            "title": "Iteratively Push Influence Limits",
+            "kind": "mental_model",
+            "category": "influence",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 17,
+            "tier": "B",
+            "nhiVerdict": "Foundational mental model for how influence works. Changes what you notice before you react.",
+            "contentPreview": "Discover the current boundary of human influence, then develop the next technique to break through and expand it further."
+          },
+          {
+            "id": 36,
+            "title": "Why Lives Stop Changing After 25",
+            "kind": "warning",
+            "category": "personal-growth",
+            "pillar": "psychology",
+            "theme": "Identity, Autonomy & Self-Authorship",
+            "themeId": "identity_autonomy",
+            "score": 17,
+            "tier": "B",
+            "nhiVerdict": "Universal warning under Identity, Autonomy & Self-Authorship: Around age 25 the brain decides it has seen enough and locks your identity in place. It then rejects new inputs that…",
+            "contentPreview": "Around age 25 the brain decides it has seen enough and locks your identity in place. It then rejects new inputs that don't align, causing most people's lives to plateau despite rem…"
+          },
+          {
+            "id": 82,
+            "title": "Ego Is the Only Enemy",
+            "kind": "warning",
+            "category": "ego-dissolution",
+            "pillar": "psychology",
+            "theme": "Identity, Autonomy & Self-Authorship",
+            "themeId": "identity_autonomy",
+            "score": 17,
+            "tier": "B",
+            "nhiVerdict": "Universal warning under Identity, Autonomy & Self-Authorship: The ego is a protective story built from trauma, fear, and conditioning that demands separation, comparison, and…",
+            "contentPreview": "The ego is a protective story built from trauma, fear, and conditioning that demands separation, comparison, and validation to survive. It blocks truth because it cannot exist in t…"
+          },
+          {
+            "id": 128,
+            "title": "Reclaim Control with the FATE Model",
+            "kind": "framework",
+            "category": "self-mastery",
+            "pillar": "psychology",
+            "theme": "Emotional Triggers & Boundaries",
+            "themeId": "emotional_boundaries",
+            "score": 17,
+            "tier": "B",
+            "nhiVerdict": "Actionable framework — Emotional Triggers & Boundaries. Apply defensively, not coercively.",
+            "contentPreview": "Use the FATE model to identify and reclaim the four primary hijack points of inherited patterns: Focus, Authority, Tribe, and Emotion. In any triggering moment, determine which dom…"
+          },
+          {
+            "id": 153,
+            "title": "Feed Sorted by Arousal",
+            "kind": "mental_model",
+            "category": "psychology-of-social-media",
+            "pillar": "information_operations",
+            "theme": "Media & Information Literacy",
+            "themeId": "media_information",
+            "score": 17,
+            "tier": "B",
+            "nhiVerdict": "Foundational mental model for media & information literacy. Changes what you notice before you react.",
+            "contentPreview": "Your feed isn't ordered by truth, relevance, or interest. It is sorted by emotional arousal. Algorithms test millions of variations and retain only what keeps you engaged."
+          },
+          {
+            "id": 179,
+            "title": "Four B Categories for Goals",
+            "kind": "framework",
+            "category": "goal-setting",
+            "pillar": "psychology",
+            "theme": "Actionable Frameworks",
+            "themeId": "actionable_frameworks",
+            "score": 17,
+            "tier": "B",
+            "nhiVerdict": "Actionable framework — Actionable Frameworks. Apply defensively, not coercively.",
+            "contentPreview": "Organize goals into four categories: Brain (mental health, psychology, and inputs), Body (physical health as the vehicle for execution), Business (income, clients, and career targe…"
+          },
+          {
+            "id": 233,
+            "title": "FATE Genetic Influence Model",
+            "kind": "framework",
+            "category": "genetic-triggers",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 17,
+            "tier": "B",
+            "nhiVerdict": "Actionable framework — How Influence Works. Apply defensively, not coercively.",
+            "contentPreview": "The FATE model reveals four genetically inherited triggers that drive human behavior and compliance based on ancestral survival needs."
+          },
+          {
+            "id": 248,
+            "title": "Four Pillars of Frame Control",
+            "kind": "framework",
+            "category": "frame-control",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 17,
+            "tier": "B",
+            "nhiVerdict": "Actionable framework — How Influence Works. Apply defensively, not coercively.",
+            "contentPreview": "Every frame rests on four elements: expectation (autopilot script), belief (assumed truths), perception (story about you), and definition (assigned roles). Break the first three to…"
+          },
+          {
+            "id": 264,
+            "title": "MKUltra Identity Erasure",
+            "kind": "warning",
+            "category": "mind-control",
+            "pillar": "psychological_warfare",
+            "theme": "Recognize & Resist Manipulation",
+            "themeId": "manipulation_defense",
+            "score": 17,
+            "tier": "B",
+            "nhiVerdict": "Universal warning under Recognize & Resist Manipulation: MKUltra and psychic driving experiments used LSD, electroshock, sensory deprivation, and looped messages to break…",
+            "contentPreview": "MKUltra and psychic driving experiments used LSD, electroshock, sensory deprivation, and looped messages to break minds and erase identities. These techniques were refined and inte…"
+          },
+          {
+            "id": 301,
+            "title": "Naked Questions Surrender Power",
+            "kind": "warning",
+            "category": "frame-control",
+            "pillar": "psychology",
+            "theme": "How Influence Works",
+            "themeId": "persuasion_awareness",
+            "score": 17,
+            "tier": "B",
+            "nhiVerdict": "Universal warning under How Influence Works: A question asked without a preceding frame-setting statement simply operates inside whatever frame already exists,…",
+            "contentPreview": "A question asked without a preceding frame-setting statement simply operates inside whatever frame already exists, usually the other person's. This reinforces their authority and r…"
+          }
+        ]
+      }
+    },
+    "topCardIds": [
+      398,
+      521,
+      505,
+      5,
+      19,
+      71,
+      421,
+      588,
+      622,
+      41,
+      48,
+      78,
+      85,
+      110,
+      142,
+      386,
+      3,
+      7,
+      9,
+      27,
+      122,
+      143,
+      229,
+      240,
+      372,
+      469,
+      603,
+      644,
+      1,
+      54,
+      73,
+      173,
+      213,
+      327,
+      352
+    ],
+    "topThemes": [
+      "How Influence Works",
+      "Emotional Triggers & Boundaries",
+      "Recognize & Resist Manipulation",
+      "Identity, Autonomy & Self-Authorship"
+    ],
+    "stats": {
+      "tierS": 15,
+      "tierA": 20,
+      "tierB": 25,
+      "themes": 8
+    }
   }
 }

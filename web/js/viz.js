@@ -236,7 +236,20 @@ function renderVideosTable(corpus) {
 
 function renderExecutive(nhi) {
   const el = document.getElementById('nhi-executive');
-  if (el && nhi?.executiveSummary) el.innerHTML = `<p>${nhi.executiveSummary}</p>`;
+  if (!el || !nhi) return;
+  const hva = nhi.humanValueAssessment;
+  if (hva?.executiveSummaryDistill) {
+    const d = hva.executiveSummaryDistill;
+    el.innerHTML = `
+      <div class="hva-distill hva-distill-compact">
+        <p class="hva-lead">${d.lead}</p>
+        <h4 class="hva-heading">${d.tierSTitle}</h4>
+        <ul class="hva-list hva-list-tier-s">${d.tierS.map(t => `<li>${t}</li>`).join('')}</ul>
+        <p style="margin-top:0.85rem;font-size:var(--text-sm)"><a href="#human-value">Full NHI assessment →</a></p>
+      </div>`;
+  } else if (nhi.executiveSummary) {
+    el.innerHTML = `<p>${nhi.executiveSummary}</p>`;
+  }
 }
 
 function renderEthicalUse(nhi) {
@@ -252,6 +265,7 @@ function renderEthicalUse(nhi) {
 function renderAllVisualizations(corpus, nhi) {
   injectDiagrams();
   renderExecutive(nhi);
+  if (typeof renderHumanValueAssessment === 'function') renderHumanValueAssessment(nhi);
   renderPillarCards(nhi);
   renderDefenseStack(nhi);
   renderFrameworksTable(nhi);

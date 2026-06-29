@@ -7,9 +7,12 @@ let activeKind = 'all';
 let activeCategory = 'all';
 let activeCategories = null;
 let activeCardIds = null;
+let activeNhiOnly = false;
 let searchQuery = '';
 let sortBy = 'id';
 let viewMode = 'cards';
+let nhiTierMap = {};
+let nhiTopCardIds = new Set();
 
 function pillarLabel(p) {
   return { psychology: 'Psychology', psychological_warfare: 'Psy War', information_operations: 'Info Ops' }[p] || p;
@@ -25,7 +28,7 @@ function escapeHtml(s) {
 
 function hasActiveFilters() {
   return activePillar !== 'all' || activeKind !== 'all' || activeCategory !== 'all'
-    || activeCategories || activeCardIds || searchQuery;
+    || activeCategories || activeCardIds || activeNhiOnly || searchQuery;
 }
 
 function clearFilters({ keepView = true } = {}) {
@@ -34,6 +37,7 @@ function clearFilters({ keepView = true } = {}) {
   activeCategory = 'all';
   activeCategories = null;
   activeCardIds = null;
+  activeNhiOnly = false;
   searchQuery = '';
 
   const search = document.getElementById('card-search');
@@ -51,6 +55,7 @@ function clearFilters({ keepView = true } = {}) {
   document.querySelectorAll('#kind-filters .filter-btn').forEach(b => {
     b.classList.toggle('active', b.dataset.kind === 'all');
   });
+  document.getElementById('nhi-top-filter')?.classList.remove('active');
 
   if (keepView) renderCardBrowser();
 }
@@ -166,6 +171,7 @@ function getFilteredCards() {
     if (activePillar !== 'all' && c.pillar !== activePillar) return false;
     if (activeKind !== 'all' && c.kind !== activeKind) return false;
     if (activeCategory !== 'all' && c.category !== activeCategory) return false;
+    if (activeNhiOnly && !nhiTopCardIds.has(String(c.id))) return false;
     if (activeCardIds && !activeCardIds.has(String(c.id))) return false;
     if (activeCategories && !activeCategories.has(c.category)) return false;
     if (searchQuery) {
@@ -201,11 +207,18 @@ function renderCardContent(c) {
   return parts.join('');
 }
 
+function nhiTierBadge(id) {
+  const tier = nhiTierMap[id];
+  if (!tier) return '';
+  return `<span class="hva-tier-badge tier-${tier}" title="NHI Tier ${tier} — universal human value">NHI ${tier}</span>`;
+}
+
 function renderCardHtml(c) {
   return `
-    <article class="k-card" id="card-${c.id}" data-id="${c.id}">
+    <article class="k-card${nhiTierMap[c.id] ? ' k-card-nhi' : ''}" id="card-${c.id}" data-id="${c.id}">
       <div class="k-card-meta">
         <span class="k-badge k-badge-id">#${c.id}</span>
+        ${nhiTierBadge(c.id)}
         <span class="k-badge k-badge-kind">${escapeHtml(c.kind)}</span>
         <span class="k-badge k-badge-pillar-${c.pillar}">${pillarLabel(c.pillar)}</span>
         <span class="k-badge k-badge-cat">${escapeHtml(c.category)}</span>
@@ -223,7 +236,7 @@ function renderCompactRow(c) {
   return `
     <article class="k-row" id="card-${c.id}" data-id="${c.id}">
       <button type="button" class="k-row-head" aria-expanded="false" data-toggle-row="${c.id}">
-        <span class="k-row-id">#${c.id}</span>
+        <span class="k-row-id">#${c.id}${nhiTierMap[c.id] ? ` <span class="hva-tier-badge tier-${nhiTierMap[c.id]}">${nhiTierMap[c.id]}</span>` : ''}</span>
         <span class="k-row-kind">${escapeHtml(c.kind)}</span>
         <span class="k-row-cat">${escapeHtml(c.category)}</span>
         <span class="k-row-title">${escapeHtml(c.title)}</span>
@@ -256,6 +269,7 @@ function renderActiveFilterBar(cards) {
   if (activeKind !== 'all') tags.push(`Kind: ${escapeHtml(activeKind)}`);
   if (activeCategory !== 'all') tags.push(`Category: ${escapeHtml(activeCategory)}`);
   if (activeCategories) tags.push(`Categories: ${[...activeCategories].slice(0, 3).map(escapeHtml).join(', ')}${activeCategories.size > 3 ? '…' : ''}`);
+  if (activeNhiOnly) tags.push(`NHI Top Picks: ${nhiTopCardIds.size} cards`);
   if (activeCardIds) tags.push(`Stack filter: ${activeCardIds.size} cards`);
 
   bar.hidden = false;
@@ -323,6 +337,8 @@ function setupCategoryFilter() {
     activeCategory = sel.value;
     activeCategories = null;
     activeCardIds = null;
+    activeNhiOnly = false;
+    document.getElementById('nhi-top-filter')?.classList.remove('active');
     renderCardBrowser();
   });
 }
@@ -340,6 +356,8 @@ function setupFilters() {
         activeKind = btn.dataset.kind;
         activeCategories = null;
         activeCardIds = null;
+        activeNhiOnly = false;
+        document.getElementById('nhi-top-filter')?.classList.remove('active');
         renderCardBrowser();
       });
     });
@@ -354,6 +372,8 @@ function setupFilters() {
         activePillar = btn.dataset.pillar;
         activeCategories = null;
         activeCardIds = null;
+        activeNhiOnly = false;
+        document.getElementById('nhi-top-filter')?.classList.remove('active');
         renderCardBrowser();
       });
     });
@@ -365,6 +385,8 @@ function setupFilters() {
       searchQuery = e.target.value.trim();
       activeCategories = null;
       activeCardIds = null;
+      activeNhiOnly = false;
+      document.getElementById('nhi-top-filter')?.classList.remove('active');
       renderCardBrowser();
     });
   }
@@ -385,15 +407,31 @@ function setupFilters() {
   });
 
   setupCategoryFilter();
+
+  const nhiBtn = document.getElementById('nhi-top-filter');
+  if (nhiBtn) {
+    nhiBtn.addEventListener('click', () => {
+      activeNhiOnly = !activeNhiOnly;
+      nhiBtn.classList.toggle('active', activeNhiOnly);
+      if (activeNhiOnly) {
+        activeCategories = null;
+        activeCardIds = null;
+      }
+      renderCardBrowser();
+    });
+  }
 }
 
 function renderHighValue(nhi) {
   const el = document.getElementById('high-value-list');
   if (!el || !nhi?.highValueCards) return;
-  el.innerHTML = `<table class="data-table"><thead><tr><th>Title</th><th>Kind</th><th>Category</th><th>Pillar</th></tr></thead><tbody>
+  el.innerHTML = `<table class="data-table"><thead><tr><th>Tier</th><th>Title</th><th>Theme</th><th>Kind</th><th>NHI verdict</th></tr></thead><tbody>
     ${nhi.highValueCards.map(c => `<tr>
+      <td>${c.tier ? `<span class="hva-tier-badge tier-${c.tier}">${c.tier}</span>` : '—'}</td>
       <td><a href="#corpus" class="hv-search" data-id="${c.id}" data-q="${c.title.replace(/"/g, '&quot;')}">${escapeHtml(c.title)}</a></td>
-      <td>${escapeHtml(c.kind)}</td><td>${escapeHtml(c.category)}</td><td>${pillarLabel(c.pillar)}</td></tr>`).join('')}
+      <td>${escapeHtml(c.theme || c.category)}</td>
+      <td>${escapeHtml(c.kind)}</td>
+      <td class="hva-verdict-cell">${escapeHtml(c.nhiVerdict || '')}</td></tr>`).join('')}
   </tbody></table>`;
   el.querySelectorAll('.hv-search').forEach(a => {
     a.addEventListener('click', e => {
@@ -406,6 +444,8 @@ function renderHighValue(nhi) {
 async function init() {
   try {
     await loadData();
+    if (typeof getNhiTopCardIds === 'function') nhiTopCardIds = getNhiTopCardIds(nhiData);
+    if (typeof getNhiTierMap === 'function') nhiTierMap = getNhiTierMap(nhiData);
     renderHeroStats();
     renderSourceMeta();
     if (typeof renderAllVisualizations === 'function') renderAllVisualizations(corpusData, nhiData);
